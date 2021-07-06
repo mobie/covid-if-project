@@ -1,0 +1,10 @@
+{
+  "datasets": [
+    "20200406_164555_328"
+  ],
+  "defaultDataset": "20200406_164555_328",
+  "imageDataFormats": [
+    "ome.zarr"
+  ],
+  "specVersion": "0.2.0"
+}

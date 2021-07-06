@@ -22,10 +22,13 @@ def parse_plate_name(plate_folder):
     return os.path.split(plate_folder)[1]
 
 
-# TODO support ome.zarr data format
 def add_image_data(input_files, plate_name):
     tmp_root = f'./tmp_{plate_name}'
     os.makedirs(tmp_root, exist_ok=True)
+
+    ds_folder = os.path.join('./data', plate_name)
+    ds_meta = mobie.metadata.read_dataset_metadata(ds_folder)
+    sources = ds_meta.get('sources', {})
 
     file_format = "ome.zarr"
     for in_file in input_files:
@@ -34,26 +37,41 @@ def add_image_data(input_files, plate_name):
         # add nucleus channel
         nuc_key = "nuclei/s0"
         im_name = f"nuclei_{name}"
-        mobie.add_image(in_file, nuc_key, ROOT, plate_name, im_name, RESOLUTION, SCALE_FACTORS, CHUNKS,
-                        file_format=file_format, menu_name="images", target="local", max_jobs=8,
-                        tmp_folder=os.path.join(tmp_root, f'tmp_{im_name}'))
+        if im_name not in sources:
+            mobie.add_image(in_file, nuc_key, ROOT, plate_name, im_name, RESOLUTION, SCALE_FACTORS, CHUNKS,
+                            file_format=file_format, menu_name="images", target="local", max_jobs=8,
+                            tmp_folder=os.path.join(tmp_root, f'tmp_{im_name}'))
 
         # also handle IgA and IgG channels?
         # add serum channel
         serum_key = "serum_IgG/s0"
         im_name = f"serumIgG_{name}"
-        mobie.add_image(in_file, serum_key, ROOT, plate_name, im_name, RESOLUTION, SCALE_FACTORS, CHUNKS,
-                        file_format=file_format, menu_name="images", target="local", max_jobs=8,
-                        tmp_folder=os.path.join(tmp_root, f'tmp_{im_name}'))
+        if im_name not in sources:
+            mobie.add_image(in_file, serum_key, ROOT, plate_name, im_name, RESOLUTION, SCALE_FACTORS, CHUNKS,
+                            file_format=file_format, menu_name="images", target="local", max_jobs=8,
+                            tmp_folder=os.path.join(tmp_root, f'tmp_{im_name}'))
 
         # add marker channel
         serum_key = "marker/s0"
         im_name = f"marker_tophat_{name}"
-        mobie.add_image(in_file, serum_key, ROOT, plate_name, im_name, RESOLUTION, SCALE_FACTORS, CHUNKS,
-                        file_format=file_format, menu_name="images", target="local", max_jobs=8,
-                        tmp_folder=os.path.join(tmp_root, f'tmp_{im_name}'))
+        if im_name not in sources:
+            mobie.add_image(in_file, serum_key, ROOT, plate_name, im_name, RESOLUTION, SCALE_FACTORS, CHUNKS,
+                            file_format=file_format, menu_name="images", target="local", max_jobs=8,
+                            tmp_folder=os.path.join(tmp_root, f'tmp_{im_name}'))
 
 
+def make_2d(plate_name):
+    pass
+
+
+# TODO
+# - remove the single source views
+# - add grid views
+def create_views(plate_name):
+    pass
+
+
+# TODO needs to be a 2d dataset!
 def add_plate(plate_folder):
     plate_name = parse_plate_name(plate_folder)
     print("Adding plate", plate_name)
@@ -61,6 +79,10 @@ def add_plate(plate_folder):
     input_files.sort()
     print("with", len(input_files), "images")
     add_image_data(input_files, plate_name)
+
+    make_2d(plate_name)
+
+    create_views(plate_name)
 
     # TODO
     # add segmentations
