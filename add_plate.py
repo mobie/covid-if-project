@@ -1,6 +1,7 @@
 import argparse
 import os
 from glob import glob
+
 import mobie
 
 ROOT = "./data"
@@ -61,17 +62,32 @@ def add_image_data(input_files, plate_name):
 
 
 def make_2d(plate_name):
-    pass
+    ds_folder = os.path.join('./data', plate_name)
+    ds_meta = mobie.metadata.read_dataset_metadata(ds_folder)
+    ds_meta['is2D'] = True
+    mobie.metadata.write_dataset_metadata(ds_folder, ds_meta)
 
 
-# TODO
-# - remove the single source views
-# - add grid views
-def create_views(plate_name):
-    pass
+def remove_single_source_views(ds_meta, remove_prefixes):
+    new_views = {k: v for k, v in ds_meta['views'].items() if not any(k.startswith(pref) for pref in remove_prefixes)}
+    ds_meta['views'] = new_views
+    return ds_meta
 
 
-# TODO needs to be a 2d dataset!
+def create_raw_views(plate_name):
+    ds_folder = os.path.join('./data', plate_name)
+    ds_meta = mobie.metadata.read_dataset_metadata(ds_folder)
+
+    # remove single source views
+    ds_meta = remove_single_source_views(ds_meta, remove_prefixes=['marker', 'serumIgG', 'nuclei'])
+
+    # TODO add grid views
+
+    # TODO replace the default view
+
+    mobie.metadata.write_dataset_metadata(ds_folder, ds_meta)
+
+
 def add_plate(plate_folder):
     plate_name = parse_plate_name(plate_folder)
     print("Adding plate", plate_name)
@@ -82,7 +98,7 @@ def add_plate(plate_folder):
 
     make_2d(plate_name)
 
-    create_views(plate_name)
+    create_raw_views(plate_name)
 
     # TODO
     # add segmentations
