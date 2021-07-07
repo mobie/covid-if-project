@@ -1,0 +1,10 @@
+grid_id	well	score	is_outlier	n_outlier_cells	n_infected_cells	n_non_infected_cells	serum_background_intensity	serum_background_variance
+0	D01	nan	1	11	7	639	3618.9185	129.82788
+1	D01	nan	1	11	7	539	3493.708	122.257324
+2	D01	nan	1	22	8	500	3550.722	119.46582
+3	D01	nan	1	21	10	571	3506.4346	127.75708
+4	D01	nan	1	26	10	712	3438.1777	135.70789
+5	D01	nan	1	17	13	580	3513.0322	124.25195
+6	D01	nan	1	22	10	619	3645.5974	131.6477
+7	D01	nan	1	17	9	618	3516.0474	138.7107
+8	D01	nan	1	7	9	616	3582.3674	122.16406
