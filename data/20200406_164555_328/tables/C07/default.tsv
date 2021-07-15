@@ -1,4 +1,4 @@
-grid_id	well	score	is_outlier	n_outlier_cells	n_infected_cells	n_non_infected_cells	serum_background_intensity	serum_background_variance
+annotation_id	well	score	is_outlier	n_outlier_cells	n_infected_cells	n_non_infected_cells	serum_background_intensity	serum_background_variance
 0	C07	1.0145840900201162	0	20	440	98	4031.5437	149.29846
 1	C07	1.014246632092752	0	9	336	74	3864.7139	139.20581
 2	C07	1.013003664782701	0	11	370	128	3891.9722	143.25342
@@ -7,4 +7,4 @@ grid_id	well	score	is_outlier	n_outlier_cells	n_infected_cells	n_non_infected_ce
 5	C07	1.0191702648944558	0	11	273	65	3905.2417	134.9375
 6	C07	1.011086379844215	0	17	418	134	3951.4775	157.57642
 7	C07	1.016622465141594	0	30	447	86	3790.9866	153.96387
-8	C07	0.9988082068936791	0	30	389	118	3830.8105	131.35767
+8	C07	0.9988082068936792	0	30	389	118	3830.8105	131.35767
