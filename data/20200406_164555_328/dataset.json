@@ -23338,9 +23338,10 @@
         {
           "imageDisplay": {
             "color": "white",
+            "color": "blue",
             "contrastLimits": [
-              0.0,
-              255.0
+              574.5811364746094,
+              2337.56693359375
             ],
             "name": "nuclei_WellA01_0000",
             "opacity": 1.0,
