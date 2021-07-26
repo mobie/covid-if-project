@@ -200,10 +200,17 @@ def create_well_table(ds_folder, table_file, well_names):
     return rel_table_path
 
 
+def filter_wells(sources, well_names):
+    filtered_sources = {}
+    for name, this_sources in sources.items():
+        filtered_sources[name] = [source for source in this_sources if any(wname in source for wname in well_names)]
+    return filtered_sources
+
+
 def add_plate_view(ds_meta, table_file,
                    image_names, image_types, image_colors,
                    menu_name, view_name, exclusive,
-                   ds_folder, tmp_folder):
+                   ds_folder, tmp_folder, well_names=None):
     assert len(image_names) == len(image_types) == len(image_colors)
 
     all_sources = ds_meta['sources']
@@ -211,6 +218,10 @@ def add_plate_view(ds_meta, table_file,
         im_name: [name for name in all_sources if name.startswith(im_name)]
         for im_name in image_names
     }
+
+    if well_names is not None:
+        this_sources = filter_wells(this_sources, well_names)
+
     n_positions = len(this_sources[image_names[0]])
     assert all(len(sources) == n_positions for sources in this_sources.values())
 
@@ -227,6 +238,7 @@ def add_plate_view(ds_meta, table_file,
 
     source_displays = []
     for im_name, im_type, color in zip(image_names, image_types, image_colors):
+
         if im_type == 'image':
             im_sources = this_sources[im_name]
             clims = compute_clims(im_name, im_sources, all_sources, tmp_folder, ds_folder)
@@ -254,21 +266,32 @@ def add_plate_view(ds_meta, table_file,
     sources_per_well = {}
     wells = np.array(wells)
     for well in unique_wells:
+        if well_names is not None and well not in well_names:
+            continue
         source_ids = np.where(wells == well)[0]
-        well_sources = [
-            [sources[sid] for sources in this_sources.values()] for sid in source_ids
-        ]
+        well_sources = {
+            ii: [sources[sid] for sources in this_sources.values()] for ii, sid in enumerate(source_ids)
+        }
         table_path = create_image_table(ds_folder, well, table_file)
-        well_view = {
+        well_trafo = {
             "grid": {
                 "name": well,
+                "sources": well_sources
+            }
+        }
+        well_display = {
+            "sourceAnnotationDisplay": {
+                "lut": "glasbey",
+                "name": well,
                 "sources": well_sources,
+                "opacity": 0.5,
                 "tableData": {"tsv": {"relativePath": table_path}},
                 "tables": ["default.tsv"]
             }
         }
-        source_transforms.append(well_view)
-        sources_per_well[well] = [source for sources in well_sources for source in sources]
+        source_transforms.append(well_trafo)
+        source_displays.append(well_display)
+        sources_per_well[well] = [source for sources in well_sources.values() for source in sources]
 
     def _to_pos(well_name):
         r, c = well_name[0], well_name[1:]
@@ -278,18 +301,28 @@ def add_plate_view(ds_meta, table_file,
 
     # plate: grid transform for wells
     table_path = create_well_table(ds_folder, table_file, unique_wells)
+    plate_sources = {ii: sources_per_well[well] for ii, well in enumerate(unique_wells)}
     plate_trafo = {
         "grid": {
             "name": f"plate-{view_name}",
-            "sources": [sources_per_well[well] for well in unique_wells],
-            "positions": [
-                _to_pos(well) for well in unique_wells
-            ],
+            "sources": plate_sources,
+            "positions": {
+                ii: _to_pos(well) for ii, well in enumerate(unique_wells)
+            }
+        }
+    }
+    plate_display = {
+        "sourceAnnotationDisplay": {
+            "name": f"plate-{view_name}",
+            "sources": plate_sources,
+            "opacity": 0.5,
+            "lut": "glasbey",
             "tableData": {"tsv": {"relativePath": table_path}},
             "tables": ["default.tsv"]
         }
     }
     source_transforms.append(plate_trafo)
+    source_displays.append(plate_display)
 
     grid_view = {
         "isExclusive": exclusive,
@@ -329,6 +362,19 @@ def create_raw_views(plate_name, table_file):
     mobie.metadata.write_dataset_metadata(ds_folder, ds_meta)
 
 
+def create_test_view(plate_name, table_file):
+    ds_folder = os.path.join('./data', plate_name)
+    ds_meta = mobie.metadata.read_dataset_metadata(ds_folder)
+
+    well_names = ["E06", "E07"]
+    tmp_folder = f'./tmp_{plate_name}'
+    add_plate_view(ds_meta, None, ['nuclei'], ['image'], ['blue'],
+                   menu_name="images", view_name="test", exclusive=False,
+                   ds_folder=ds_folder, tmp_folder=tmp_folder, well_names=well_names)
+
+    mobie.metadata.write_dataset_metadata(ds_folder, ds_meta)
+
+
 def add_plate(plate_folder):
     plate_name = parse_plate_name(plate_folder)
     print("Adding plate", plate_name)
@@ -342,7 +388,8 @@ def add_plate(plate_folder):
 
     table_file = os.path.join(plate_folder, f'{plate_name}_table.hdf5')
     assert os.path.exists(table_file)
-    create_raw_views(plate_name, table_file)
+    # create_raw_views(plate_name, table_file)
+    create_test_view(plate_name, table_file)
 
     # TODO
     # add segmentations
