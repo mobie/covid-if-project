@@ -149,7 +149,7 @@ def create_image_table(ds_folder, table_file):
     assert tab.shape == (len(data), len(col_ids))
 
     wells = np.array([site_name.split('-')[0] for site_name in site_names])
-    col_names_out = ['grid_id', 'well'] + col_names_out
+    col_names_out = ['annotation_id', 'well'] + col_names_out
     tab = np.concatenate([
         np.arange(tab.shape[0])[:, None],
         wells[:, None],
@@ -187,7 +187,7 @@ def create_well_table(ds_folder, table_file, well_names):
     tab = data[:, col_ids]
     assert tab.shape == (len(well_names), len(col_ids))
 
-    col_names_out = ['grid_id', 'well'] + col_names_out
+    col_names_out = ['annotation_id', 'well'] + col_names_out
     tab = np.concatenate([
         np.arange(tab.shape[0])[:, None],
         np.array(well_names)[:, None],
