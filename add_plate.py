@@ -151,7 +151,7 @@ def create_well_table(ds_folder, table_file):
     wells = np.array([site_name.split('-')[0] for site_name in site_names])
     col_names_out = ['annotation_id', 'well'] + col_names_out
     tab = np.concatenate([
-        np.arange(tab.shape[0])[:, None],
+        np.array(site_names)[:, None],
         wells[:, None],
         format_tab(tab)
     ], axis=1)
@@ -187,9 +187,8 @@ def create_plate_table(ds_folder, table_file, well_names):
     tab = data[:, col_ids]
     assert tab.shape == (len(well_names), len(col_ids))
 
-    col_names_out = ['annotation_id', 'well'] + col_names_out
+    col_names_out = ['annotation_id'] + col_names_out
     tab = np.concatenate([
-        np.arange(tab.shape[0])[:, None],
         np.array(well_names)[:, None],
         format_tab(tab)
     ], axis=1)
@@ -270,8 +269,10 @@ def add_plate_view(ds_meta, well_names, plate_table, well_table,
     wells = np.array(wells)
     for well in well_names:
         source_ids = np.where(wells == well)[0]
+        site_names = [f"{well}-{ii:04}" for ii in range(len(source_ids))]
         well_sources = {
-            ii: [sources[sid] for sources in this_sources.values()] for ii, sid in enumerate(source_ids)
+            site_name: [sources[sid] for sources in this_sources.values()]
+            for site_name, sid in zip(site_names, source_ids)
         }
         well_trafo = {
             "grid": {
@@ -300,13 +301,13 @@ def add_plate_view(ds_meta, well_names, plate_table, well_table,
         return [r, c]
 
     # plate: grid transform for wells
-    plate_sources = {ii: sources_per_well[well] for ii, well in enumerate(well_names)}
+    plate_sources = {well: sources_per_well[well] for well in well_names}
     plate_trafo = {
         "grid": {
             "name": f"plate-{view_name}",
             "sources": plate_sources,
             "positions": {
-                ii: _to_pos(well) for ii, well in enumerate(well_names)
+                well: _to_pos(well) for well in well_names
             }
         }
     }
@@ -403,7 +404,7 @@ def add_plate(plate_folder):
     plate_table = create_plate_table(ds_folder, table_file, all_wells)
     well_table = create_well_table(ds_folder, table_file)
 
-    # create_raw_views(plate_name, plate_table, well_table)
+    create_raw_views(plate_name, plate_table, well_table)
     create_test_views(plate_name, plate_table, well_table)
 
     # TODO
