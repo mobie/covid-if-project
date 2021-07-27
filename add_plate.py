@@ -222,7 +222,7 @@ def add_plate_view(ds_meta, table_file,
         this_sources = filter_wells(this_sources, well_names)
 
     n_positions = len(this_sources[image_names[0]])
-    assert all(len(sources) == n_positions for sources in this_sources.values())
+    assert all(len(sources) == n_positions for sources in this_sources.values()), f"{this_sources} -:- {n_positions}"
 
     all_source_positions = {
         im_name: [source[len(f'{im_name}_Well'):] for source in this_sources[im_name]]
@@ -367,8 +367,18 @@ def create_test_views(plate_name, table_file):
 
     well_names = ["E06", "E07"]
     tmp_folder = f'./tmp_{plate_name}'
-    add_plate_view(ds_meta, None, ['nuclei'], ['image'], ['blue'],
-                   menu_name="images", view_name="test", exclusive=True,
+
+    # add nucleus view
+    add_plate_view(ds_meta, table_file, ['nuclei'], ['image'], ['blue'],
+                   menu_name="images", view_name="test-nuclei", exclusive=True,
+                   ds_folder=ds_folder, tmp_folder=tmp_folder, well_names=well_names)
+
+    # add full view
+    add_plate_view(ds_meta, table_file,
+                   ['nuclei', 'serumIgG', 'marker_tophat'],
+                   ['image', 'image', 'image'],
+                   ['blue', 'green', 'red'],
+                   menu_name="images", view_name="test-full", exclusive=True,
                    ds_folder=ds_folder, tmp_folder=tmp_folder, well_names=well_names)
 
     mobie.metadata.write_dataset_metadata(ds_folder, ds_meta)
@@ -387,8 +397,8 @@ def add_plate(plate_folder):
 
     table_file = os.path.join(plate_folder, f'{plate_name}_table.hdf5')
     assert os.path.exists(table_file)
-    create_raw_views(plate_name, table_file)
-    # create_test_views(plate_name, table_file)
+    # create_raw_views(plate_name, table_file)
+    create_test_views(plate_name, table_file)
 
     # TODO
     # add segmentations

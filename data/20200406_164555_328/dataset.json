@@ -28484,94 +28484,6 @@
                 "marker_tophat_WellA02_0007",
                 "marker_tophat_WellA02_0008"
               ],
-              "2": [
-                "marker_tophat_WellA03_0000",
-                "marker_tophat_WellA03_0001",
-                "marker_tophat_WellA03_0002",
-                "marker_tophat_WellA03_0003",
-                "marker_tophat_WellA03_0004",
-                "marker_tophat_WellA03_0005",
-                "marker_tophat_WellA03_0006",
-                "marker_tophat_WellA03_0007",
-                "marker_tophat_WellA03_0008"
-              ],
-              "3": [
-                "marker_tophat_WellA04_0000",
-                "marker_tophat_WellA04_0001",
-                "marker_tophat_WellA04_0002",
-                "marker_tophat_WellA04_0003",
-                "marker_tophat_WellA04_0004",
-                "marker_tophat_WellA04_0005",
-                "marker_tophat_WellA04_0006",
-                "marker_tophat_WellA04_0007",
-                "marker_tophat_WellA04_0008"
-              ],
-              "4": [
-                "marker_tophat_WellA05_0000",
-                "marker_tophat_WellA05_0001",
-                "marker_tophat_WellA05_0002",
-                "marker_tophat_WellA05_0003",
-                "marker_tophat_WellA05_0004",
-                "marker_tophat_WellA05_0005",
-                "marker_tophat_WellA05_0006",
-                "marker_tophat_WellA05_0007",
-                "marker_tophat_WellA05_0008"
-              ],
-              "5": [
-                "marker_tophat_WellA06_0000",
-                "marker_tophat_WellA06_0001",
-                "marker_tophat_WellA06_0002",
-                "marker_tophat_WellA06_0003",
-                "marker_tophat_WellA06_0004",
-                "marker_tophat_WellA06_0005",
-                "marker_tophat_WellA06_0006",
-                "marker_tophat_WellA06_0007",
-                "marker_tophat_WellA06_0008"
-              ],
-              "6": [
-                "marker_tophat_WellA07_0000",
-                "marker_tophat_WellA07_0001",
-                "marker_tophat_WellA07_0002",
-                "marker_tophat_WellA07_0003",
-                "marker_tophat_WellA07_0004",
-                "marker_tophat_WellA07_0005",
-                "marker_tophat_WellA07_0006",
-                "marker_tophat_WellA07_0007",
-                "marker_tophat_WellA07_0008"
-              ],
-              "7": [
-                "marker_tophat_WellA08_0000",
-                "marker_tophat_WellA08_0001",
-                "marker_tophat_WellA08_0002",
-                "marker_tophat_WellA08_0003",
-                "marker_tophat_WellA08_0004",
-                "marker_tophat_WellA08_0005",
-                "marker_tophat_WellA08_0006",
-                "marker_tophat_WellA08_0007",
-                "marker_tophat_WellA08_0008"
-              ],
-              "8": [
-                "marker_tophat_WellA09_0000",
-                "marker_tophat_WellA09_0001",
-                "marker_tophat_WellA09_0002",
-                "marker_tophat_WellA09_0003",
-                "marker_tophat_WellA09_0004",
-                "marker_tophat_WellA09_0005",
-                "marker_tophat_WellA09_0006",
-                "marker_tophat_WellA09_0007",
-                "marker_tophat_WellA09_0008"
-              ],
-              "9": [
-                "marker_tophat_WellA10_0000",
-                "marker_tophat_WellA10_0001",
-                "marker_tophat_WellA10_0002",
-                "marker_tophat_WellA10_0003",
-                "marker_tophat_WellA10_0004",
-                "marker_tophat_WellA10_0005",
-                "marker_tophat_WellA10_0006",
-                "marker_tophat_WellA10_0007",
-                "marker_tophat_WellA10_0008"
-              ],
               "10": [
                 "marker_tophat_WellA11_0000",
                 "marker_tophat_WellA11_0001",
@@ -28681,6 +28593,17 @@
                 "marker_tophat_WellB08_0006",
                 "marker_tophat_WellB08_0007",
                 "marker_tophat_WellB08_0008"
+              ],
+              "2": [
+                "marker_tophat_WellA03_0000",
+                "marker_tophat_WellA03_0001",
+                "marker_tophat_WellA03_0002",
+                "marker_tophat_WellA03_0003",
+                "marker_tophat_WellA03_0004",
+                "marker_tophat_WellA03_0005",
+                "marker_tophat_WellA03_0006",
+                "marker_tophat_WellA03_0007",
+                "marker_tophat_WellA03_0008"
               ],
               "20": [
                 "marker_tophat_WellB09_0000",
@@ -28792,6 +28715,17 @@
                 "marker_tophat_WellC06_0007",
                 "marker_tophat_WellC06_0008"
               ],
+              "3": [
+                "marker_tophat_WellA04_0000",
+                "marker_tophat_WellA04_0001",
+                "marker_tophat_WellA04_0002",
+                "marker_tophat_WellA04_0003",
+                "marker_tophat_WellA04_0004",
+                "marker_tophat_WellA04_0005",
+                "marker_tophat_WellA04_0006",
+                "marker_tophat_WellA04_0007",
+                "marker_tophat_WellA04_0008"
+              ],
               "30": [
                 "marker_tophat_WellC07_0000",
                 "marker_tophat_WellC07_0001",
@@ -28901,6 +28835,17 @@
                 "marker_tophat_WellD04_0006",
                 "marker_tophat_WellD04_0007",
                 "marker_tophat_WellD04_0008"
+              ],
+              "4": [
+                "marker_tophat_WellA05_0000",
+                "marker_tophat_WellA05_0001",
+                "marker_tophat_WellA05_0002",
+                "marker_tophat_WellA05_0003",
+                "marker_tophat_WellA05_0004",
+                "marker_tophat_WellA05_0005",
+                "marker_tophat_WellA05_0006",
+                "marker_tophat_WellA05_0007",
+                "marker_tophat_WellA05_0008"
               ],
               "40": [
                 "marker_tophat_WellD05_0000",
@@ -29012,6 +28957,17 @@
                 "marker_tophat_WellE02_0007",
                 "marker_tophat_WellE02_0008"
               ],
+              "5": [
+                "marker_tophat_WellA06_0000",
+                "marker_tophat_WellA06_0001",
+                "marker_tophat_WellA06_0002",
+                "marker_tophat_WellA06_0003",
+                "marker_tophat_WellA06_0004",
+                "marker_tophat_WellA06_0005",
+                "marker_tophat_WellA06_0006",
+                "marker_tophat_WellA06_0007",
+                "marker_tophat_WellA06_0008"
+              ],
               "50": [
                 "marker_tophat_WellE03_0000",
                 "marker_tophat_WellE03_0001",
@@ -29121,6 +29077,17 @@
                 "marker_tophat_WellE12_0006",
                 "marker_tophat_WellE12_0007",
                 "marker_tophat_WellE12_0008"
+              ],
+              "6": [
+                "marker_tophat_WellA07_0000",
+                "marker_tophat_WellA07_0001",
+                "marker_tophat_WellA07_0002",
+                "marker_tophat_WellA07_0003",
+                "marker_tophat_WellA07_0004",
+                "marker_tophat_WellA07_0005",
+                "marker_tophat_WellA07_0006",
+                "marker_tophat_WellA07_0007",
+                "marker_tophat_WellA07_0008"
               ],
               "60": [
                 "marker_tophat_WellF01_0000",
@@ -29232,6 +29199,17 @@
                 "marker_tophat_WellF10_0007",
                 "marker_tophat_WellF10_0008"
               ],
+              "7": [
+                "marker_tophat_WellA08_0000",
+                "marker_tophat_WellA08_0001",
+                "marker_tophat_WellA08_0002",
+                "marker_tophat_WellA08_0003",
+                "marker_tophat_WellA08_0004",
+                "marker_tophat_WellA08_0005",
+                "marker_tophat_WellA08_0006",
+                "marker_tophat_WellA08_0007",
+                "marker_tophat_WellA08_0008"
+              ],
               "70": [
                 "marker_tophat_WellF11_0000",
                 "marker_tophat_WellF11_0001",
@@ -29342,6 +29320,17 @@
                 "marker_tophat_WellG08_0007",
                 "marker_tophat_WellG08_0008"
               ],
+              "8": [
+                "marker_tophat_WellA09_0000",
+                "marker_tophat_WellA09_0001",
+                "marker_tophat_WellA09_0002",
+                "marker_tophat_WellA09_0003",
+                "marker_tophat_WellA09_0004",
+                "marker_tophat_WellA09_0005",
+                "marker_tophat_WellA09_0006",
+                "marker_tophat_WellA09_0007",
+                "marker_tophat_WellA09_0008"
+              ],
               "80": [
                 "marker_tophat_WellG09_0000",
                 "marker_tophat_WellG09_0001",
@@ -29451,6 +29440,17 @@
                 "marker_tophat_WellH06_0006",
                 "marker_tophat_WellH06_0007",
                 "marker_tophat_WellH06_0008"
+              ],
+              "9": [
+                "marker_tophat_WellA10_0000",
+                "marker_tophat_WellA10_0001",
+                "marker_tophat_WellA10_0002",
+                "marker_tophat_WellA10_0003",
+                "marker_tophat_WellA10_0004",
+                "marker_tophat_WellA10_0005",
+                "marker_tophat_WellA10_0006",
+                "marker_tophat_WellA10_0007",
+                "marker_tophat_WellA10_0008"
               ],
               "90": [
                 "marker_tophat_WellH07_0000",
@@ -32807,38 +32807,6 @@
                 0,
                 1
               ],
-              "2": [
-                0,
-                2
-              ],
-              "3": [
-                0,
-                3
-              ],
-              "4": [
-                0,
-                4
-              ],
-              "5": [
-                0,
-                5
-              ],
-              "6": [
-                0,
-                6
-              ],
-              "7": [
-                0,
-                7
-              ],
-              "8": [
-                0,
-                8
-              ],
-              "9": [
-                0,
-                9
-              ],
               "10": [
                 0,
                 10
@@ -32878,6 +32846,10 @@
               "19": [
                 1,
                 7
+              ],
+              "2": [
+                0,
+                2
               ],
               "20": [
                 1,
@@ -32919,6 +32891,10 @@
                 2,
                 5
               ],
+              "3": [
+                0,
+                3
+              ],
               "30": [
                 2,
                 6
@@ -32958,6 +32934,10 @@
               "39": [
                 3,
                 3
+              ],
+              "4": [
+                0,
+                4
               ],
               "40": [
                 3,
@@ -32999,6 +32979,10 @@
                 4,
                 1
               ],
+              "5": [
+                0,
+                5
+              ],
               "50": [
                 4,
                 2
@@ -33038,6 +33022,10 @@
               "59": [
                 4,
                 11
+              ],
+              "6": [
+                0,
+                6
               ],
               "60": [
                 5,
@@ -33079,6 +33067,10 @@
                 5,
                 9
               ],
+              "7": [
+                0,
+                7
+              ],
               "70": [
                 5,
                 10
@@ -33119,6 +33111,10 @@
                 6,
                 7
               ],
+              "8": [
+                0,
+                8
+              ],
               "80": [
                 6,
                 8
@@ -33158,6 +33154,10 @@
               "89": [
                 7,
                 5
+              ],
+              "9": [
+                0,
+                9
               ],
               "90": [
                 7,
@@ -33206,94 +33206,6 @@
                 "marker_tophat_WellA02_0006",
                 "marker_tophat_WellA02_0007",
                 "marker_tophat_WellA02_0008"
-              ],
-              "2": [
-                "marker_tophat_WellA03_0000",
-                "marker_tophat_WellA03_0001",
-                "marker_tophat_WellA03_0002",
-                "marker_tophat_WellA03_0003",
-                "marker_tophat_WellA03_0004",
-                "marker_tophat_WellA03_0005",
-                "marker_tophat_WellA03_0006",
-                "marker_tophat_WellA03_0007",
-                "marker_tophat_WellA03_0008"
-              ],
-              "3": [
-                "marker_tophat_WellA04_0000",
-                "marker_tophat_WellA04_0001",
-                "marker_tophat_WellA04_0002",
-                "marker_tophat_WellA04_0003",
-                "marker_tophat_WellA04_0004",
-                "marker_tophat_WellA04_0005",
-                "marker_tophat_WellA04_0006",
-                "marker_tophat_WellA04_0007",
-                "marker_tophat_WellA04_0008"
-              ],
-              "4": [
-                "marker_tophat_WellA05_0000",
-                "marker_tophat_WellA05_0001",
-                "marker_tophat_WellA05_0002",
-                "marker_tophat_WellA05_0003",
-                "marker_tophat_WellA05_0004",
-                "marker_tophat_WellA05_0005",
-                "marker_tophat_WellA05_0006",
-                "marker_tophat_WellA05_0007",
-                "marker_tophat_WellA05_0008"
-              ],
-              "5": [
-                "marker_tophat_WellA06_0000",
-                "marker_tophat_WellA06_0001",
-                "marker_tophat_WellA06_0002",
-                "marker_tophat_WellA06_0003",
-                "marker_tophat_WellA06_0004",
-                "marker_tophat_WellA06_0005",
-                "marker_tophat_WellA06_0006",
-                "marker_tophat_WellA06_0007",
-                "marker_tophat_WellA06_0008"
-              ],
-              "6": [
-                "marker_tophat_WellA07_0000",
-                "marker_tophat_WellA07_0001",
-                "marker_tophat_WellA07_0002",
-                "marker_tophat_WellA07_0003",
-                "marker_tophat_WellA07_0004",
-                "marker_tophat_WellA07_0005",
-                "marker_tophat_WellA07_0006",
-                "marker_tophat_WellA07_0007",
-                "marker_tophat_WellA07_0008"
-              ],
-              "7": [
-                "marker_tophat_WellA08_0000",
-                "marker_tophat_WellA08_0001",
-                "marker_tophat_WellA08_0002",
-                "marker_tophat_WellA08_0003",
-                "marker_tophat_WellA08_0004",
-                "marker_tophat_WellA08_0005",
-                "marker_tophat_WellA08_0006",
-                "marker_tophat_WellA08_0007",
-                "marker_tophat_WellA08_0008"
-              ],
-              "8": [
-                "marker_tophat_WellA09_0000",
-                "marker_tophat_WellA09_0001",
-                "marker_tophat_WellA09_0002",
-                "marker_tophat_WellA09_0003",
-                "marker_tophat_WellA09_0004",
-                "marker_tophat_WellA09_0005",
-                "marker_tophat_WellA09_0006",
-                "marker_tophat_WellA09_0007",
-                "marker_tophat_WellA09_0008"
-              ],
-              "9": [
-                "marker_tophat_WellA10_0000",
-                "marker_tophat_WellA10_0001",
-                "marker_tophat_WellA10_0002",
-                "marker_tophat_WellA10_0003",
-                "marker_tophat_WellA10_0004",
-                "marker_tophat_WellA10_0005",
-                "marker_tophat_WellA10_0006",
-                "marker_tophat_WellA10_0007",
-                "marker_tophat_WellA10_0008"
               ],
               "10": [
                 "marker_tophat_WellA11_0000",
@@ -33405,6 +33317,17 @@
                 "marker_tophat_WellB08_0007",
                 "marker_tophat_WellB08_0008"
               ],
+              "2": [
+                "marker_tophat_WellA03_0000",
+                "marker_tophat_WellA03_0001",
+                "marker_tophat_WellA03_0002",
+                "marker_tophat_WellA03_0003",
+                "marker_tophat_WellA03_0004",
+                "marker_tophat_WellA03_0005",
+                "marker_tophat_WellA03_0006",
+                "marker_tophat_WellA03_0007",
+                "marker_tophat_WellA03_0008"
+              ],
               "20": [
                 "marker_tophat_WellB09_0000",
                 "marker_tophat_WellB09_0001",
@@ -33514,6 +33437,17 @@
                 "marker_tophat_WellC06_0006",
                 "marker_tophat_WellC06_0007",
                 "marker_tophat_WellC06_0008"
+              ],
+              "3": [
+                "marker_tophat_WellA04_0000",
+                "marker_tophat_WellA04_0001",
+                "marker_tophat_WellA04_0002",
+                "marker_tophat_WellA04_0003",
+                "marker_tophat_WellA04_0004",
+                "marker_tophat_WellA04_0005",
+                "marker_tophat_WellA04_0006",
+                "marker_tophat_WellA04_0007",
+                "marker_tophat_WellA04_0008"
               ],
               "30": [
                 "marker_tophat_WellC07_0000",
@@ -33625,6 +33559,17 @@
                 "marker_tophat_WellD04_0007",
                 "marker_tophat_WellD04_0008"
               ],
+              "4": [
+                "marker_tophat_WellA05_0000",
+                "marker_tophat_WellA05_0001",
+                "marker_tophat_WellA05_0002",
+                "marker_tophat_WellA05_0003",
+                "marker_tophat_WellA05_0004",
+                "marker_tophat_WellA05_0005",
+                "marker_tophat_WellA05_0006",
+                "marker_tophat_WellA05_0007",
+                "marker_tophat_WellA05_0008"
+              ],
               "40": [
                 "marker_tophat_WellD05_0000",
                 "marker_tophat_WellD05_0001",
@@ -33734,6 +33679,17 @@
                 "marker_tophat_WellE02_0006",
                 "marker_tophat_WellE02_0007",
                 "marker_tophat_WellE02_0008"
+              ],
+              "5": [
+                "marker_tophat_WellA06_0000",
+                "marker_tophat_WellA06_0001",
+                "marker_tophat_WellA06_0002",
+                "marker_tophat_WellA06_0003",
+                "marker_tophat_WellA06_0004",
+                "marker_tophat_WellA06_0005",
+                "marker_tophat_WellA06_0006",
+                "marker_tophat_WellA06_0007",
+                "marker_tophat_WellA06_0008"
               ],
               "50": [
                 "marker_tophat_WellE03_0000",
@@ -33845,6 +33801,17 @@
                 "marker_tophat_WellE12_0007",
                 "marker_tophat_WellE12_0008"
               ],
+              "6": [
+                "marker_tophat_WellA07_0000",
+                "marker_tophat_WellA07_0001",
+                "marker_tophat_WellA07_0002",
+                "marker_tophat_WellA07_0003",
+                "marker_tophat_WellA07_0004",
+                "marker_tophat_WellA07_0005",
+                "marker_tophat_WellA07_0006",
+                "marker_tophat_WellA07_0007",
+                "marker_tophat_WellA07_0008"
+              ],
               "60": [
                 "marker_tophat_WellF01_0000",
                 "marker_tophat_WellF01_0001",
@@ -33954,6 +33921,17 @@
                 "marker_tophat_WellF10_0006",
                 "marker_tophat_WellF10_0007",
                 "marker_tophat_WellF10_0008"
+              ],
+              "7": [
+                "marker_tophat_WellA08_0000",
+                "marker_tophat_WellA08_0001",
+                "marker_tophat_WellA08_0002",
+                "marker_tophat_WellA08_0003",
+                "marker_tophat_WellA08_0004",
+                "marker_tophat_WellA08_0005",
+                "marker_tophat_WellA08_0006",
+                "marker_tophat_WellA08_0007",
+                "marker_tophat_WellA08_0008"
               ],
               "70": [
                 "marker_tophat_WellF11_0000",
@@ -34065,6 +34043,17 @@
                 "marker_tophat_WellG08_0007",
                 "marker_tophat_WellG08_0008"
               ],
+              "8": [
+                "marker_tophat_WellA09_0000",
+                "marker_tophat_WellA09_0001",
+                "marker_tophat_WellA09_0002",
+                "marker_tophat_WellA09_0003",
+                "marker_tophat_WellA09_0004",
+                "marker_tophat_WellA09_0005",
+                "marker_tophat_WellA09_0006",
+                "marker_tophat_WellA09_0007",
+                "marker_tophat_WellA09_0008"
+              ],
               "80": [
                 "marker_tophat_WellG09_0000",
                 "marker_tophat_WellG09_0001",
@@ -34174,6 +34163,17 @@
                 "marker_tophat_WellH06_0006",
                 "marker_tophat_WellH06_0007",
                 "marker_tophat_WellH06_0008"
+              ],
+              "9": [
+                "marker_tophat_WellA10_0000",
+                "marker_tophat_WellA10_0001",
+                "marker_tophat_WellA10_0002",
+                "marker_tophat_WellA10_0003",
+                "marker_tophat_WellA10_0004",
+                "marker_tophat_WellA10_0005",
+                "marker_tophat_WellA10_0006",
+                "marker_tophat_WellA10_0007",
+                "marker_tophat_WellA10_0008"
               ],
               "90": [
                 "marker_tophat_WellH07_0000",
@@ -39379,94 +39379,6 @@
                 "nuclei_WellA02_0007",
                 "nuclei_WellA02_0008"
               ],
-              "2": [
-                "nuclei_WellA03_0000",
-                "nuclei_WellA03_0001",
-                "nuclei_WellA03_0002",
-                "nuclei_WellA03_0003",
-                "nuclei_WellA03_0004",
-                "nuclei_WellA03_0005",
-                "nuclei_WellA03_0006",
-                "nuclei_WellA03_0007",
-                "nuclei_WellA03_0008"
-              ],
-              "3": [
-                "nuclei_WellA04_0000",
-                "nuclei_WellA04_0001",
-                "nuclei_WellA04_0002",
-                "nuclei_WellA04_0003",
-                "nuclei_WellA04_0004",
-                "nuclei_WellA04_0005",
-                "nuclei_WellA04_0006",
-                "nuclei_WellA04_0007",
-                "nuclei_WellA04_0008"
-              ],
-              "4": [
-                "nuclei_WellA05_0000",
-                "nuclei_WellA05_0001",
-                "nuclei_WellA05_0002",
-                "nuclei_WellA05_0003",
-                "nuclei_WellA05_0004",
-                "nuclei_WellA05_0005",
-                "nuclei_WellA05_0006",
-                "nuclei_WellA05_0007",
-                "nuclei_WellA05_0008"
-              ],
-              "5": [
-                "nuclei_WellA06_0000",
-                "nuclei_WellA06_0001",
-                "nuclei_WellA06_0002",
-                "nuclei_WellA06_0003",
-                "nuclei_WellA06_0004",
-                "nuclei_WellA06_0005",
-                "nuclei_WellA06_0006",
-                "nuclei_WellA06_0007",
-                "nuclei_WellA06_0008"
-              ],
-              "6": [
-                "nuclei_WellA07_0000",
-                "nuclei_WellA07_0001",
-                "nuclei_WellA07_0002",
-                "nuclei_WellA07_0003",
-                "nuclei_WellA07_0004",
-                "nuclei_WellA07_0005",
-                "nuclei_WellA07_0006",
-                "nuclei_WellA07_0007",
-                "nuclei_WellA07_0008"
-              ],
-              "7": [
-                "nuclei_WellA08_0000",
-                "nuclei_WellA08_0001",
-                "nuclei_WellA08_0002",
-                "nuclei_WellA08_0003",
-                "nuclei_WellA08_0004",
-                "nuclei_WellA08_0005",
-                "nuclei_WellA08_0006",
-                "nuclei_WellA08_0007",
-                "nuclei_WellA08_0008"
-              ],
-              "8": [
-                "nuclei_WellA09_0000",
-                "nuclei_WellA09_0001",
-                "nuclei_WellA09_0002",
-                "nuclei_WellA09_0003",
-                "nuclei_WellA09_0004",
-                "nuclei_WellA09_0005",
-                "nuclei_WellA09_0006",
-                "nuclei_WellA09_0007",
-                "nuclei_WellA09_0008"
-              ],
-              "9": [
-                "nuclei_WellA10_0000",
-                "nuclei_WellA10_0001",
-                "nuclei_WellA10_0002",
-                "nuclei_WellA10_0003",
-                "nuclei_WellA10_0004",
-                "nuclei_WellA10_0005",
-                "nuclei_WellA10_0006",
-                "nuclei_WellA10_0007",
-                "nuclei_WellA10_0008"
-              ],
               "10": [
                 "nuclei_WellA11_0000",
                 "nuclei_WellA11_0001",
@@ -39576,6 +39488,17 @@
                 "nuclei_WellB08_0006",
                 "nuclei_WellB08_0007",
                 "nuclei_WellB08_0008"
+              ],
+              "2": [
+                "nuclei_WellA03_0000",
+                "nuclei_WellA03_0001",
+                "nuclei_WellA03_0002",
+                "nuclei_WellA03_0003",
+                "nuclei_WellA03_0004",
+                "nuclei_WellA03_0005",
+                "nuclei_WellA03_0006",
+                "nuclei_WellA03_0007",
+                "nuclei_WellA03_0008"
               ],
               "20": [
                 "nuclei_WellB09_0000",
@@ -39687,6 +39610,17 @@
                 "nuclei_WellC06_0007",
                 "nuclei_WellC06_0008"
               ],
+              "3": [
+                "nuclei_WellA04_0000",
+                "nuclei_WellA04_0001",
+                "nuclei_WellA04_0002",
+                "nuclei_WellA04_0003",
+                "nuclei_WellA04_0004",
+                "nuclei_WellA04_0005",
+                "nuclei_WellA04_0006",
+                "nuclei_WellA04_0007",
+                "nuclei_WellA04_0008"
+              ],
               "30": [
                 "nuclei_WellC07_0000",
                 "nuclei_WellC07_0001",
@@ -39796,6 +39730,17 @@
                 "nuclei_WellD04_0006",
                 "nuclei_WellD04_0007",
                 "nuclei_WellD04_0008"
+              ],
+              "4": [
+                "nuclei_WellA05_0000",
+                "nuclei_WellA05_0001",
+                "nuclei_WellA05_0002",
+                "nuclei_WellA05_0003",
+                "nuclei_WellA05_0004",
+                "nuclei_WellA05_0005",
+                "nuclei_WellA05_0006",
+                "nuclei_WellA05_0007",
+                "nuclei_WellA05_0008"
               ],
               "40": [
                 "nuclei_WellD05_0000",
@@ -39907,6 +39852,17 @@
                 "nuclei_WellE02_0007",
                 "nuclei_WellE02_0008"
               ],
+              "5": [
+                "nuclei_WellA06_0000",
+                "nuclei_WellA06_0001",
+                "nuclei_WellA06_0002",
+                "nuclei_WellA06_0003",
+                "nuclei_WellA06_0004",
+                "nuclei_WellA06_0005",
+                "nuclei_WellA06_0006",
+                "nuclei_WellA06_0007",
+                "nuclei_WellA06_0008"
+              ],
               "50": [
                 "nuclei_WellE03_0000",
                 "nuclei_WellE03_0001",
@@ -40016,6 +39972,17 @@
                 "nuclei_WellE12_0006",
                 "nuclei_WellE12_0007",
                 "nuclei_WellE12_0008"
+              ],
+              "6": [
+                "nuclei_WellA07_0000",
+                "nuclei_WellA07_0001",
+                "nuclei_WellA07_0002",
+                "nuclei_WellA07_0003",
+                "nuclei_WellA07_0004",
+                "nuclei_WellA07_0005",
+                "nuclei_WellA07_0006",
+                "nuclei_WellA07_0007",
+                "nuclei_WellA07_0008"
               ],
               "60": [
                 "nuclei_WellF01_0000",
@@ -40127,6 +40094,17 @@
                 "nuclei_WellF10_0007",
                 "nuclei_WellF10_0008"
               ],
+              "7": [
+                "nuclei_WellA08_0000",
+                "nuclei_WellA08_0001",
+                "nuclei_WellA08_0002",
+                "nuclei_WellA08_0003",
+                "nuclei_WellA08_0004",
+                "nuclei_WellA08_0005",
+                "nuclei_WellA08_0006",
+                "nuclei_WellA08_0007",
+                "nuclei_WellA08_0008"
+              ],
               "70": [
                 "nuclei_WellF11_0000",
                 "nuclei_WellF11_0001",
@@ -40237,6 +40215,17 @@
                 "nuclei_WellG08_0007",
                 "nuclei_WellG08_0008"
               ],
+              "8": [
+                "nuclei_WellA09_0000",
+                "nuclei_WellA09_0001",
+                "nuclei_WellA09_0002",
+                "nuclei_WellA09_0003",
+                "nuclei_WellA09_0004",
+                "nuclei_WellA09_0005",
+                "nuclei_WellA09_0006",
+                "nuclei_WellA09_0007",
+                "nuclei_WellA09_0008"
+              ],
               "80": [
                 "nuclei_WellG09_0000",
                 "nuclei_WellG09_0001",
@@ -40346,6 +40335,17 @@
                 "nuclei_WellH06_0006",
                 "nuclei_WellH06_0007",
                 "nuclei_WellH06_0008"
+              ],
+              "9": [
+                "nuclei_WellA10_0000",
+                "nuclei_WellA10_0001",
+                "nuclei_WellA10_0002",
+                "nuclei_WellA10_0003",
+                "nuclei_WellA10_0004",
+                "nuclei_WellA10_0005",
+                "nuclei_WellA10_0006",
+                "nuclei_WellA10_0007",
+                "nuclei_WellA10_0008"
               ],
               "90": [
                 "nuclei_WellH07_0000",
@@ -43702,38 +43702,6 @@
                 0,
                 1
               ],
-              "2": [
-                0,
-                2
-              ],
-              "3": [
-                0,
-                3
-              ],
-              "4": [
-                0,
-                4
-              ],
-              "5": [
-                0,
-                5
-              ],
-              "6": [
-                0,
-                6
-              ],
-              "7": [
-                0,
-                7
-              ],
-              "8": [
-                0,
-                8
-              ],
-              "9": [
-                0,
-                9
-              ],
               "10": [
                 0,
                 10
@@ -43773,6 +43741,10 @@
               "19": [
                 1,
                 7
+              ],
+              "2": [
+                0,
+                2
               ],
               "20": [
                 1,
@@ -43814,6 +43786,10 @@
                 2,
                 5
               ],
+              "3": [
+                0,
+                3
+              ],
               "30": [
                 2,
                 6
@@ -43853,6 +43829,10 @@
               "39": [
                 3,
                 3
+              ],
+              "4": [
+                0,
+                4
               ],
               "40": [
                 3,
@@ -43894,6 +43874,10 @@
                 4,
                 1
               ],
+              "5": [
+                0,
+                5
+              ],
               "50": [
                 4,
                 2
@@ -43933,6 +43917,10 @@
               "59": [
                 4,
                 11
+              ],
+              "6": [
+                0,
+                6
               ],
               "60": [
                 5,
@@ -43974,6 +43962,10 @@
                 5,
                 9
               ],
+              "7": [
+                0,
+                7
+              ],
               "70": [
                 5,
                 10
@@ -44014,6 +44006,10 @@
                 6,
                 7
               ],
+              "8": [
+                0,
+                8
+              ],
               "80": [
                 6,
                 8
@@ -44053,6 +44049,10 @@
               "89": [
                 7,
                 5
+              ],
+              "9": [
+                0,
+                9
               ],
               "90": [
                 7,
@@ -44101,94 +44101,6 @@
                 "nuclei_WellA02_0006",
                 "nuclei_WellA02_0007",
                 "nuclei_WellA02_0008"
-              ],
-              "2": [
-                "nuclei_WellA03_0000",
-                "nuclei_WellA03_0001",
-                "nuclei_WellA03_0002",
-                "nuclei_WellA03_0003",
-                "nuclei_WellA03_0004",
-                "nuclei_WellA03_0005",
-                "nuclei_WellA03_0006",
-                "nuclei_WellA03_0007",
-                "nuclei_WellA03_0008"
-              ],
-              "3": [
-                "nuclei_WellA04_0000",
-                "nuclei_WellA04_0001",
-                "nuclei_WellA04_0002",
-                "nuclei_WellA04_0003",
-                "nuclei_WellA04_0004",
-                "nuclei_WellA04_0005",
-                "nuclei_WellA04_0006",
-                "nuclei_WellA04_0007",
-                "nuclei_WellA04_0008"
-              ],
-              "4": [
-                "nuclei_WellA05_0000",
-                "nuclei_WellA05_0001",
-                "nuclei_WellA05_0002",
-                "nuclei_WellA05_0003",
-                "nuclei_WellA05_0004",
-                "nuclei_WellA05_0005",
-                "nuclei_WellA05_0006",
-                "nuclei_WellA05_0007",
-                "nuclei_WellA05_0008"
-              ],
-              "5": [
-                "nuclei_WellA06_0000",
-                "nuclei_WellA06_0001",
-                "nuclei_WellA06_0002",
-                "nuclei_WellA06_0003",
-                "nuclei_WellA06_0004",
-                "nuclei_WellA06_0005",
-                "nuclei_WellA06_0006",
-                "nuclei_WellA06_0007",
-                "nuclei_WellA06_0008"
-              ],
-              "6": [
-                "nuclei_WellA07_0000",
-                "nuclei_WellA07_0001",
-                "nuclei_WellA07_0002",
-                "nuclei_WellA07_0003",
-                "nuclei_WellA07_0004",
-                "nuclei_WellA07_0005",
-                "nuclei_WellA07_0006",
-                "nuclei_WellA07_0007",
-                "nuclei_WellA07_0008"
-              ],
-              "7": [
-                "nuclei_WellA08_0000",
-                "nuclei_WellA08_0001",
-                "nuclei_WellA08_0002",
-                "nuclei_WellA08_0003",
-                "nuclei_WellA08_0004",
-                "nuclei_WellA08_0005",
-                "nuclei_WellA08_0006",
-                "nuclei_WellA08_0007",
-                "nuclei_WellA08_0008"
-              ],
-              "8": [
-                "nuclei_WellA09_0000",
-                "nuclei_WellA09_0001",
-                "nuclei_WellA09_0002",
-                "nuclei_WellA09_0003",
-                "nuclei_WellA09_0004",
-                "nuclei_WellA09_0005",
-                "nuclei_WellA09_0006",
-                "nuclei_WellA09_0007",
-                "nuclei_WellA09_0008"
-              ],
-              "9": [
-                "nuclei_WellA10_0000",
-                "nuclei_WellA10_0001",
-                "nuclei_WellA10_0002",
-                "nuclei_WellA10_0003",
-                "nuclei_WellA10_0004",
-                "nuclei_WellA10_0005",
-                "nuclei_WellA10_0006",
-                "nuclei_WellA10_0007",
-                "nuclei_WellA10_0008"
               ],
               "10": [
                 "nuclei_WellA11_0000",
@@ -44300,6 +44212,17 @@
                 "nuclei_WellB08_0007",
                 "nuclei_WellB08_0008"
               ],
+              "2": [
+                "nuclei_WellA03_0000",
+                "nuclei_WellA03_0001",
+                "nuclei_WellA03_0002",
+                "nuclei_WellA03_0003",
+                "nuclei_WellA03_0004",
+                "nuclei_WellA03_0005",
+                "nuclei_WellA03_0006",
+                "nuclei_WellA03_0007",
+                "nuclei_WellA03_0008"
+              ],
               "20": [
                 "nuclei_WellB09_0000",
                 "nuclei_WellB09_0001",
@@ -44409,6 +44332,17 @@
                 "nuclei_WellC06_0006",
                 "nuclei_WellC06_0007",
                 "nuclei_WellC06_0008"
+              ],
+              "3": [
+                "nuclei_WellA04_0000",
+                "nuclei_WellA04_0001",
+                "nuclei_WellA04_0002",
+                "nuclei_WellA04_0003",
+                "nuclei_WellA04_0004",
+                "nuclei_WellA04_0005",
+                "nuclei_WellA04_0006",
+                "nuclei_WellA04_0007",
+                "nuclei_WellA04_0008"
               ],
               "30": [
                 "nuclei_WellC07_0000",
@@ -44520,6 +44454,17 @@
                 "nuclei_WellD04_0007",
                 "nuclei_WellD04_0008"
               ],
+              "4": [
+                "nuclei_WellA05_0000",
+                "nuclei_WellA05_0001",
+                "nuclei_WellA05_0002",
+                "nuclei_WellA05_0003",
+                "nuclei_WellA05_0004",
+                "nuclei_WellA05_0005",
+                "nuclei_WellA05_0006",
+                "nuclei_WellA05_0007",
+                "nuclei_WellA05_0008"
+              ],
               "40": [
                 "nuclei_WellD05_0000",
                 "nuclei_WellD05_0001",
@@ -44629,6 +44574,17 @@
                 "nuclei_WellE02_0006",
                 "nuclei_WellE02_0007",
                 "nuclei_WellE02_0008"
+              ],
+              "5": [
+                "nuclei_WellA06_0000",
+                "nuclei_WellA06_0001",
+                "nuclei_WellA06_0002",
+                "nuclei_WellA06_0003",
+                "nuclei_WellA06_0004",
+                "nuclei_WellA06_0005",
+                "nuclei_WellA06_0006",
+                "nuclei_WellA06_0007",
+                "nuclei_WellA06_0008"
               ],
               "50": [
                 "nuclei_WellE03_0000",
@@ -44740,6 +44696,17 @@
                 "nuclei_WellE12_0007",
                 "nuclei_WellE12_0008"
               ],
+              "6": [
+                "nuclei_WellA07_0000",
+                "nuclei_WellA07_0001",
+                "nuclei_WellA07_0002",
+                "nuclei_WellA07_0003",
+                "nuclei_WellA07_0004",
+                "nuclei_WellA07_0005",
+                "nuclei_WellA07_0006",
+                "nuclei_WellA07_0007",
+                "nuclei_WellA07_0008"
+              ],
               "60": [
                 "nuclei_WellF01_0000",
                 "nuclei_WellF01_0001",
@@ -44849,6 +44816,17 @@
                 "nuclei_WellF10_0006",
                 "nuclei_WellF10_0007",
                 "nuclei_WellF10_0008"
+              ],
+              "7": [
+                "nuclei_WellA08_0000",
+                "nuclei_WellA08_0001",
+                "nuclei_WellA08_0002",
+                "nuclei_WellA08_0003",
+                "nuclei_WellA08_0004",
+                "nuclei_WellA08_0005",
+                "nuclei_WellA08_0006",
+                "nuclei_WellA08_0007",
+                "nuclei_WellA08_0008"
               ],
               "70": [
                 "nuclei_WellF11_0000",
@@ -44960,6 +44938,17 @@
                 "nuclei_WellG08_0007",
                 "nuclei_WellG08_0008"
               ],
+              "8": [
+                "nuclei_WellA09_0000",
+                "nuclei_WellA09_0001",
+                "nuclei_WellA09_0002",
+                "nuclei_WellA09_0003",
+                "nuclei_WellA09_0004",
+                "nuclei_WellA09_0005",
+                "nuclei_WellA09_0006",
+                "nuclei_WellA09_0007",
+                "nuclei_WellA09_0008"
+              ],
               "80": [
                 "nuclei_WellG09_0000",
                 "nuclei_WellG09_0001",
@@ -45069,6 +45058,17 @@
                 "nuclei_WellH06_0006",
                 "nuclei_WellH06_0007",
                 "nuclei_WellH06_0008"
+              ],
+              "9": [
+                "nuclei_WellA10_0000",
+                "nuclei_WellA10_0001",
+                "nuclei_WellA10_0002",
+                "nuclei_WellA10_0003",
+                "nuclei_WellA10_0004",
+                "nuclei_WellA10_0005",
+                "nuclei_WellA10_0006",
+                "nuclei_WellA10_0007",
+                "nuclei_WellA10_0008"
               ],
               "90": [
                 "nuclei_WellH07_0000",
@@ -50274,94 +50274,6 @@
                 "serumIgG_WellA02_0007",
                 "serumIgG_WellA02_0008"
               ],
-              "2": [
-                "serumIgG_WellA03_0000",
-                "serumIgG_WellA03_0001",
-                "serumIgG_WellA03_0002",
-                "serumIgG_WellA03_0003",
-                "serumIgG_WellA03_0004",
-                "serumIgG_WellA03_0005",
-                "serumIgG_WellA03_0006",
-                "serumIgG_WellA03_0007",
-                "serumIgG_WellA03_0008"
-              ],
-              "3": [
-                "serumIgG_WellA04_0000",
-                "serumIgG_WellA04_0001",
-                "serumIgG_WellA04_0002",
-                "serumIgG_WellA04_0003",
-                "serumIgG_WellA04_0004",
-                "serumIgG_WellA04_0005",
-                "serumIgG_WellA04_0006",
-                "serumIgG_WellA04_0007",
-                "serumIgG_WellA04_0008"
-              ],
-              "4": [
-                "serumIgG_WellA05_0000",
-                "serumIgG_WellA05_0001",
-                "serumIgG_WellA05_0002",
-                "serumIgG_WellA05_0003",
-                "serumIgG_WellA05_0004",
-                "serumIgG_WellA05_0005",
-                "serumIgG_WellA05_0006",
-                "serumIgG_WellA05_0007",
-                "serumIgG_WellA05_0008"
-              ],
-              "5": [
-                "serumIgG_WellA06_0000",
-                "serumIgG_WellA06_0001",
-                "serumIgG_WellA06_0002",
-                "serumIgG_WellA06_0003",
-                "serumIgG_WellA06_0004",
-                "serumIgG_WellA06_0005",
-                "serumIgG_WellA06_0006",
-                "serumIgG_WellA06_0007",
-                "serumIgG_WellA06_0008"
-              ],
-              "6": [
-                "serumIgG_WellA07_0000",
-                "serumIgG_WellA07_0001",
-                "serumIgG_WellA07_0002",
-                "serumIgG_WellA07_0003",
-                "serumIgG_WellA07_0004",
-                "serumIgG_WellA07_0005",
-                "serumIgG_WellA07_0006",
-                "serumIgG_WellA07_0007",
-                "serumIgG_WellA07_0008"
-              ],
-              "7": [
-                "serumIgG_WellA08_0000",
-                "serumIgG_WellA08_0001",
-                "serumIgG_WellA08_0002",
-                "serumIgG_WellA08_0003",
-                "serumIgG_WellA08_0004",
-                "serumIgG_WellA08_0005",
-                "serumIgG_WellA08_0006",
-                "serumIgG_WellA08_0007",
-                "serumIgG_WellA08_0008"
-              ],
-              "8": [
-                "serumIgG_WellA09_0000",
-                "serumIgG_WellA09_0001",
-                "serumIgG_WellA09_0002",
-                "serumIgG_WellA09_0003",
-                "serumIgG_WellA09_0004",
-                "serumIgG_WellA09_0005",
-                "serumIgG_WellA09_0006",
-                "serumIgG_WellA09_0007",
-                "serumIgG_WellA09_0008"
-              ],
-              "9": [
-                "serumIgG_WellA10_0000",
-                "serumIgG_WellA10_0001",
-                "serumIgG_WellA10_0002",
-                "serumIgG_WellA10_0003",
-                "serumIgG_WellA10_0004",
-                "serumIgG_WellA10_0005",
-                "serumIgG_WellA10_0006",
-                "serumIgG_WellA10_0007",
-                "serumIgG_WellA10_0008"
-              ],
               "10": [
                 "serumIgG_WellA11_0000",
                 "serumIgG_WellA11_0001",
@@ -50471,6 +50383,17 @@
                 "serumIgG_WellB08_0006",
                 "serumIgG_WellB08_0007",
                 "serumIgG_WellB08_0008"
+              ],
+              "2": [
+                "serumIgG_WellA03_0000",
+                "serumIgG_WellA03_0001",
+                "serumIgG_WellA03_0002",
+                "serumIgG_WellA03_0003",
+                "serumIgG_WellA03_0004",
+                "serumIgG_WellA03_0005",
+                "serumIgG_WellA03_0006",
+                "serumIgG_WellA03_0007",
+                "serumIgG_WellA03_0008"
               ],
               "20": [
                 "serumIgG_WellB09_0000",
@@ -50582,6 +50505,17 @@
                 "serumIgG_WellC06_0007",
                 "serumIgG_WellC06_0008"
               ],
+              "3": [
+                "serumIgG_WellA04_0000",
+                "serumIgG_WellA04_0001",
+                "serumIgG_WellA04_0002",
+                "serumIgG_WellA04_0003",
+                "serumIgG_WellA04_0004",
+                "serumIgG_WellA04_0005",
+                "serumIgG_WellA04_0006",
+                "serumIgG_WellA04_0007",
+                "serumIgG_WellA04_0008"
+              ],
               "30": [
                 "serumIgG_WellC07_0000",
                 "serumIgG_WellC07_0001",
@@ -50691,6 +50625,17 @@
                 "serumIgG_WellD04_0006",
                 "serumIgG_WellD04_0007",
                 "serumIgG_WellD04_0008"
+              ],
+              "4": [
+                "serumIgG_WellA05_0000",
+                "serumIgG_WellA05_0001",
+                "serumIgG_WellA05_0002",
+                "serumIgG_WellA05_0003",
+                "serumIgG_WellA05_0004",
+                "serumIgG_WellA05_0005",
+                "serumIgG_WellA05_0006",
+                "serumIgG_WellA05_0007",
+                "serumIgG_WellA05_0008"
               ],
               "40": [
                 "serumIgG_WellD05_0000",
@@ -50802,6 +50747,17 @@
                 "serumIgG_WellE02_0007",
                 "serumIgG_WellE02_0008"
               ],
+              "5": [
+                "serumIgG_WellA06_0000",
+                "serumIgG_WellA06_0001",
+                "serumIgG_WellA06_0002",
+                "serumIgG_WellA06_0003",
+                "serumIgG_WellA06_0004",
+                "serumIgG_WellA06_0005",
+                "serumIgG_WellA06_0006",
+                "serumIgG_WellA06_0007",
+                "serumIgG_WellA06_0008"
+              ],
               "50": [
                 "serumIgG_WellE03_0000",
                 "serumIgG_WellE03_0001",
@@ -50911,6 +50867,17 @@
                 "serumIgG_WellE12_0006",
                 "serumIgG_WellE12_0007",
                 "serumIgG_WellE12_0008"
+              ],
+              "6": [
+                "serumIgG_WellA07_0000",
+                "serumIgG_WellA07_0001",
+                "serumIgG_WellA07_0002",
+                "serumIgG_WellA07_0003",
+                "serumIgG_WellA07_0004",
+                "serumIgG_WellA07_0005",
+                "serumIgG_WellA07_0006",
+                "serumIgG_WellA07_0007",
+                "serumIgG_WellA07_0008"
               ],
               "60": [
                 "serumIgG_WellF01_0000",
@@ -51022,6 +50989,17 @@
                 "serumIgG_WellF10_0007",
                 "serumIgG_WellF10_0008"
               ],
+              "7": [
+                "serumIgG_WellA08_0000",
+                "serumIgG_WellA08_0001",
+                "serumIgG_WellA08_0002",
+                "serumIgG_WellA08_0003",
+                "serumIgG_WellA08_0004",
+                "serumIgG_WellA08_0005",
+                "serumIgG_WellA08_0006",
+                "serumIgG_WellA08_0007",
+                "serumIgG_WellA08_0008"
+              ],
               "70": [
                 "serumIgG_WellF11_0000",
                 "serumIgG_WellF11_0001",
@@ -51132,6 +51110,17 @@
                 "serumIgG_WellG08_0007",
                 "serumIgG_WellG08_0008"
               ],
+              "8": [
+                "serumIgG_WellA09_0000",
+                "serumIgG_WellA09_0001",
+                "serumIgG_WellA09_0002",
+                "serumIgG_WellA09_0003",
+                "serumIgG_WellA09_0004",
+                "serumIgG_WellA09_0005",
+                "serumIgG_WellA09_0006",
+                "serumIgG_WellA09_0007",
+                "serumIgG_WellA09_0008"
+              ],
               "80": [
                 "serumIgG_WellG09_0000",
                 "serumIgG_WellG09_0001",
@@ -51241,6 +51230,17 @@
                 "serumIgG_WellH06_0006",
                 "serumIgG_WellH06_0007",
                 "serumIgG_WellH06_0008"
+              ],
+              "9": [
+                "serumIgG_WellA10_0000",
+                "serumIgG_WellA10_0001",
+                "serumIgG_WellA10_0002",
+                "serumIgG_WellA10_0003",
+                "serumIgG_WellA10_0004",
+                "serumIgG_WellA10_0005",
+                "serumIgG_WellA10_0006",
+                "serumIgG_WellA10_0007",
+                "serumIgG_WellA10_0008"
               ],
               "90": [
                 "serumIgG_WellH07_0000",
@@ -54597,38 +54597,6 @@
                 0,
                 1
               ],
-              "2": [
-                0,
-                2
-              ],
-              "3": [
-                0,
-                3
-              ],
-              "4": [
-                0,
-                4
-              ],
-              "5": [
-                0,
-                5
-              ],
-              "6": [
-                0,
-                6
-              ],
-              "7": [
-                0,
-                7
-              ],
-              "8": [
-                0,
-                8
-              ],
-              "9": [
-                0,
-                9
-              ],
               "10": [
                 0,
                 10
@@ -54668,6 +54636,10 @@
               "19": [
                 1,
                 7
+              ],
+              "2": [
+                0,
+                2
               ],
               "20": [
                 1,
@@ -54709,6 +54681,10 @@
                 2,
                 5
               ],
+              "3": [
+                0,
+                3
+              ],
               "30": [
                 2,
                 6
@@ -54748,6 +54724,10 @@
               "39": [
                 3,
                 3
+              ],
+              "4": [
+                0,
+                4
               ],
               "40": [
                 3,
@@ -54789,6 +54769,10 @@
                 4,
                 1
               ],
+              "5": [
+                0,
+                5
+              ],
               "50": [
                 4,
                 2
@@ -54828,6 +54812,10 @@
               "59": [
                 4,
                 11
+              ],
+              "6": [
+                0,
+                6
               ],
               "60": [
                 5,
@@ -54869,6 +54857,10 @@
                 5,
                 9
               ],
+              "7": [
+                0,
+                7
+              ],
               "70": [
                 5,
                 10
@@ -54909,6 +54901,10 @@
                 6,
                 7
               ],
+              "8": [
+                0,
+                8
+              ],
               "80": [
                 6,
                 8
@@ -54948,6 +54944,10 @@
               "89": [
                 7,
                 5
+              ],
+              "9": [
+                0,
+                9
               ],
               "90": [
                 7,
@@ -54996,94 +54996,6 @@
                 "serumIgG_WellA02_0006",
                 "serumIgG_WellA02_0007",
                 "serumIgG_WellA02_0008"
-              ],
-              "2": [
-                "serumIgG_WellA03_0000",
-                "serumIgG_WellA03_0001",
-                "serumIgG_WellA03_0002",
-                "serumIgG_WellA03_0003",
-                "serumIgG_WellA03_0004",
-                "serumIgG_WellA03_0005",
-                "serumIgG_WellA03_0006",
-                "serumIgG_WellA03_0007",
-                "serumIgG_WellA03_0008"
-              ],
-              "3": [
-                "serumIgG_WellA04_0000",
-                "serumIgG_WellA04_0001",
-                "serumIgG_WellA04_0002",
-                "serumIgG_WellA04_0003",
-                "serumIgG_WellA04_0004",
-                "serumIgG_WellA04_0005",
-                "serumIgG_WellA04_0006",
-                "serumIgG_WellA04_0007",
-                "serumIgG_WellA04_0008"
-              ],
-              "4": [
-                "serumIgG_WellA05_0000",
-                "serumIgG_WellA05_0001",
-                "serumIgG_WellA05_0002",
-                "serumIgG_WellA05_0003",
-                "serumIgG_WellA05_0004",
-                "serumIgG_WellA05_0005",
-                "serumIgG_WellA05_0006",
-                "serumIgG_WellA05_0007",
-                "serumIgG_WellA05_0008"
-              ],
-              "5": [
-                "serumIgG_WellA06_0000",
-                "serumIgG_WellA06_0001",
-                "serumIgG_WellA06_0002",
-                "serumIgG_WellA06_0003",
-                "serumIgG_WellA06_0004",
-                "serumIgG_WellA06_0005",
-                "serumIgG_WellA06_0006",
-                "serumIgG_WellA06_0007",
-                "serumIgG_WellA06_0008"
-              ],
-              "6": [
-                "serumIgG_WellA07_0000",
-                "serumIgG_WellA07_0001",
-                "serumIgG_WellA07_0002",
-                "serumIgG_WellA07_0003",
-                "serumIgG_WellA07_0004",
-                "serumIgG_WellA07_0005",
-                "serumIgG_WellA07_0006",
-                "serumIgG_WellA07_0007",
-                "serumIgG_WellA07_0008"
-              ],
-              "7": [
-                "serumIgG_WellA08_0000",
-                "serumIgG_WellA08_0001",
-                "serumIgG_WellA08_0002",
-                "serumIgG_WellA08_0003",
-                "serumIgG_WellA08_0004",
-                "serumIgG_WellA08_0005",
-                "serumIgG_WellA08_0006",
-                "serumIgG_WellA08_0007",
-                "serumIgG_WellA08_0008"
-              ],
-              "8": [
-                "serumIgG_WellA09_0000",
-                "serumIgG_WellA09_0001",
-                "serumIgG_WellA09_0002",
-                "serumIgG_WellA09_0003",
-                "serumIgG_WellA09_0004",
-                "serumIgG_WellA09_0005",
-                "serumIgG_WellA09_0006",
-                "serumIgG_WellA09_0007",
-                "serumIgG_WellA09_0008"
-              ],
-              "9": [
-                "serumIgG_WellA10_0000",
-                "serumIgG_WellA10_0001",
-                "serumIgG_WellA10_0002",
-                "serumIgG_WellA10_0003",
-                "serumIgG_WellA10_0004",
-                "serumIgG_WellA10_0005",
-                "serumIgG_WellA10_0006",
-                "serumIgG_WellA10_0007",
-                "serumIgG_WellA10_0008"
               ],
               "10": [
                 "serumIgG_WellA11_0000",
@@ -55195,6 +55107,17 @@
                 "serumIgG_WellB08_0007",
                 "serumIgG_WellB08_0008"
               ],
+              "2": [
+                "serumIgG_WellA03_0000",
+                "serumIgG_WellA03_0001",
+                "serumIgG_WellA03_0002",
+                "serumIgG_WellA03_0003",
+                "serumIgG_WellA03_0004",
+                "serumIgG_WellA03_0005",
+                "serumIgG_WellA03_0006",
+                "serumIgG_WellA03_0007",
+                "serumIgG_WellA03_0008"
+              ],
               "20": [
                 "serumIgG_WellB09_0000",
                 "serumIgG_WellB09_0001",
@@ -55304,6 +55227,17 @@
                 "serumIgG_WellC06_0006",
                 "serumIgG_WellC06_0007",
                 "serumIgG_WellC06_0008"
+              ],
+              "3": [
+                "serumIgG_WellA04_0000",
+                "serumIgG_WellA04_0001",
+                "serumIgG_WellA04_0002",
+                "serumIgG_WellA04_0003",
+                "serumIgG_WellA04_0004",
+                "serumIgG_WellA04_0005",
+                "serumIgG_WellA04_0006",
+                "serumIgG_WellA04_0007",
+                "serumIgG_WellA04_0008"
               ],
               "30": [
                 "serumIgG_WellC07_0000",
@@ -55415,6 +55349,17 @@
                 "serumIgG_WellD04_0007",
                 "serumIgG_WellD04_0008"
               ],
+              "4": [
+                "serumIgG_WellA05_0000",
+                "serumIgG_WellA05_0001",
+                "serumIgG_WellA05_0002",
+                "serumIgG_WellA05_0003",
+                "serumIgG_WellA05_0004",
+                "serumIgG_WellA05_0005",
+                "serumIgG_WellA05_0006",
+                "serumIgG_WellA05_0007",
+                "serumIgG_WellA05_0008"
+              ],
               "40": [
                 "serumIgG_WellD05_0000",
                 "serumIgG_WellD05_0001",
@@ -55524,6 +55469,17 @@
                 "serumIgG_WellE02_0006",
                 "serumIgG_WellE02_0007",
                 "serumIgG_WellE02_0008"
+              ],
+              "5": [
+                "serumIgG_WellA06_0000",
+                "serumIgG_WellA06_0001",
+                "serumIgG_WellA06_0002",
+                "serumIgG_WellA06_0003",
+                "serumIgG_WellA06_0004",
+                "serumIgG_WellA06_0005",
+                "serumIgG_WellA06_0006",
+                "serumIgG_WellA06_0007",
+                "serumIgG_WellA06_0008"
               ],
               "50": [
                 "serumIgG_WellE03_0000",
@@ -55635,6 +55591,17 @@
                 "serumIgG_WellE12_0007",
                 "serumIgG_WellE12_0008"
               ],
+              "6": [
+                "serumIgG_WellA07_0000",
+                "serumIgG_WellA07_0001",
+                "serumIgG_WellA07_0002",
+                "serumIgG_WellA07_0003",
+                "serumIgG_WellA07_0004",
+                "serumIgG_WellA07_0005",
+                "serumIgG_WellA07_0006",
+                "serumIgG_WellA07_0007",
+                "serumIgG_WellA07_0008"
+              ],
               "60": [
                 "serumIgG_WellF01_0000",
                 "serumIgG_WellF01_0001",
@@ -55744,6 +55711,17 @@
                 "serumIgG_WellF10_0006",
                 "serumIgG_WellF10_0007",
                 "serumIgG_WellF10_0008"
+              ],
+              "7": [
+                "serumIgG_WellA08_0000",
+                "serumIgG_WellA08_0001",
+                "serumIgG_WellA08_0002",
+                "serumIgG_WellA08_0003",
+                "serumIgG_WellA08_0004",
+                "serumIgG_WellA08_0005",
+                "serumIgG_WellA08_0006",
+                "serumIgG_WellA08_0007",
+                "serumIgG_WellA08_0008"
               ],
               "70": [
                 "serumIgG_WellF11_0000",
@@ -55855,6 +55833,17 @@
                 "serumIgG_WellG08_0007",
                 "serumIgG_WellG08_0008"
               ],
+              "8": [
+                "serumIgG_WellA09_0000",
+                "serumIgG_WellA09_0001",
+                "serumIgG_WellA09_0002",
+                "serumIgG_WellA09_0003",
+                "serumIgG_WellA09_0004",
+                "serumIgG_WellA09_0005",
+                "serumIgG_WellA09_0006",
+                "serumIgG_WellA09_0007",
+                "serumIgG_WellA09_0008"
+              ],
               "80": [
                 "serumIgG_WellG09_0000",
                 "serumIgG_WellG09_0001",
@@ -55965,6 +55954,17 @@
                 "serumIgG_WellH06_0007",
                 "serumIgG_WellH06_0008"
               ],
+              "9": [
+                "serumIgG_WellA10_0000",
+                "serumIgG_WellA10_0001",
+                "serumIgG_WellA10_0002",
+                "serumIgG_WellA10_0003",
+                "serumIgG_WellA10_0004",
+                "serumIgG_WellA10_0005",
+                "serumIgG_WellA10_0006",
+                "serumIgG_WellA10_0007",
+                "serumIgG_WellA10_0008"
+              ],
               "90": [
                 "serumIgG_WellH07_0000",
                 "serumIgG_WellH07_0001",
@@ -56030,6 +56030,758 @@
                 "serumIgG_WellH12_0006",
                 "serumIgG_WellH12_0007",
                 "serumIgG_WellH12_0008"
+              ]
+            }
+          }
+        }
+      ],
+      "uiSelectionGroup": "images"
+    },
+    "test-full": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              574.5811364746094,
+              2337.56693359375
+            ],
+            "name": "nuclei",
+            "opacity": 1.0,
+            "sources": [
+              "nuclei_WellE06_0000",
+              "nuclei_WellE06_0001",
+              "nuclei_WellE06_0002",
+              "nuclei_WellE06_0003",
+              "nuclei_WellE06_0004",
+              "nuclei_WellE06_0005",
+              "nuclei_WellE06_0006",
+              "nuclei_WellE06_0007",
+              "nuclei_WellE06_0008",
+              "nuclei_WellE07_0000",
+              "nuclei_WellE07_0001",
+              "nuclei_WellE07_0002",
+              "nuclei_WellE07_0003",
+              "nuclei_WellE07_0004",
+              "nuclei_WellE07_0005",
+              "nuclei_WellE07_0006",
+              "nuclei_WellE07_0007",
+              "nuclei_WellE07_0008"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              3572.6057641601565,
+              5124.770288085938
+            ],
+            "name": "serumIgG",
+            "opacity": 1.0,
+            "sources": [
+              "serumIgG_WellE06_0000",
+              "serumIgG_WellE06_0001",
+              "serumIgG_WellE06_0002",
+              "serumIgG_WellE06_0003",
+              "serumIgG_WellE06_0004",
+              "serumIgG_WellE06_0005",
+              "serumIgG_WellE06_0006",
+              "serumIgG_WellE06_0007",
+              "serumIgG_WellE06_0008",
+              "serumIgG_WellE07_0000",
+              "serumIgG_WellE07_0001",
+              "serumIgG_WellE07_0002",
+              "serumIgG_WellE07_0003",
+              "serumIgG_WellE07_0004",
+              "serumIgG_WellE07_0005",
+              "serumIgG_WellE07_0006",
+              "serumIgG_WellE07_0007",
+              "serumIgG_WellE07_0008"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              1789.888935546875,
+              3836.542670898438
+            ],
+            "name": "marker_tophat",
+            "opacity": 1.0,
+            "sources": [
+              "marker_tophat_WellE06_0000",
+              "marker_tophat_WellE06_0001",
+              "marker_tophat_WellE06_0002",
+              "marker_tophat_WellE06_0003",
+              "marker_tophat_WellE06_0004",
+              "marker_tophat_WellE06_0005",
+              "marker_tophat_WellE06_0006",
+              "marker_tophat_WellE06_0007",
+              "marker_tophat_WellE06_0008",
+              "marker_tophat_WellE07_0000",
+              "marker_tophat_WellE07_0001",
+              "marker_tophat_WellE07_0002",
+              "marker_tophat_WellE07_0003",
+              "marker_tophat_WellE07_0004",
+              "marker_tophat_WellE07_0005",
+              "marker_tophat_WellE07_0006",
+              "marker_tophat_WellE07_0007",
+              "marker_tophat_WellE07_0008"
+            ]
+          }
+        },
+        {
+          "sourceAnnotationDisplay": {
+            "lut": "glasbey",
+            "name": "E06",
+            "opacity": 0.5,
+            "sources": {
+              "0": [
+                "nuclei_WellE06_0000",
+                "serumIgG_WellE06_0000",
+                "marker_tophat_WellE06_0000"
+              ],
+              "1": [
+                "nuclei_WellE06_0001",
+                "serumIgG_WellE06_0001",
+                "marker_tophat_WellE06_0001"
+              ],
+              "2": [
+                "nuclei_WellE06_0002",
+                "serumIgG_WellE06_0002",
+                "marker_tophat_WellE06_0002"
+              ],
+              "3": [
+                "nuclei_WellE06_0003",
+                "serumIgG_WellE06_0003",
+                "marker_tophat_WellE06_0003"
+              ],
+              "4": [
+                "nuclei_WellE06_0004",
+                "serumIgG_WellE06_0004",
+                "marker_tophat_WellE06_0004"
+              ],
+              "5": [
+                "nuclei_WellE06_0005",
+                "serumIgG_WellE06_0005",
+                "marker_tophat_WellE06_0005"
+              ],
+              "6": [
+                "nuclei_WellE06_0006",
+                "serumIgG_WellE06_0006",
+                "marker_tophat_WellE06_0006"
+              ],
+              "7": [
+                "nuclei_WellE06_0007",
+                "serumIgG_WellE06_0007",
+                "marker_tophat_WellE06_0007"
+              ],
+              "8": [
+                "nuclei_WellE06_0008",
+                "serumIgG_WellE06_0008",
+                "marker_tophat_WellE06_0008"
+              ]
+            },
+            "tableData": {
+              "tsv": {
+                "relativePath": "tables/wells"
+              }
+            },
+            "tables": [
+              "default.tsv"
+            ]
+          }
+        },
+        {
+          "sourceAnnotationDisplay": {
+            "lut": "glasbey",
+            "name": "E07",
+            "opacity": 0.5,
+            "sources": {
+              "0": [
+                "nuclei_WellE07_0000",
+                "serumIgG_WellE07_0000",
+                "marker_tophat_WellE07_0000"
+              ],
+              "1": [
+                "nuclei_WellE07_0001",
+                "serumIgG_WellE07_0001",
+                "marker_tophat_WellE07_0001"
+              ],
+              "2": [
+                "nuclei_WellE07_0002",
+                "serumIgG_WellE07_0002",
+                "marker_tophat_WellE07_0002"
+              ],
+              "3": [
+                "nuclei_WellE07_0003",
+                "serumIgG_WellE07_0003",
+                "marker_tophat_WellE07_0003"
+              ],
+              "4": [
+                "nuclei_WellE07_0004",
+                "serumIgG_WellE07_0004",
+                "marker_tophat_WellE07_0004"
+              ],
+              "5": [
+                "nuclei_WellE07_0005",
+                "serumIgG_WellE07_0005",
+                "marker_tophat_WellE07_0005"
+              ],
+              "6": [
+                "nuclei_WellE07_0006",
+                "serumIgG_WellE07_0006",
+                "marker_tophat_WellE07_0006"
+              ],
+              "7": [
+                "nuclei_WellE07_0007",
+                "serumIgG_WellE07_0007",
+                "marker_tophat_WellE07_0007"
+              ],
+              "8": [
+                "nuclei_WellE07_0008",
+                "serumIgG_WellE07_0008",
+                "marker_tophat_WellE07_0008"
+              ]
+            },
+            "tableData": {
+              "tsv": {
+                "relativePath": "tables/wells"
+              }
+            },
+            "tables": [
+              "default.tsv"
+            ]
+          }
+        },
+        {
+          "sourceAnnotationDisplay": {
+            "lut": "glasbey",
+            "name": "plate-test-full",
+            "opacity": 0.5,
+            "sources": {
+              "0": [
+                "nuclei_WellE06_0000",
+                "serumIgG_WellE06_0000",
+                "marker_tophat_WellE06_0000",
+                "nuclei_WellE06_0001",
+                "serumIgG_WellE06_0001",
+                "marker_tophat_WellE06_0001",
+                "nuclei_WellE06_0002",
+                "serumIgG_WellE06_0002",
+                "marker_tophat_WellE06_0002",
+                "nuclei_WellE06_0003",
+                "serumIgG_WellE06_0003",
+                "marker_tophat_WellE06_0003",
+                "nuclei_WellE06_0004",
+                "serumIgG_WellE06_0004",
+                "marker_tophat_WellE06_0004",
+                "nuclei_WellE06_0005",
+                "serumIgG_WellE06_0005",
+                "marker_tophat_WellE06_0005",
+                "nuclei_WellE06_0006",
+                "serumIgG_WellE06_0006",
+                "marker_tophat_WellE06_0006",
+                "nuclei_WellE06_0007",
+                "serumIgG_WellE06_0007",
+                "marker_tophat_WellE06_0007",
+                "nuclei_WellE06_0008",
+                "serumIgG_WellE06_0008",
+                "marker_tophat_WellE06_0008"
+              ],
+              "1": [
+                "nuclei_WellE07_0000",
+                "serumIgG_WellE07_0000",
+                "marker_tophat_WellE07_0000",
+                "nuclei_WellE07_0001",
+                "serumIgG_WellE07_0001",
+                "marker_tophat_WellE07_0001",
+                "nuclei_WellE07_0002",
+                "serumIgG_WellE07_0002",
+                "marker_tophat_WellE07_0002",
+                "nuclei_WellE07_0003",
+                "serumIgG_WellE07_0003",
+                "marker_tophat_WellE07_0003",
+                "nuclei_WellE07_0004",
+                "serumIgG_WellE07_0004",
+                "marker_tophat_WellE07_0004",
+                "nuclei_WellE07_0005",
+                "serumIgG_WellE07_0005",
+                "marker_tophat_WellE07_0005",
+                "nuclei_WellE07_0006",
+                "serumIgG_WellE07_0006",
+                "marker_tophat_WellE07_0006",
+                "nuclei_WellE07_0007",
+                "serumIgG_WellE07_0007",
+                "marker_tophat_WellE07_0007",
+                "nuclei_WellE07_0008",
+                "serumIgG_WellE07_0008",
+                "marker_tophat_WellE07_0008"
+              ]
+            },
+            "tableData": {
+              "tsv": {
+                "relativePath": "tables/plate"
+              }
+            },
+            "tables": [
+              "default.tsv"
+            ]
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "grid": {
+            "name": "E06",
+            "sources": {
+              "0": [
+                "nuclei_WellE06_0000",
+                "serumIgG_WellE06_0000",
+                "marker_tophat_WellE06_0000"
+              ],
+              "1": [
+                "nuclei_WellE06_0001",
+                "serumIgG_WellE06_0001",
+                "marker_tophat_WellE06_0001"
+              ],
+              "2": [
+                "nuclei_WellE06_0002",
+                "serumIgG_WellE06_0002",
+                "marker_tophat_WellE06_0002"
+              ],
+              "3": [
+                "nuclei_WellE06_0003",
+                "serumIgG_WellE06_0003",
+                "marker_tophat_WellE06_0003"
+              ],
+              "4": [
+                "nuclei_WellE06_0004",
+                "serumIgG_WellE06_0004",
+                "marker_tophat_WellE06_0004"
+              ],
+              "5": [
+                "nuclei_WellE06_0005",
+                "serumIgG_WellE06_0005",
+                "marker_tophat_WellE06_0005"
+              ],
+              "6": [
+                "nuclei_WellE06_0006",
+                "serumIgG_WellE06_0006",
+                "marker_tophat_WellE06_0006"
+              ],
+              "7": [
+                "nuclei_WellE06_0007",
+                "serumIgG_WellE06_0007",
+                "marker_tophat_WellE06_0007"
+              ],
+              "8": [
+                "nuclei_WellE06_0008",
+                "serumIgG_WellE06_0008",
+                "marker_tophat_WellE06_0008"
+              ]
+            }
+          }
+        },
+        {
+          "grid": {
+            "name": "E07",
+            "sources": {
+              "0": [
+                "nuclei_WellE07_0000",
+                "serumIgG_WellE07_0000",
+                "marker_tophat_WellE07_0000"
+              ],
+              "1": [
+                "nuclei_WellE07_0001",
+                "serumIgG_WellE07_0001",
+                "marker_tophat_WellE07_0001"
+              ],
+              "2": [
+                "nuclei_WellE07_0002",
+                "serumIgG_WellE07_0002",
+                "marker_tophat_WellE07_0002"
+              ],
+              "3": [
+                "nuclei_WellE07_0003",
+                "serumIgG_WellE07_0003",
+                "marker_tophat_WellE07_0003"
+              ],
+              "4": [
+                "nuclei_WellE07_0004",
+                "serumIgG_WellE07_0004",
+                "marker_tophat_WellE07_0004"
+              ],
+              "5": [
+                "nuclei_WellE07_0005",
+                "serumIgG_WellE07_0005",
+                "marker_tophat_WellE07_0005"
+              ],
+              "6": [
+                "nuclei_WellE07_0006",
+                "serumIgG_WellE07_0006",
+                "marker_tophat_WellE07_0006"
+              ],
+              "7": [
+                "nuclei_WellE07_0007",
+                "serumIgG_WellE07_0007",
+                "marker_tophat_WellE07_0007"
+              ],
+              "8": [
+                "nuclei_WellE07_0008",
+                "serumIgG_WellE07_0008",
+                "marker_tophat_WellE07_0008"
+              ]
+            }
+          }
+        },
+        {
+          "grid": {
+            "name": "plate-test-full",
+            "positions": {
+              "0": [
+                4,
+                5
+              ],
+              "1": [
+                4,
+                6
+              ]
+            },
+            "sources": {
+              "0": [
+                "nuclei_WellE06_0000",
+                "serumIgG_WellE06_0000",
+                "marker_tophat_WellE06_0000",
+                "nuclei_WellE06_0001",
+                "serumIgG_WellE06_0001",
+                "marker_tophat_WellE06_0001",
+                "nuclei_WellE06_0002",
+                "serumIgG_WellE06_0002",
+                "marker_tophat_WellE06_0002",
+                "nuclei_WellE06_0003",
+                "serumIgG_WellE06_0003",
+                "marker_tophat_WellE06_0003",
+                "nuclei_WellE06_0004",
+                "serumIgG_WellE06_0004",
+                "marker_tophat_WellE06_0004",
+                "nuclei_WellE06_0005",
+                "serumIgG_WellE06_0005",
+                "marker_tophat_WellE06_0005",
+                "nuclei_WellE06_0006",
+                "serumIgG_WellE06_0006",
+                "marker_tophat_WellE06_0006",
+                "nuclei_WellE06_0007",
+                "serumIgG_WellE06_0007",
+                "marker_tophat_WellE06_0007",
+                "nuclei_WellE06_0008",
+                "serumIgG_WellE06_0008",
+                "marker_tophat_WellE06_0008"
+              ],
+              "1": [
+                "nuclei_WellE07_0000",
+                "serumIgG_WellE07_0000",
+                "marker_tophat_WellE07_0000",
+                "nuclei_WellE07_0001",
+                "serumIgG_WellE07_0001",
+                "marker_tophat_WellE07_0001",
+                "nuclei_WellE07_0002",
+                "serumIgG_WellE07_0002",
+                "marker_tophat_WellE07_0002",
+                "nuclei_WellE07_0003",
+                "serumIgG_WellE07_0003",
+                "marker_tophat_WellE07_0003",
+                "nuclei_WellE07_0004",
+                "serumIgG_WellE07_0004",
+                "marker_tophat_WellE07_0004",
+                "nuclei_WellE07_0005",
+                "serumIgG_WellE07_0005",
+                "marker_tophat_WellE07_0005",
+                "nuclei_WellE07_0006",
+                "serumIgG_WellE07_0006",
+                "marker_tophat_WellE07_0006",
+                "nuclei_WellE07_0007",
+                "serumIgG_WellE07_0007",
+                "marker_tophat_WellE07_0007",
+                "nuclei_WellE07_0008",
+                "serumIgG_WellE07_0008",
+                "marker_tophat_WellE07_0008"
+              ]
+            }
+          }
+        }
+      ],
+      "uiSelectionGroup": "images"
+    },
+    "test-nuclei": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              574.5811364746094,
+              2337.56693359375
+            ],
+            "name": "nuclei",
+            "opacity": 1.0,
+            "sources": [
+              "nuclei_WellE06_0000",
+              "nuclei_WellE06_0001",
+              "nuclei_WellE06_0002",
+              "nuclei_WellE06_0003",
+              "nuclei_WellE06_0004",
+              "nuclei_WellE06_0005",
+              "nuclei_WellE06_0006",
+              "nuclei_WellE06_0007",
+              "nuclei_WellE06_0008",
+              "nuclei_WellE07_0000",
+              "nuclei_WellE07_0001",
+              "nuclei_WellE07_0002",
+              "nuclei_WellE07_0003",
+              "nuclei_WellE07_0004",
+              "nuclei_WellE07_0005",
+              "nuclei_WellE07_0006",
+              "nuclei_WellE07_0007",
+              "nuclei_WellE07_0008"
+            ]
+          }
+        },
+        {
+          "sourceAnnotationDisplay": {
+            "lut": "glasbey",
+            "name": "E06",
+            "opacity": 0.5,
+            "sources": {
+              "0": [
+                "nuclei_WellE06_0000"
+              ],
+              "1": [
+                "nuclei_WellE06_0001"
+              ],
+              "2": [
+                "nuclei_WellE06_0002"
+              ],
+              "3": [
+                "nuclei_WellE06_0003"
+              ],
+              "4": [
+                "nuclei_WellE06_0004"
+              ],
+              "5": [
+                "nuclei_WellE06_0005"
+              ],
+              "6": [
+                "nuclei_WellE06_0006"
+              ],
+              "7": [
+                "nuclei_WellE06_0007"
+              ],
+              "8": [
+                "nuclei_WellE06_0008"
+              ]
+            },
+            "tableData": {
+              "tsv": {
+                "relativePath": "tables/wells"
+              }
+            },
+            "tables": [
+              "default.tsv"
+            ]
+          }
+        },
+        {
+          "sourceAnnotationDisplay": {
+            "lut": "glasbey",
+            "name": "E07",
+            "opacity": 0.5,
+            "sources": {
+              "0": [
+                "nuclei_WellE07_0000"
+              ],
+              "1": [
+                "nuclei_WellE07_0001"
+              ],
+              "2": [
+                "nuclei_WellE07_0002"
+              ],
+              "3": [
+                "nuclei_WellE07_0003"
+              ],
+              "4": [
+                "nuclei_WellE07_0004"
+              ],
+              "5": [
+                "nuclei_WellE07_0005"
+              ],
+              "6": [
+                "nuclei_WellE07_0006"
+              ],
+              "7": [
+                "nuclei_WellE07_0007"
+              ],
+              "8": [
+                "nuclei_WellE07_0008"
+              ]
+            },
+            "tableData": {
+              "tsv": {
+                "relativePath": "tables/wells"
+              }
+            },
+            "tables": [
+              "default.tsv"
+            ]
+          }
+        },
+        {
+          "sourceAnnotationDisplay": {
+            "lut": "glasbey",
+            "name": "plate-test-nuclei",
+            "opacity": 0.5,
+            "sources": {
+              "0": [
+                "nuclei_WellE06_0000",
+                "nuclei_WellE06_0001",
+                "nuclei_WellE06_0002",
+                "nuclei_WellE06_0003",
+                "nuclei_WellE06_0004",
+                "nuclei_WellE06_0005",
+                "nuclei_WellE06_0006",
+                "nuclei_WellE06_0007",
+                "nuclei_WellE06_0008"
+              ],
+              "1": [
+                "nuclei_WellE07_0000",
+                "nuclei_WellE07_0001",
+                "nuclei_WellE07_0002",
+                "nuclei_WellE07_0003",
+                "nuclei_WellE07_0004",
+                "nuclei_WellE07_0005",
+                "nuclei_WellE07_0006",
+                "nuclei_WellE07_0007",
+                "nuclei_WellE07_0008"
+              ]
+            },
+            "tableData": {
+              "tsv": {
+                "relativePath": "tables/plate"
+              }
+            },
+            "tables": [
+              "default.tsv"
+            ]
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "grid": {
+            "name": "E06",
+            "sources": {
+              "0": [
+                "nuclei_WellE06_0000"
+              ],
+              "1": [
+                "nuclei_WellE06_0001"
+              ],
+              "2": [
+                "nuclei_WellE06_0002"
+              ],
+              "3": [
+                "nuclei_WellE06_0003"
+              ],
+              "4": [
+                "nuclei_WellE06_0004"
+              ],
+              "5": [
+                "nuclei_WellE06_0005"
+              ],
+              "6": [
+                "nuclei_WellE06_0006"
+              ],
+              "7": [
+                "nuclei_WellE06_0007"
+              ],
+              "8": [
+                "nuclei_WellE06_0008"
+              ]
+            }
+          }
+        },
+        {
+          "grid": {
+            "name": "E07",
+            "sources": {
+              "0": [
+                "nuclei_WellE07_0000"
+              ],
+              "1": [
+                "nuclei_WellE07_0001"
+              ],
+              "2": [
+                "nuclei_WellE07_0002"
+              ],
+              "3": [
+                "nuclei_WellE07_0003"
+              ],
+              "4": [
+                "nuclei_WellE07_0004"
+              ],
+              "5": [
+                "nuclei_WellE07_0005"
+              ],
+              "6": [
+                "nuclei_WellE07_0006"
+              ],
+              "7": [
+                "nuclei_WellE07_0007"
+              ],
+              "8": [
+                "nuclei_WellE07_0008"
+              ]
+            }
+          }
+        },
+        {
+          "grid": {
+            "name": "plate-test-nuclei",
+            "positions": {
+              "0": [
+                4,
+                5
+              ],
+              "1": [
+                4,
+                6
+              ]
+            },
+            "sources": {
+              "0": [
+                "nuclei_WellE06_0000",
+                "nuclei_WellE06_0001",
+                "nuclei_WellE06_0002",
+                "nuclei_WellE06_0003",
+                "nuclei_WellE06_0004",
+                "nuclei_WellE06_0005",
+                "nuclei_WellE06_0006",
+                "nuclei_WellE06_0007",
+                "nuclei_WellE06_0008"
+              ],
+              "1": [
+                "nuclei_WellE07_0000",
+                "nuclei_WellE07_0001",
+                "nuclei_WellE07_0002",
+                "nuclei_WellE07_0003",
+                "nuclei_WellE07_0004",
+                "nuclei_WellE07_0005",
+                "nuclei_WellE07_0006",
+                "nuclei_WellE07_0007",
+                "nuclei_WellE07_0008"
               ]
             }
           }
