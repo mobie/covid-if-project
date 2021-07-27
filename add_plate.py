@@ -118,12 +118,12 @@ def format_tab(data):
     return np.array(formatted)
 
 
-def create_image_table(ds_folder, well, table_file):
-    table_path = os.path.join(ds_folder, 'tables', well)
+def create_image_table(ds_folder, table_file):
+    table_path = os.path.join(ds_folder, 'tables', 'wells')
     os.makedirs(table_path, exist_ok=True)
     table_path = os.path.join(table_path, 'default.tsv')
 
-    rel_table_path = f'tables/{well}'
+    rel_table_path = 'tables/wells'
     if os.path.exists(table_path):
         return rel_table_path
 
@@ -145,15 +145,14 @@ def create_image_table(ds_folder, well, table_file):
     site_names = [name.decode('utf-8') for name in data[:, 1]]
 
     col_ids = np.array([cols.index(col_name) for col_name in col_names_in])
-    row_ids = np.array([i for i, site_name in enumerate(site_names) if site_name.startswith(well)])
-    tab = data[row_ids]
-    tab = tab[:, col_ids]
-    assert tab.shape == (len(row_ids), len(col_ids))
+    tab = data[:, col_ids]
+    assert tab.shape == (len(data), len(col_ids))
 
+    wells = np.array([site_name.split('-')[0] for site_name in site_names])
     col_names_out = ['grid_id', 'well'] + col_names_out
     tab = np.concatenate([
         np.arange(tab.shape[0])[:, None],
-        np.array([well] * len(tab))[:, None],
+        wells[:, None],
         format_tab(tab)
     ], axis=1)
     tab = pd.DataFrame(tab, columns=col_names_out)
@@ -261,6 +260,7 @@ def add_plate_view(ds_meta, table_file,
 
         source_displays.append(source_display)
 
+    table_path = create_image_table(ds_folder, table_file)
     # well grid transforms
     source_transforms = []
     sources_per_well = {}
@@ -272,7 +272,6 @@ def add_plate_view(ds_meta, table_file,
         well_sources = {
             ii: [sources[sid] for sources in this_sources.values()] for ii, sid in enumerate(source_ids)
         }
-        table_path = create_image_table(ds_folder, well, table_file)
         well_trafo = {
             "grid": {
                 "name": well,
@@ -369,7 +368,7 @@ def create_test_views(plate_name, table_file):
     well_names = ["E06", "E07"]
     tmp_folder = f'./tmp_{plate_name}'
     add_plate_view(ds_meta, None, ['nuclei'], ['image'], ['blue'],
-                   menu_name="images", view_name="test", exclusive=False,
+                   menu_name="images", view_name="test", exclusive=True,
                    ds_folder=ds_folder, tmp_folder=tmp_folder, well_names=well_names)
 
     mobie.metadata.write_dataset_metadata(ds_folder, ds_meta)
@@ -389,7 +388,7 @@ def add_plate(plate_folder):
     table_file = os.path.join(plate_folder, f'{plate_name}_table.hdf5')
     assert os.path.exists(table_file)
     create_raw_views(plate_name, table_file)
-    create_test_views(plate_name, table_file)
+    # create_test_views(plate_name, table_file)
 
     # TODO
     # add segmentations
