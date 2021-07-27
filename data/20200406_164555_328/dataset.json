@@ -24235,7 +24235,7 @@
         {
           "sourceAnnotationDisplay": {
             "lut": "glasbey",
-            "name": "A01",
+            "name": "site",
             "opacity": 0.5,
             "sources": {
               "A01-0000": [
@@ -24264,24 +24264,7 @@
               ],
               "A01-0008": [
                 "marker_tophat_WellA01_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "A02",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "A02-0000": [
                 "marker_tophat_WellA02_0000"
               ],
@@ -24308,24 +24291,7 @@
               ],
               "A02-0008": [
                 "marker_tophat_WellA02_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "A03",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "A03-0000": [
                 "marker_tophat_WellA03_0000"
               ],
@@ -24352,24 +24318,7 @@
               ],
               "A03-0008": [
                 "marker_tophat_WellA03_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "A04",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "A04-0000": [
                 "marker_tophat_WellA04_0000"
               ],
@@ -24396,24 +24345,7 @@
               ],
               "A04-0008": [
                 "marker_tophat_WellA04_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "A05",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "A05-0000": [
                 "marker_tophat_WellA05_0000"
               ],
@@ -24440,24 +24372,7 @@
               ],
               "A05-0008": [
                 "marker_tophat_WellA05_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "A06",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "A06-0000": [
                 "marker_tophat_WellA06_0000"
               ],
@@ -24484,24 +24399,7 @@
               ],
               "A06-0008": [
                 "marker_tophat_WellA06_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "A07",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "A07-0000": [
                 "marker_tophat_WellA07_0000"
               ],
@@ -24528,24 +24426,7 @@
               ],
               "A07-0008": [
                 "marker_tophat_WellA07_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "A08",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "A08-0000": [
                 "marker_tophat_WellA08_0000"
               ],
@@ -24572,24 +24453,7 @@
               ],
               "A08-0008": [
                 "marker_tophat_WellA08_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "A09",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "A09-0000": [
                 "marker_tophat_WellA09_0000"
               ],
@@ -24616,24 +24480,7 @@
               ],
               "A09-0008": [
                 "marker_tophat_WellA09_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "A10",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "A10-0000": [
                 "marker_tophat_WellA10_0000"
               ],
@@ -24660,24 +24507,7 @@
               ],
               "A10-0008": [
                 "marker_tophat_WellA10_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "A11",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "A11-0000": [
                 "marker_tophat_WellA11_0000"
               ],
@@ -24704,24 +24534,7 @@
               ],
               "A11-0008": [
                 "marker_tophat_WellA11_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "A12",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "A12-0000": [
                 "marker_tophat_WellA12_0000"
               ],
@@ -24748,24 +24561,7 @@
               ],
               "A12-0008": [
                 "marker_tophat_WellA12_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "B01",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "B01-0000": [
                 "marker_tophat_WellB01_0000"
               ],
@@ -24792,24 +24588,7 @@
               ],
               "B01-0008": [
                 "marker_tophat_WellB01_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "B02",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "B02-0000": [
                 "marker_tophat_WellB02_0000"
               ],
@@ -24836,24 +24615,7 @@
               ],
               "B02-0008": [
                 "marker_tophat_WellB02_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "B03",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "B03-0000": [
                 "marker_tophat_WellB03_0000"
               ],
@@ -24880,24 +24642,7 @@
               ],
               "B03-0008": [
                 "marker_tophat_WellB03_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "B04",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "B04-0000": [
                 "marker_tophat_WellB04_0000"
               ],
@@ -24924,24 +24669,7 @@
               ],
               "B04-0008": [
                 "marker_tophat_WellB04_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "B05",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "B05-0000": [
                 "marker_tophat_WellB05_0000"
               ],
@@ -24968,24 +24696,7 @@
               ],
               "B05-0008": [
                 "marker_tophat_WellB05_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "B06",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "B06-0000": [
                 "marker_tophat_WellB06_0000"
               ],
@@ -25012,24 +24723,7 @@
               ],
               "B06-0008": [
                 "marker_tophat_WellB06_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "B07",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "B07-0000": [
                 "marker_tophat_WellB07_0000"
               ],
@@ -25056,24 +24750,7 @@
               ],
               "B07-0008": [
                 "marker_tophat_WellB07_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "B08",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "B08-0000": [
                 "marker_tophat_WellB08_0000"
               ],
@@ -25100,24 +24777,7 @@
               ],
               "B08-0008": [
                 "marker_tophat_WellB08_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "B09",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "B09-0000": [
                 "marker_tophat_WellB09_0000"
               ],
@@ -25144,24 +24804,7 @@
               ],
               "B09-0008": [
                 "marker_tophat_WellB09_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "B10",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "B10-0000": [
                 "marker_tophat_WellB10_0000"
               ],
@@ -25188,24 +24831,7 @@
               ],
               "B10-0008": [
                 "marker_tophat_WellB10_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "B11",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "B11-0000": [
                 "marker_tophat_WellB11_0000"
               ],
@@ -25232,24 +24858,7 @@
               ],
               "B11-0008": [
                 "marker_tophat_WellB11_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "B12",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "B12-0000": [
                 "marker_tophat_WellB12_0000"
               ],
@@ -25276,24 +24885,7 @@
               ],
               "B12-0008": [
                 "marker_tophat_WellB12_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "C01",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "C01-0000": [
                 "marker_tophat_WellC01_0000"
               ],
@@ -25320,24 +24912,7 @@
               ],
               "C01-0008": [
                 "marker_tophat_WellC01_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "C02",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "C02-0000": [
                 "marker_tophat_WellC02_0000"
               ],
@@ -25364,24 +24939,7 @@
               ],
               "C02-0008": [
                 "marker_tophat_WellC02_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "C03",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "C03-0000": [
                 "marker_tophat_WellC03_0000"
               ],
@@ -25408,24 +24966,7 @@
               ],
               "C03-0008": [
                 "marker_tophat_WellC03_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "C04",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "C04-0000": [
                 "marker_tophat_WellC04_0000"
               ],
@@ -25452,24 +24993,7 @@
               ],
               "C04-0008": [
                 "marker_tophat_WellC04_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "C05",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "C05-0000": [
                 "marker_tophat_WellC05_0000"
               ],
@@ -25496,24 +25020,7 @@
               ],
               "C05-0008": [
                 "marker_tophat_WellC05_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "C06",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "C06-0000": [
                 "marker_tophat_WellC06_0000"
               ],
@@ -25540,24 +25047,7 @@
               ],
               "C06-0008": [
                 "marker_tophat_WellC06_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "C07",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "C07-0000": [
                 "marker_tophat_WellC07_0000"
               ],
@@ -25584,24 +25074,7 @@
               ],
               "C07-0008": [
                 "marker_tophat_WellC07_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "C08",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "C08-0000": [
                 "marker_tophat_WellC08_0000"
               ],
@@ -25628,24 +25101,7 @@
               ],
               "C08-0008": [
                 "marker_tophat_WellC08_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "C09",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "C09-0000": [
                 "marker_tophat_WellC09_0000"
               ],
@@ -25672,24 +25128,7 @@
               ],
               "C09-0008": [
                 "marker_tophat_WellC09_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "C10",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "C10-0000": [
                 "marker_tophat_WellC10_0000"
               ],
@@ -25716,24 +25155,7 @@
               ],
               "C10-0008": [
                 "marker_tophat_WellC10_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "C11",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "C11-0000": [
                 "marker_tophat_WellC11_0000"
               ],
@@ -25760,24 +25182,7 @@
               ],
               "C11-0008": [
                 "marker_tophat_WellC11_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "C12",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "C12-0000": [
                 "marker_tophat_WellC12_0000"
               ],
@@ -25804,24 +25209,7 @@
               ],
               "C12-0008": [
                 "marker_tophat_WellC12_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "D01",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "D01-0000": [
                 "marker_tophat_WellD01_0000"
               ],
@@ -25848,24 +25236,7 @@
               ],
               "D01-0008": [
                 "marker_tophat_WellD01_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "D02",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "D02-0000": [
                 "marker_tophat_WellD02_0000"
               ],
@@ -25892,24 +25263,7 @@
               ],
               "D02-0008": [
                 "marker_tophat_WellD02_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "D03",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "D03-0000": [
                 "marker_tophat_WellD03_0000"
               ],
@@ -25936,24 +25290,7 @@
               ],
               "D03-0008": [
                 "marker_tophat_WellD03_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "D04",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "D04-0000": [
                 "marker_tophat_WellD04_0000"
               ],
@@ -25980,24 +25317,7 @@
               ],
               "D04-0008": [
                 "marker_tophat_WellD04_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "D05",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "D05-0000": [
                 "marker_tophat_WellD05_0000"
               ],
@@ -26024,24 +25344,7 @@
               ],
               "D05-0008": [
                 "marker_tophat_WellD05_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "D06",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "D06-0000": [
                 "marker_tophat_WellD06_0000"
               ],
@@ -26068,24 +25371,7 @@
               ],
               "D06-0008": [
                 "marker_tophat_WellD06_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "D07",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "D07-0000": [
                 "marker_tophat_WellD07_0000"
               ],
@@ -26112,24 +25398,7 @@
               ],
               "D07-0008": [
                 "marker_tophat_WellD07_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "D08",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "D08-0000": [
                 "marker_tophat_WellD08_0000"
               ],
@@ -26156,24 +25425,7 @@
               ],
               "D08-0008": [
                 "marker_tophat_WellD08_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "D09",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "D09-0000": [
                 "marker_tophat_WellD09_0000"
               ],
@@ -26200,24 +25452,7 @@
               ],
               "D09-0008": [
                 "marker_tophat_WellD09_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "D10",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "D10-0000": [
                 "marker_tophat_WellD10_0000"
               ],
@@ -26244,24 +25479,7 @@
               ],
               "D10-0008": [
                 "marker_tophat_WellD10_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "D11",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "D11-0000": [
                 "marker_tophat_WellD11_0000"
               ],
@@ -26288,24 +25506,7 @@
               ],
               "D11-0008": [
                 "marker_tophat_WellD11_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "D12",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "D12-0000": [
                 "marker_tophat_WellD12_0000"
               ],
@@ -26332,24 +25533,7 @@
               ],
               "D12-0008": [
                 "marker_tophat_WellD12_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "E01",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "E01-0000": [
                 "marker_tophat_WellE01_0000"
               ],
@@ -26376,24 +25560,7 @@
               ],
               "E01-0008": [
                 "marker_tophat_WellE01_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "E02",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "E02-0000": [
                 "marker_tophat_WellE02_0000"
               ],
@@ -26420,24 +25587,7 @@
               ],
               "E02-0008": [
                 "marker_tophat_WellE02_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "E03",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "E03-0000": [
                 "marker_tophat_WellE03_0000"
               ],
@@ -26464,24 +25614,7 @@
               ],
               "E03-0008": [
                 "marker_tophat_WellE03_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "E04",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "E04-0000": [
                 "marker_tophat_WellE04_0000"
               ],
@@ -26508,24 +25641,7 @@
               ],
               "E04-0008": [
                 "marker_tophat_WellE04_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "E05",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "E05-0000": [
                 "marker_tophat_WellE05_0000"
               ],
@@ -26552,24 +25668,7 @@
               ],
               "E05-0008": [
                 "marker_tophat_WellE05_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "E06",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "E06-0000": [
                 "marker_tophat_WellE06_0000"
               ],
@@ -26596,24 +25695,7 @@
               ],
               "E06-0008": [
                 "marker_tophat_WellE06_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "E07",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "E07-0000": [
                 "marker_tophat_WellE07_0000"
               ],
@@ -26640,24 +25722,7 @@
               ],
               "E07-0008": [
                 "marker_tophat_WellE07_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "E08",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "E08-0000": [
                 "marker_tophat_WellE08_0000"
               ],
@@ -26684,24 +25749,7 @@
               ],
               "E08-0008": [
                 "marker_tophat_WellE08_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "E09",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "E09-0000": [
                 "marker_tophat_WellE09_0000"
               ],
@@ -26728,24 +25776,7 @@
               ],
               "E09-0008": [
                 "marker_tophat_WellE09_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "E10",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "E10-0000": [
                 "marker_tophat_WellE10_0000"
               ],
@@ -26772,24 +25803,7 @@
               ],
               "E10-0008": [
                 "marker_tophat_WellE10_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "E11",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "E11-0000": [
                 "marker_tophat_WellE11_0000"
               ],
@@ -26816,24 +25830,7 @@
               ],
               "E11-0008": [
                 "marker_tophat_WellE11_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "E12",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "E12-0000": [
                 "marker_tophat_WellE12_0000"
               ],
@@ -26860,24 +25857,7 @@
               ],
               "E12-0008": [
                 "marker_tophat_WellE12_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "F01",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "F01-0000": [
                 "marker_tophat_WellF01_0000"
               ],
@@ -26904,24 +25884,7 @@
               ],
               "F01-0008": [
                 "marker_tophat_WellF01_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "F02",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "F02-0000": [
                 "marker_tophat_WellF02_0000"
               ],
@@ -26948,24 +25911,7 @@
               ],
               "F02-0008": [
                 "marker_tophat_WellF02_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "F03",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "F03-0000": [
                 "marker_tophat_WellF03_0000"
               ],
@@ -26992,24 +25938,7 @@
               ],
               "F03-0008": [
                 "marker_tophat_WellF03_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "F04",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "F04-0000": [
                 "marker_tophat_WellF04_0000"
               ],
@@ -27036,24 +25965,7 @@
               ],
               "F04-0008": [
                 "marker_tophat_WellF04_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "F05",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "F05-0000": [
                 "marker_tophat_WellF05_0000"
               ],
@@ -27080,24 +25992,7 @@
               ],
               "F05-0008": [
                 "marker_tophat_WellF05_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "F06",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "F06-0000": [
                 "marker_tophat_WellF06_0000"
               ],
@@ -27124,24 +26019,7 @@
               ],
               "F06-0008": [
                 "marker_tophat_WellF06_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "F07",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "F07-0000": [
                 "marker_tophat_WellF07_0000"
               ],
@@ -27168,24 +26046,7 @@
               ],
               "F07-0008": [
                 "marker_tophat_WellF07_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "F08",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "F08-0000": [
                 "marker_tophat_WellF08_0000"
               ],
@@ -27212,24 +26073,7 @@
               ],
               "F08-0008": [
                 "marker_tophat_WellF08_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "F09",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "F09-0000": [
                 "marker_tophat_WellF09_0000"
               ],
@@ -27256,24 +26100,7 @@
               ],
               "F09-0008": [
                 "marker_tophat_WellF09_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "F10",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "F10-0000": [
                 "marker_tophat_WellF10_0000"
               ],
@@ -27300,24 +26127,7 @@
               ],
               "F10-0008": [
                 "marker_tophat_WellF10_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "F11",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "F11-0000": [
                 "marker_tophat_WellF11_0000"
               ],
@@ -27344,24 +26154,7 @@
               ],
               "F11-0008": [
                 "marker_tophat_WellF11_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "F12",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "F12-0000": [
                 "marker_tophat_WellF12_0000"
               ],
@@ -27388,24 +26181,7 @@
               ],
               "F12-0008": [
                 "marker_tophat_WellF12_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "G01",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "G01-0000": [
                 "marker_tophat_WellG01_0000"
               ],
@@ -27432,24 +26208,7 @@
               ],
               "G01-0008": [
                 "marker_tophat_WellG01_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "G02",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "G02-0000": [
                 "marker_tophat_WellG02_0000"
               ],
@@ -27476,24 +26235,7 @@
               ],
               "G02-0008": [
                 "marker_tophat_WellG02_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "G03",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "G03-0000": [
                 "marker_tophat_WellG03_0000"
               ],
@@ -27520,24 +26262,7 @@
               ],
               "G03-0008": [
                 "marker_tophat_WellG03_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "G04",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "G04-0000": [
                 "marker_tophat_WellG04_0000"
               ],
@@ -27564,24 +26289,7 @@
               ],
               "G04-0008": [
                 "marker_tophat_WellG04_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "G05",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "G05-0000": [
                 "marker_tophat_WellG05_0000"
               ],
@@ -27608,24 +26316,7 @@
               ],
               "G05-0008": [
                 "marker_tophat_WellG05_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "G06",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "G06-0000": [
                 "marker_tophat_WellG06_0000"
               ],
@@ -27652,24 +26343,7 @@
               ],
               "G06-0008": [
                 "marker_tophat_WellG06_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "G07",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "G07-0000": [
                 "marker_tophat_WellG07_0000"
               ],
@@ -27696,24 +26370,7 @@
               ],
               "G07-0008": [
                 "marker_tophat_WellG07_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "G08",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "G08-0000": [
                 "marker_tophat_WellG08_0000"
               ],
@@ -27740,24 +26397,7 @@
               ],
               "G08-0008": [
                 "marker_tophat_WellG08_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "G09",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "G09-0000": [
                 "marker_tophat_WellG09_0000"
               ],
@@ -27784,24 +26424,7 @@
               ],
               "G09-0008": [
                 "marker_tophat_WellG09_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "G10",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "G10-0000": [
                 "marker_tophat_WellG10_0000"
               ],
@@ -27828,24 +26451,7 @@
               ],
               "G10-0008": [
                 "marker_tophat_WellG10_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "G11",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "G11-0000": [
                 "marker_tophat_WellG11_0000"
               ],
@@ -27872,24 +26478,7 @@
               ],
               "G11-0008": [
                 "marker_tophat_WellG11_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "G12",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "G12-0000": [
                 "marker_tophat_WellG12_0000"
               ],
@@ -27916,24 +26505,7 @@
               ],
               "G12-0008": [
                 "marker_tophat_WellG12_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "H01",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "H01-0000": [
                 "marker_tophat_WellH01_0000"
               ],
@@ -27960,24 +26532,7 @@
               ],
               "H01-0008": [
                 "marker_tophat_WellH01_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "H02",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "H02-0000": [
                 "marker_tophat_WellH02_0000"
               ],
@@ -28004,24 +26559,7 @@
               ],
               "H02-0008": [
                 "marker_tophat_WellH02_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "H03",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "H03-0000": [
                 "marker_tophat_WellH03_0000"
               ],
@@ -28048,24 +26586,7 @@
               ],
               "H03-0008": [
                 "marker_tophat_WellH03_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "H04",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "H04-0000": [
                 "marker_tophat_WellH04_0000"
               ],
@@ -28092,24 +26613,7 @@
               ],
               "H04-0008": [
                 "marker_tophat_WellH04_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "H05",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "H05-0000": [
                 "marker_tophat_WellH05_0000"
               ],
@@ -28136,24 +26640,7 @@
               ],
               "H05-0008": [
                 "marker_tophat_WellH05_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "H06",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "H06-0000": [
                 "marker_tophat_WellH06_0000"
               ],
@@ -28180,24 +26667,7 @@
               ],
               "H06-0008": [
                 "marker_tophat_WellH06_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "H07",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "H07-0000": [
                 "marker_tophat_WellH07_0000"
               ],
@@ -28224,24 +26694,7 @@
               ],
               "H07-0008": [
                 "marker_tophat_WellH07_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "H08",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "H08-0000": [
                 "marker_tophat_WellH08_0000"
               ],
@@ -28268,24 +26721,7 @@
               ],
               "H08-0008": [
                 "marker_tophat_WellH08_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "H09",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "H09-0000": [
                 "marker_tophat_WellH09_0000"
               ],
@@ -28312,24 +26748,7 @@
               ],
               "H09-0008": [
                 "marker_tophat_WellH09_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "H10",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "H10-0000": [
                 "marker_tophat_WellH10_0000"
               ],
@@ -28356,24 +26775,7 @@
               ],
               "H10-0008": [
                 "marker_tophat_WellH10_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "H11",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "H11-0000": [
                 "marker_tophat_WellH11_0000"
               ],
@@ -28400,24 +26802,7 @@
               ],
               "H11-0008": [
                 "marker_tophat_WellH11_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "H12",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "H12-0000": [
                 "marker_tophat_WellH12_0000"
               ],
@@ -28448,7 +26833,7 @@
             },
             "tableData": {
               "tsv": {
-                "relativePath": "tables/wells"
+                "relativePath": "tables/sites"
               }
             },
             "tables": [
@@ -29521,7 +27906,7 @@
             },
             "tableData": {
               "tsv": {
-                "relativePath": "tables/plate"
+                "relativePath": "tables/well"
               }
             },
             "tables": [
@@ -35130,7 +33515,7 @@
         {
           "sourceAnnotationDisplay": {
             "lut": "glasbey",
-            "name": "A01",
+            "name": "site",
             "opacity": 0.5,
             "sources": {
               "A01-0000": [
@@ -35159,24 +33544,7 @@
               ],
               "A01-0008": [
                 "nuclei_WellA01_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "A02",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "A02-0000": [
                 "nuclei_WellA02_0000"
               ],
@@ -35203,24 +33571,7 @@
               ],
               "A02-0008": [
                 "nuclei_WellA02_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "A03",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "A03-0000": [
                 "nuclei_WellA03_0000"
               ],
@@ -35247,24 +33598,7 @@
               ],
               "A03-0008": [
                 "nuclei_WellA03_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "A04",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "A04-0000": [
                 "nuclei_WellA04_0000"
               ],
@@ -35291,24 +33625,7 @@
               ],
               "A04-0008": [
                 "nuclei_WellA04_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "A05",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "A05-0000": [
                 "nuclei_WellA05_0000"
               ],
@@ -35335,24 +33652,7 @@
               ],
               "A05-0008": [
                 "nuclei_WellA05_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "A06",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "A06-0000": [
                 "nuclei_WellA06_0000"
               ],
@@ -35379,24 +33679,7 @@
               ],
               "A06-0008": [
                 "nuclei_WellA06_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "A07",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "A07-0000": [
                 "nuclei_WellA07_0000"
               ],
@@ -35423,24 +33706,7 @@
               ],
               "A07-0008": [
                 "nuclei_WellA07_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "A08",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "A08-0000": [
                 "nuclei_WellA08_0000"
               ],
@@ -35467,24 +33733,7 @@
               ],
               "A08-0008": [
                 "nuclei_WellA08_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "A09",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "A09-0000": [
                 "nuclei_WellA09_0000"
               ],
@@ -35511,24 +33760,7 @@
               ],
               "A09-0008": [
                 "nuclei_WellA09_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "A10",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "A10-0000": [
                 "nuclei_WellA10_0000"
               ],
@@ -35555,24 +33787,7 @@
               ],
               "A10-0008": [
                 "nuclei_WellA10_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "A11",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "A11-0000": [
                 "nuclei_WellA11_0000"
               ],
@@ -35599,24 +33814,7 @@
               ],
               "A11-0008": [
                 "nuclei_WellA11_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "A12",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "A12-0000": [
                 "nuclei_WellA12_0000"
               ],
@@ -35643,24 +33841,7 @@
               ],
               "A12-0008": [
                 "nuclei_WellA12_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "B01",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "B01-0000": [
                 "nuclei_WellB01_0000"
               ],
@@ -35687,24 +33868,7 @@
               ],
               "B01-0008": [
                 "nuclei_WellB01_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "B02",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "B02-0000": [
                 "nuclei_WellB02_0000"
               ],
@@ -35731,24 +33895,7 @@
               ],
               "B02-0008": [
                 "nuclei_WellB02_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "B03",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "B03-0000": [
                 "nuclei_WellB03_0000"
               ],
@@ -35775,24 +33922,7 @@
               ],
               "B03-0008": [
                 "nuclei_WellB03_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "B04",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "B04-0000": [
                 "nuclei_WellB04_0000"
               ],
@@ -35819,24 +33949,7 @@
               ],
               "B04-0008": [
                 "nuclei_WellB04_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "B05",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "B05-0000": [
                 "nuclei_WellB05_0000"
               ],
@@ -35863,24 +33976,7 @@
               ],
               "B05-0008": [
                 "nuclei_WellB05_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "B06",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "B06-0000": [
                 "nuclei_WellB06_0000"
               ],
@@ -35907,24 +34003,7 @@
               ],
               "B06-0008": [
                 "nuclei_WellB06_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "B07",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "B07-0000": [
                 "nuclei_WellB07_0000"
               ],
@@ -35951,24 +34030,7 @@
               ],
               "B07-0008": [
                 "nuclei_WellB07_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "B08",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "B08-0000": [
                 "nuclei_WellB08_0000"
               ],
@@ -35995,24 +34057,7 @@
               ],
               "B08-0008": [
                 "nuclei_WellB08_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "B09",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "B09-0000": [
                 "nuclei_WellB09_0000"
               ],
@@ -36039,24 +34084,7 @@
               ],
               "B09-0008": [
                 "nuclei_WellB09_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "B10",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "B10-0000": [
                 "nuclei_WellB10_0000"
               ],
@@ -36083,24 +34111,7 @@
               ],
               "B10-0008": [
                 "nuclei_WellB10_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "B11",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "B11-0000": [
                 "nuclei_WellB11_0000"
               ],
@@ -36127,24 +34138,7 @@
               ],
               "B11-0008": [
                 "nuclei_WellB11_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "B12",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "B12-0000": [
                 "nuclei_WellB12_0000"
               ],
@@ -36171,24 +34165,7 @@
               ],
               "B12-0008": [
                 "nuclei_WellB12_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "C01",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "C01-0000": [
                 "nuclei_WellC01_0000"
               ],
@@ -36215,24 +34192,7 @@
               ],
               "C01-0008": [
                 "nuclei_WellC01_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "C02",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "C02-0000": [
                 "nuclei_WellC02_0000"
               ],
@@ -36259,24 +34219,7 @@
               ],
               "C02-0008": [
                 "nuclei_WellC02_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "C03",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "C03-0000": [
                 "nuclei_WellC03_0000"
               ],
@@ -36303,24 +34246,7 @@
               ],
               "C03-0008": [
                 "nuclei_WellC03_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "C04",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "C04-0000": [
                 "nuclei_WellC04_0000"
               ],
@@ -36347,24 +34273,7 @@
               ],
               "C04-0008": [
                 "nuclei_WellC04_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "C05",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "C05-0000": [
                 "nuclei_WellC05_0000"
               ],
@@ -36391,24 +34300,7 @@
               ],
               "C05-0008": [
                 "nuclei_WellC05_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "C06",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "C06-0000": [
                 "nuclei_WellC06_0000"
               ],
@@ -36435,24 +34327,7 @@
               ],
               "C06-0008": [
                 "nuclei_WellC06_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "C07",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "C07-0000": [
                 "nuclei_WellC07_0000"
               ],
@@ -36479,24 +34354,7 @@
               ],
               "C07-0008": [
                 "nuclei_WellC07_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "C08",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "C08-0000": [
                 "nuclei_WellC08_0000"
               ],
@@ -36523,24 +34381,7 @@
               ],
               "C08-0008": [
                 "nuclei_WellC08_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "C09",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "C09-0000": [
                 "nuclei_WellC09_0000"
               ],
@@ -36567,24 +34408,7 @@
               ],
               "C09-0008": [
                 "nuclei_WellC09_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "C10",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "C10-0000": [
                 "nuclei_WellC10_0000"
               ],
@@ -36611,24 +34435,7 @@
               ],
               "C10-0008": [
                 "nuclei_WellC10_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "C11",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "C11-0000": [
                 "nuclei_WellC11_0000"
               ],
@@ -36655,24 +34462,7 @@
               ],
               "C11-0008": [
                 "nuclei_WellC11_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "C12",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "C12-0000": [
                 "nuclei_WellC12_0000"
               ],
@@ -36699,24 +34489,7 @@
               ],
               "C12-0008": [
                 "nuclei_WellC12_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "D01",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "D01-0000": [
                 "nuclei_WellD01_0000"
               ],
@@ -36743,24 +34516,7 @@
               ],
               "D01-0008": [
                 "nuclei_WellD01_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "D02",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "D02-0000": [
                 "nuclei_WellD02_0000"
               ],
@@ -36787,24 +34543,7 @@
               ],
               "D02-0008": [
                 "nuclei_WellD02_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "D03",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "D03-0000": [
                 "nuclei_WellD03_0000"
               ],
@@ -36831,24 +34570,7 @@
               ],
               "D03-0008": [
                 "nuclei_WellD03_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "D04",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "D04-0000": [
                 "nuclei_WellD04_0000"
               ],
@@ -36875,24 +34597,7 @@
               ],
               "D04-0008": [
                 "nuclei_WellD04_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "D05",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "D05-0000": [
                 "nuclei_WellD05_0000"
               ],
@@ -36919,24 +34624,7 @@
               ],
               "D05-0008": [
                 "nuclei_WellD05_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "D06",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "D06-0000": [
                 "nuclei_WellD06_0000"
               ],
@@ -36963,24 +34651,7 @@
               ],
               "D06-0008": [
                 "nuclei_WellD06_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "D07",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "D07-0000": [
                 "nuclei_WellD07_0000"
               ],
@@ -37007,24 +34678,7 @@
               ],
               "D07-0008": [
                 "nuclei_WellD07_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "D08",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "D08-0000": [
                 "nuclei_WellD08_0000"
               ],
@@ -37051,24 +34705,7 @@
               ],
               "D08-0008": [
                 "nuclei_WellD08_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "D09",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "D09-0000": [
                 "nuclei_WellD09_0000"
               ],
@@ -37095,24 +34732,7 @@
               ],
               "D09-0008": [
                 "nuclei_WellD09_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "D10",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "D10-0000": [
                 "nuclei_WellD10_0000"
               ],
@@ -37139,24 +34759,7 @@
               ],
               "D10-0008": [
                 "nuclei_WellD10_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "D11",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "D11-0000": [
                 "nuclei_WellD11_0000"
               ],
@@ -37183,24 +34786,7 @@
               ],
               "D11-0008": [
                 "nuclei_WellD11_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "D12",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "D12-0000": [
                 "nuclei_WellD12_0000"
               ],
@@ -37227,24 +34813,7 @@
               ],
               "D12-0008": [
                 "nuclei_WellD12_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "E01",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "E01-0000": [
                 "nuclei_WellE01_0000"
               ],
@@ -37271,24 +34840,7 @@
               ],
               "E01-0008": [
                 "nuclei_WellE01_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "E02",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "E02-0000": [
                 "nuclei_WellE02_0000"
               ],
@@ -37315,24 +34867,7 @@
               ],
               "E02-0008": [
                 "nuclei_WellE02_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "E03",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "E03-0000": [
                 "nuclei_WellE03_0000"
               ],
@@ -37359,24 +34894,7 @@
               ],
               "E03-0008": [
                 "nuclei_WellE03_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "E04",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "E04-0000": [
                 "nuclei_WellE04_0000"
               ],
@@ -37403,24 +34921,7 @@
               ],
               "E04-0008": [
                 "nuclei_WellE04_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "E05",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "E05-0000": [
                 "nuclei_WellE05_0000"
               ],
@@ -37447,24 +34948,7 @@
               ],
               "E05-0008": [
                 "nuclei_WellE05_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "E06",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "E06-0000": [
                 "nuclei_WellE06_0000"
               ],
@@ -37491,24 +34975,7 @@
               ],
               "E06-0008": [
                 "nuclei_WellE06_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "E07",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "E07-0000": [
                 "nuclei_WellE07_0000"
               ],
@@ -37535,24 +35002,7 @@
               ],
               "E07-0008": [
                 "nuclei_WellE07_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "E08",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "E08-0000": [
                 "nuclei_WellE08_0000"
               ],
@@ -37579,24 +35029,7 @@
               ],
               "E08-0008": [
                 "nuclei_WellE08_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "E09",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "E09-0000": [
                 "nuclei_WellE09_0000"
               ],
@@ -37623,24 +35056,7 @@
               ],
               "E09-0008": [
                 "nuclei_WellE09_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "E10",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "E10-0000": [
                 "nuclei_WellE10_0000"
               ],
@@ -37667,24 +35083,7 @@
               ],
               "E10-0008": [
                 "nuclei_WellE10_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "E11",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "E11-0000": [
                 "nuclei_WellE11_0000"
               ],
@@ -37711,24 +35110,7 @@
               ],
               "E11-0008": [
                 "nuclei_WellE11_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "E12",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "E12-0000": [
                 "nuclei_WellE12_0000"
               ],
@@ -37755,24 +35137,7 @@
               ],
               "E12-0008": [
                 "nuclei_WellE12_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "F01",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "F01-0000": [
                 "nuclei_WellF01_0000"
               ],
@@ -37799,24 +35164,7 @@
               ],
               "F01-0008": [
                 "nuclei_WellF01_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "F02",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "F02-0000": [
                 "nuclei_WellF02_0000"
               ],
@@ -37843,24 +35191,7 @@
               ],
               "F02-0008": [
                 "nuclei_WellF02_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "F03",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "F03-0000": [
                 "nuclei_WellF03_0000"
               ],
@@ -37887,24 +35218,7 @@
               ],
               "F03-0008": [
                 "nuclei_WellF03_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "F04",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "F04-0000": [
                 "nuclei_WellF04_0000"
               ],
@@ -37931,24 +35245,7 @@
               ],
               "F04-0008": [
                 "nuclei_WellF04_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "F05",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "F05-0000": [
                 "nuclei_WellF05_0000"
               ],
@@ -37975,24 +35272,7 @@
               ],
               "F05-0008": [
                 "nuclei_WellF05_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "F06",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "F06-0000": [
                 "nuclei_WellF06_0000"
               ],
@@ -38019,24 +35299,7 @@
               ],
               "F06-0008": [
                 "nuclei_WellF06_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "F07",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "F07-0000": [
                 "nuclei_WellF07_0000"
               ],
@@ -38063,24 +35326,7 @@
               ],
               "F07-0008": [
                 "nuclei_WellF07_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "F08",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "F08-0000": [
                 "nuclei_WellF08_0000"
               ],
@@ -38107,24 +35353,7 @@
               ],
               "F08-0008": [
                 "nuclei_WellF08_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "F09",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "F09-0000": [
                 "nuclei_WellF09_0000"
               ],
@@ -38151,24 +35380,7 @@
               ],
               "F09-0008": [
                 "nuclei_WellF09_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "F10",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "F10-0000": [
                 "nuclei_WellF10_0000"
               ],
@@ -38195,24 +35407,7 @@
               ],
               "F10-0008": [
                 "nuclei_WellF10_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "F11",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "F11-0000": [
                 "nuclei_WellF11_0000"
               ],
@@ -38239,24 +35434,7 @@
               ],
               "F11-0008": [
                 "nuclei_WellF11_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "F12",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "F12-0000": [
                 "nuclei_WellF12_0000"
               ],
@@ -38283,24 +35461,7 @@
               ],
               "F12-0008": [
                 "nuclei_WellF12_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "G01",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "G01-0000": [
                 "nuclei_WellG01_0000"
               ],
@@ -38327,24 +35488,7 @@
               ],
               "G01-0008": [
                 "nuclei_WellG01_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "G02",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "G02-0000": [
                 "nuclei_WellG02_0000"
               ],
@@ -38371,24 +35515,7 @@
               ],
               "G02-0008": [
                 "nuclei_WellG02_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "G03",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "G03-0000": [
                 "nuclei_WellG03_0000"
               ],
@@ -38415,24 +35542,7 @@
               ],
               "G03-0008": [
                 "nuclei_WellG03_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "G04",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "G04-0000": [
                 "nuclei_WellG04_0000"
               ],
@@ -38459,24 +35569,7 @@
               ],
               "G04-0008": [
                 "nuclei_WellG04_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "G05",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "G05-0000": [
                 "nuclei_WellG05_0000"
               ],
@@ -38503,24 +35596,7 @@
               ],
               "G05-0008": [
                 "nuclei_WellG05_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "G06",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "G06-0000": [
                 "nuclei_WellG06_0000"
               ],
@@ -38547,24 +35623,7 @@
               ],
               "G06-0008": [
                 "nuclei_WellG06_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "G07",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "G07-0000": [
                 "nuclei_WellG07_0000"
               ],
@@ -38591,24 +35650,7 @@
               ],
               "G07-0008": [
                 "nuclei_WellG07_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "G08",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "G08-0000": [
                 "nuclei_WellG08_0000"
               ],
@@ -38635,24 +35677,7 @@
               ],
               "G08-0008": [
                 "nuclei_WellG08_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "G09",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "G09-0000": [
                 "nuclei_WellG09_0000"
               ],
@@ -38679,24 +35704,7 @@
               ],
               "G09-0008": [
                 "nuclei_WellG09_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "G10",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "G10-0000": [
                 "nuclei_WellG10_0000"
               ],
@@ -38723,24 +35731,7 @@
               ],
               "G10-0008": [
                 "nuclei_WellG10_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "G11",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "G11-0000": [
                 "nuclei_WellG11_0000"
               ],
@@ -38767,24 +35758,7 @@
               ],
               "G11-0008": [
                 "nuclei_WellG11_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "G12",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "G12-0000": [
                 "nuclei_WellG12_0000"
               ],
@@ -38811,24 +35785,7 @@
               ],
               "G12-0008": [
                 "nuclei_WellG12_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "H01",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "H01-0000": [
                 "nuclei_WellH01_0000"
               ],
@@ -38855,24 +35812,7 @@
               ],
               "H01-0008": [
                 "nuclei_WellH01_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "H02",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "H02-0000": [
                 "nuclei_WellH02_0000"
               ],
@@ -38899,24 +35839,7 @@
               ],
               "H02-0008": [
                 "nuclei_WellH02_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "H03",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "H03-0000": [
                 "nuclei_WellH03_0000"
               ],
@@ -38943,24 +35866,7 @@
               ],
               "H03-0008": [
                 "nuclei_WellH03_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "H04",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "H04-0000": [
                 "nuclei_WellH04_0000"
               ],
@@ -38987,24 +35893,7 @@
               ],
               "H04-0008": [
                 "nuclei_WellH04_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "H05",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "H05-0000": [
                 "nuclei_WellH05_0000"
               ],
@@ -39031,24 +35920,7 @@
               ],
               "H05-0008": [
                 "nuclei_WellH05_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "H06",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "H06-0000": [
                 "nuclei_WellH06_0000"
               ],
@@ -39075,24 +35947,7 @@
               ],
               "H06-0008": [
                 "nuclei_WellH06_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "H07",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "H07-0000": [
                 "nuclei_WellH07_0000"
               ],
@@ -39119,24 +35974,7 @@
               ],
               "H07-0008": [
                 "nuclei_WellH07_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "H08",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "H08-0000": [
                 "nuclei_WellH08_0000"
               ],
@@ -39163,24 +36001,7 @@
               ],
               "H08-0008": [
                 "nuclei_WellH08_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "H09",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "H09-0000": [
                 "nuclei_WellH09_0000"
               ],
@@ -39207,24 +36028,7 @@
               ],
               "H09-0008": [
                 "nuclei_WellH09_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "H10",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "H10-0000": [
                 "nuclei_WellH10_0000"
               ],
@@ -39251,24 +36055,7 @@
               ],
               "H10-0008": [
                 "nuclei_WellH10_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "H11",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "H11-0000": [
                 "nuclei_WellH11_0000"
               ],
@@ -39295,24 +36082,7 @@
               ],
               "H11-0008": [
                 "nuclei_WellH11_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "H12",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "H12-0000": [
                 "nuclei_WellH12_0000"
               ],
@@ -39343,7 +36113,7 @@
             },
             "tableData": {
               "tsv": {
-                "relativePath": "tables/wells"
+                "relativePath": "tables/sites"
               }
             },
             "tables": [
@@ -40416,7 +37186,7 @@
             },
             "tableData": {
               "tsv": {
-                "relativePath": "tables/plate"
+                "relativePath": "tables/well"
               }
             },
             "tables": [
@@ -46025,7 +42795,7 @@
         {
           "sourceAnnotationDisplay": {
             "lut": "glasbey",
-            "name": "A01",
+            "name": "site",
             "opacity": 0.5,
             "sources": {
               "A01-0000": [
@@ -46054,24 +42824,7 @@
               ],
               "A01-0008": [
                 "serumIgG_WellA01_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "A02",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "A02-0000": [
                 "serumIgG_WellA02_0000"
               ],
@@ -46098,24 +42851,7 @@
               ],
               "A02-0008": [
                 "serumIgG_WellA02_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "A03",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "A03-0000": [
                 "serumIgG_WellA03_0000"
               ],
@@ -46142,24 +42878,7 @@
               ],
               "A03-0008": [
                 "serumIgG_WellA03_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "A04",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "A04-0000": [
                 "serumIgG_WellA04_0000"
               ],
@@ -46186,24 +42905,7 @@
               ],
               "A04-0008": [
                 "serumIgG_WellA04_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "A05",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "A05-0000": [
                 "serumIgG_WellA05_0000"
               ],
@@ -46230,24 +42932,7 @@
               ],
               "A05-0008": [
                 "serumIgG_WellA05_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "A06",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "A06-0000": [
                 "serumIgG_WellA06_0000"
               ],
@@ -46274,24 +42959,7 @@
               ],
               "A06-0008": [
                 "serumIgG_WellA06_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "A07",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "A07-0000": [
                 "serumIgG_WellA07_0000"
               ],
@@ -46318,24 +42986,7 @@
               ],
               "A07-0008": [
                 "serumIgG_WellA07_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "A08",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "A08-0000": [
                 "serumIgG_WellA08_0000"
               ],
@@ -46362,24 +43013,7 @@
               ],
               "A08-0008": [
                 "serumIgG_WellA08_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "A09",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "A09-0000": [
                 "serumIgG_WellA09_0000"
               ],
@@ -46406,24 +43040,7 @@
               ],
               "A09-0008": [
                 "serumIgG_WellA09_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "A10",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "A10-0000": [
                 "serumIgG_WellA10_0000"
               ],
@@ -46450,24 +43067,7 @@
               ],
               "A10-0008": [
                 "serumIgG_WellA10_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "A11",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "A11-0000": [
                 "serumIgG_WellA11_0000"
               ],
@@ -46494,24 +43094,7 @@
               ],
               "A11-0008": [
                 "serumIgG_WellA11_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "A12",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "A12-0000": [
                 "serumIgG_WellA12_0000"
               ],
@@ -46538,24 +43121,7 @@
               ],
               "A12-0008": [
                 "serumIgG_WellA12_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "B01",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "B01-0000": [
                 "serumIgG_WellB01_0000"
               ],
@@ -46582,24 +43148,7 @@
               ],
               "B01-0008": [
                 "serumIgG_WellB01_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "B02",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "B02-0000": [
                 "serumIgG_WellB02_0000"
               ],
@@ -46626,24 +43175,7 @@
               ],
               "B02-0008": [
                 "serumIgG_WellB02_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "B03",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "B03-0000": [
                 "serumIgG_WellB03_0000"
               ],
@@ -46670,24 +43202,7 @@
               ],
               "B03-0008": [
                 "serumIgG_WellB03_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "B04",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "B04-0000": [
                 "serumIgG_WellB04_0000"
               ],
@@ -46714,24 +43229,7 @@
               ],
               "B04-0008": [
                 "serumIgG_WellB04_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "B05",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "B05-0000": [
                 "serumIgG_WellB05_0000"
               ],
@@ -46758,24 +43256,7 @@
               ],
               "B05-0008": [
                 "serumIgG_WellB05_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "B06",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "B06-0000": [
                 "serumIgG_WellB06_0000"
               ],
@@ -46802,24 +43283,7 @@
               ],
               "B06-0008": [
                 "serumIgG_WellB06_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "B07",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "B07-0000": [
                 "serumIgG_WellB07_0000"
               ],
@@ -46846,24 +43310,7 @@
               ],
               "B07-0008": [
                 "serumIgG_WellB07_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "B08",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "B08-0000": [
                 "serumIgG_WellB08_0000"
               ],
@@ -46890,24 +43337,7 @@
               ],
               "B08-0008": [
                 "serumIgG_WellB08_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "B09",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "B09-0000": [
                 "serumIgG_WellB09_0000"
               ],
@@ -46934,24 +43364,7 @@
               ],
               "B09-0008": [
                 "serumIgG_WellB09_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "B10",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "B10-0000": [
                 "serumIgG_WellB10_0000"
               ],
@@ -46978,24 +43391,7 @@
               ],
               "B10-0008": [
                 "serumIgG_WellB10_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "B11",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "B11-0000": [
                 "serumIgG_WellB11_0000"
               ],
@@ -47022,24 +43418,7 @@
               ],
               "B11-0008": [
                 "serumIgG_WellB11_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "B12",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "B12-0000": [
                 "serumIgG_WellB12_0000"
               ],
@@ -47066,24 +43445,7 @@
               ],
               "B12-0008": [
                 "serumIgG_WellB12_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "C01",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "C01-0000": [
                 "serumIgG_WellC01_0000"
               ],
@@ -47110,24 +43472,7 @@
               ],
               "C01-0008": [
                 "serumIgG_WellC01_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "C02",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "C02-0000": [
                 "serumIgG_WellC02_0000"
               ],
@@ -47154,24 +43499,7 @@
               ],
               "C02-0008": [
                 "serumIgG_WellC02_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "C03",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "C03-0000": [
                 "serumIgG_WellC03_0000"
               ],
@@ -47198,24 +43526,7 @@
               ],
               "C03-0008": [
                 "serumIgG_WellC03_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "C04",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "C04-0000": [
                 "serumIgG_WellC04_0000"
               ],
@@ -47242,24 +43553,7 @@
               ],
               "C04-0008": [
                 "serumIgG_WellC04_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "C05",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "C05-0000": [
                 "serumIgG_WellC05_0000"
               ],
@@ -47286,24 +43580,7 @@
               ],
               "C05-0008": [
                 "serumIgG_WellC05_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "C06",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "C06-0000": [
                 "serumIgG_WellC06_0000"
               ],
@@ -47330,24 +43607,7 @@
               ],
               "C06-0008": [
                 "serumIgG_WellC06_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "C07",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "C07-0000": [
                 "serumIgG_WellC07_0000"
               ],
@@ -47374,24 +43634,7 @@
               ],
               "C07-0008": [
                 "serumIgG_WellC07_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "C08",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "C08-0000": [
                 "serumIgG_WellC08_0000"
               ],
@@ -47418,24 +43661,7 @@
               ],
               "C08-0008": [
                 "serumIgG_WellC08_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "C09",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "C09-0000": [
                 "serumIgG_WellC09_0000"
               ],
@@ -47462,24 +43688,7 @@
               ],
               "C09-0008": [
                 "serumIgG_WellC09_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "C10",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "C10-0000": [
                 "serumIgG_WellC10_0000"
               ],
@@ -47506,24 +43715,7 @@
               ],
               "C10-0008": [
                 "serumIgG_WellC10_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "C11",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "C11-0000": [
                 "serumIgG_WellC11_0000"
               ],
@@ -47550,24 +43742,7 @@
               ],
               "C11-0008": [
                 "serumIgG_WellC11_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "C12",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "C12-0000": [
                 "serumIgG_WellC12_0000"
               ],
@@ -47594,24 +43769,7 @@
               ],
               "C12-0008": [
                 "serumIgG_WellC12_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "D01",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "D01-0000": [
                 "serumIgG_WellD01_0000"
               ],
@@ -47638,24 +43796,7 @@
               ],
               "D01-0008": [
                 "serumIgG_WellD01_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "D02",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "D02-0000": [
                 "serumIgG_WellD02_0000"
               ],
@@ -47682,24 +43823,7 @@
               ],
               "D02-0008": [
                 "serumIgG_WellD02_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "D03",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "D03-0000": [
                 "serumIgG_WellD03_0000"
               ],
@@ -47726,24 +43850,7 @@
               ],
               "D03-0008": [
                 "serumIgG_WellD03_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "D04",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "D04-0000": [
                 "serumIgG_WellD04_0000"
               ],
@@ -47770,24 +43877,7 @@
               ],
               "D04-0008": [
                 "serumIgG_WellD04_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "D05",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "D05-0000": [
                 "serumIgG_WellD05_0000"
               ],
@@ -47814,24 +43904,7 @@
               ],
               "D05-0008": [
                 "serumIgG_WellD05_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "D06",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "D06-0000": [
                 "serumIgG_WellD06_0000"
               ],
@@ -47858,24 +43931,7 @@
               ],
               "D06-0008": [
                 "serumIgG_WellD06_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "D07",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "D07-0000": [
                 "serumIgG_WellD07_0000"
               ],
@@ -47902,24 +43958,7 @@
               ],
               "D07-0008": [
                 "serumIgG_WellD07_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "D08",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "D08-0000": [
                 "serumIgG_WellD08_0000"
               ],
@@ -47946,24 +43985,7 @@
               ],
               "D08-0008": [
                 "serumIgG_WellD08_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "D09",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "D09-0000": [
                 "serumIgG_WellD09_0000"
               ],
@@ -47990,24 +44012,7 @@
               ],
               "D09-0008": [
                 "serumIgG_WellD09_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "D10",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "D10-0000": [
                 "serumIgG_WellD10_0000"
               ],
@@ -48034,24 +44039,7 @@
               ],
               "D10-0008": [
                 "serumIgG_WellD10_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "D11",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "D11-0000": [
                 "serumIgG_WellD11_0000"
               ],
@@ -48078,24 +44066,7 @@
               ],
               "D11-0008": [
                 "serumIgG_WellD11_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "D12",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "D12-0000": [
                 "serumIgG_WellD12_0000"
               ],
@@ -48122,24 +44093,7 @@
               ],
               "D12-0008": [
                 "serumIgG_WellD12_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "E01",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "E01-0000": [
                 "serumIgG_WellE01_0000"
               ],
@@ -48166,24 +44120,7 @@
               ],
               "E01-0008": [
                 "serumIgG_WellE01_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "E02",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "E02-0000": [
                 "serumIgG_WellE02_0000"
               ],
@@ -48210,24 +44147,7 @@
               ],
               "E02-0008": [
                 "serumIgG_WellE02_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "E03",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "E03-0000": [
                 "serumIgG_WellE03_0000"
               ],
@@ -48254,24 +44174,7 @@
               ],
               "E03-0008": [
                 "serumIgG_WellE03_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "E04",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "E04-0000": [
                 "serumIgG_WellE04_0000"
               ],
@@ -48298,24 +44201,7 @@
               ],
               "E04-0008": [
                 "serumIgG_WellE04_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "E05",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "E05-0000": [
                 "serumIgG_WellE05_0000"
               ],
@@ -48342,24 +44228,7 @@
               ],
               "E05-0008": [
                 "serumIgG_WellE05_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "E06",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "E06-0000": [
                 "serumIgG_WellE06_0000"
               ],
@@ -48386,24 +44255,7 @@
               ],
               "E06-0008": [
                 "serumIgG_WellE06_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "E07",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "E07-0000": [
                 "serumIgG_WellE07_0000"
               ],
@@ -48430,24 +44282,7 @@
               ],
               "E07-0008": [
                 "serumIgG_WellE07_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "E08",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "E08-0000": [
                 "serumIgG_WellE08_0000"
               ],
@@ -48474,24 +44309,7 @@
               ],
               "E08-0008": [
                 "serumIgG_WellE08_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "E09",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "E09-0000": [
                 "serumIgG_WellE09_0000"
               ],
@@ -48518,24 +44336,7 @@
               ],
               "E09-0008": [
                 "serumIgG_WellE09_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "E10",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "E10-0000": [
                 "serumIgG_WellE10_0000"
               ],
@@ -48562,24 +44363,7 @@
               ],
               "E10-0008": [
                 "serumIgG_WellE10_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "E11",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "E11-0000": [
                 "serumIgG_WellE11_0000"
               ],
@@ -48606,24 +44390,7 @@
               ],
               "E11-0008": [
                 "serumIgG_WellE11_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "E12",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "E12-0000": [
                 "serumIgG_WellE12_0000"
               ],
@@ -48650,24 +44417,7 @@
               ],
               "E12-0008": [
                 "serumIgG_WellE12_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "F01",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "F01-0000": [
                 "serumIgG_WellF01_0000"
               ],
@@ -48694,24 +44444,7 @@
               ],
               "F01-0008": [
                 "serumIgG_WellF01_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "F02",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "F02-0000": [
                 "serumIgG_WellF02_0000"
               ],
@@ -48738,24 +44471,7 @@
               ],
               "F02-0008": [
                 "serumIgG_WellF02_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "F03",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "F03-0000": [
                 "serumIgG_WellF03_0000"
               ],
@@ -48782,24 +44498,7 @@
               ],
               "F03-0008": [
                 "serumIgG_WellF03_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "F04",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "F04-0000": [
                 "serumIgG_WellF04_0000"
               ],
@@ -48826,24 +44525,7 @@
               ],
               "F04-0008": [
                 "serumIgG_WellF04_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "F05",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "F05-0000": [
                 "serumIgG_WellF05_0000"
               ],
@@ -48870,24 +44552,7 @@
               ],
               "F05-0008": [
                 "serumIgG_WellF05_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "F06",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "F06-0000": [
                 "serumIgG_WellF06_0000"
               ],
@@ -48914,24 +44579,7 @@
               ],
               "F06-0008": [
                 "serumIgG_WellF06_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "F07",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "F07-0000": [
                 "serumIgG_WellF07_0000"
               ],
@@ -48958,24 +44606,7 @@
               ],
               "F07-0008": [
                 "serumIgG_WellF07_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "F08",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "F08-0000": [
                 "serumIgG_WellF08_0000"
               ],
@@ -49002,24 +44633,7 @@
               ],
               "F08-0008": [
                 "serumIgG_WellF08_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "F09",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "F09-0000": [
                 "serumIgG_WellF09_0000"
               ],
@@ -49046,24 +44660,7 @@
               ],
               "F09-0008": [
                 "serumIgG_WellF09_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "F10",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "F10-0000": [
                 "serumIgG_WellF10_0000"
               ],
@@ -49090,24 +44687,7 @@
               ],
               "F10-0008": [
                 "serumIgG_WellF10_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "F11",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "F11-0000": [
                 "serumIgG_WellF11_0000"
               ],
@@ -49134,24 +44714,7 @@
               ],
               "F11-0008": [
                 "serumIgG_WellF11_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "F12",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "F12-0000": [
                 "serumIgG_WellF12_0000"
               ],
@@ -49178,24 +44741,7 @@
               ],
               "F12-0008": [
                 "serumIgG_WellF12_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "G01",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "G01-0000": [
                 "serumIgG_WellG01_0000"
               ],
@@ -49222,24 +44768,7 @@
               ],
               "G01-0008": [
                 "serumIgG_WellG01_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "G02",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "G02-0000": [
                 "serumIgG_WellG02_0000"
               ],
@@ -49266,24 +44795,7 @@
               ],
               "G02-0008": [
                 "serumIgG_WellG02_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "G03",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "G03-0000": [
                 "serumIgG_WellG03_0000"
               ],
@@ -49310,24 +44822,7 @@
               ],
               "G03-0008": [
                 "serumIgG_WellG03_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "G04",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "G04-0000": [
                 "serumIgG_WellG04_0000"
               ],
@@ -49354,24 +44849,7 @@
               ],
               "G04-0008": [
                 "serumIgG_WellG04_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "G05",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "G05-0000": [
                 "serumIgG_WellG05_0000"
               ],
@@ -49398,24 +44876,7 @@
               ],
               "G05-0008": [
                 "serumIgG_WellG05_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "G06",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "G06-0000": [
                 "serumIgG_WellG06_0000"
               ],
@@ -49442,24 +44903,7 @@
               ],
               "G06-0008": [
                 "serumIgG_WellG06_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "G07",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "G07-0000": [
                 "serumIgG_WellG07_0000"
               ],
@@ -49486,24 +44930,7 @@
               ],
               "G07-0008": [
                 "serumIgG_WellG07_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "G08",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "G08-0000": [
                 "serumIgG_WellG08_0000"
               ],
@@ -49530,24 +44957,7 @@
               ],
               "G08-0008": [
                 "serumIgG_WellG08_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "G09",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "G09-0000": [
                 "serumIgG_WellG09_0000"
               ],
@@ -49574,24 +44984,7 @@
               ],
               "G09-0008": [
                 "serumIgG_WellG09_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "G10",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "G10-0000": [
                 "serumIgG_WellG10_0000"
               ],
@@ -49618,24 +45011,7 @@
               ],
               "G10-0008": [
                 "serumIgG_WellG10_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "G11",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "G11-0000": [
                 "serumIgG_WellG11_0000"
               ],
@@ -49662,24 +45038,7 @@
               ],
               "G11-0008": [
                 "serumIgG_WellG11_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "G12",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "G12-0000": [
                 "serumIgG_WellG12_0000"
               ],
@@ -49706,24 +45065,7 @@
               ],
               "G12-0008": [
                 "serumIgG_WellG12_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "H01",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "H01-0000": [
                 "serumIgG_WellH01_0000"
               ],
@@ -49750,24 +45092,7 @@
               ],
               "H01-0008": [
                 "serumIgG_WellH01_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "H02",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "H02-0000": [
                 "serumIgG_WellH02_0000"
               ],
@@ -49794,24 +45119,7 @@
               ],
               "H02-0008": [
                 "serumIgG_WellH02_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "H03",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "H03-0000": [
                 "serumIgG_WellH03_0000"
               ],
@@ -49838,24 +45146,7 @@
               ],
               "H03-0008": [
                 "serumIgG_WellH03_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "H04",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "H04-0000": [
                 "serumIgG_WellH04_0000"
               ],
@@ -49882,24 +45173,7 @@
               ],
               "H04-0008": [
                 "serumIgG_WellH04_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "H05",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "H05-0000": [
                 "serumIgG_WellH05_0000"
               ],
@@ -49926,24 +45200,7 @@
               ],
               "H05-0008": [
                 "serumIgG_WellH05_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "H06",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "H06-0000": [
                 "serumIgG_WellH06_0000"
               ],
@@ -49970,24 +45227,7 @@
               ],
               "H06-0008": [
                 "serumIgG_WellH06_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "H07",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "H07-0000": [
                 "serumIgG_WellH07_0000"
               ],
@@ -50014,24 +45254,7 @@
               ],
               "H07-0008": [
                 "serumIgG_WellH07_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "H08",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "H08-0000": [
                 "serumIgG_WellH08_0000"
               ],
@@ -50058,24 +45281,7 @@
               ],
               "H08-0008": [
                 "serumIgG_WellH08_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "H09",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "H09-0000": [
                 "serumIgG_WellH09_0000"
               ],
@@ -50102,24 +45308,7 @@
               ],
               "H09-0008": [
                 "serumIgG_WellH09_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "H10",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "H10-0000": [
                 "serumIgG_WellH10_0000"
               ],
@@ -50146,24 +45335,7 @@
               ],
               "H10-0008": [
                 "serumIgG_WellH10_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "H11",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "H11-0000": [
                 "serumIgG_WellH11_0000"
               ],
@@ -50190,24 +45362,7 @@
               ],
               "H11-0008": [
                 "serumIgG_WellH11_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "H12",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "H12-0000": [
                 "serumIgG_WellH12_0000"
               ],
@@ -50238,7 +45393,7 @@
             },
             "tableData": {
               "tsv": {
-                "relativePath": "tables/wells"
+                "relativePath": "tables/sites"
               }
             },
             "tables": [
@@ -51311,7 +46466,7 @@
             },
             "tableData": {
               "tsv": {
-                "relativePath": "tables/plate"
+                "relativePath": "tables/well"
               }
             },
             "tables": [
@@ -56136,7 +51291,7 @@
         {
           "sourceAnnotationDisplay": {
             "lut": "glasbey",
-            "name": "E06",
+            "name": "site",
             "opacity": 0.5,
             "sources": {
               "E06-0000": [
@@ -56183,24 +51338,7 @@
                 "nuclei_WellE06_0008",
                 "serumIgG_WellE06_0008",
                 "marker_tophat_WellE06_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "E07",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "E07-0000": [
                 "nuclei_WellE07_0000",
                 "serumIgG_WellE07_0000",
@@ -56249,7 +51387,7 @@
             },
             "tableData": {
               "tsv": {
-                "relativePath": "tables/wells"
+                "relativePath": "tables/sites"
               }
             },
             "tables": [
@@ -56324,7 +51462,7 @@
             },
             "tableData": {
               "tsv": {
-                "relativePath": "tables/plate"
+                "relativePath": "tables/well"
               }
             },
             "tables": [
@@ -56553,7 +51691,7 @@
         {
           "sourceAnnotationDisplay": {
             "lut": "glasbey",
-            "name": "E06",
+            "name": "site",
             "opacity": 0.5,
             "sources": {
               "E06-0000": [
@@ -56582,24 +51720,7 @@
               ],
               "E06-0008": [
                 "nuclei_WellE06_0008"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/wells"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "E07",
-            "opacity": 0.5,
-            "sources": {
+              ],
               "E07-0000": [
                 "nuclei_WellE07_0000"
               ],
@@ -56630,7 +51751,7 @@
             },
             "tableData": {
               "tsv": {
-                "relativePath": "tables/wells"
+                "relativePath": "tables/sites"
               }
             },
             "tables": [
@@ -56669,7 +51790,7 @@
             },
             "tableData": {
               "tsv": {
-                "relativePath": "tables/plate"
+                "relativePath": "tables/well"
               }
             },
             "tables": [

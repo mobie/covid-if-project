@@ -118,12 +118,12 @@ def format_tab(data):
     return np.array(formatted)
 
 
-def create_well_table(ds_folder, table_file):
-    table_path = os.path.join(ds_folder, 'tables', 'wells')
+def create_site_table(ds_folder, table_file):
+    table_path = os.path.join(ds_folder, 'tables', 'sites')
     os.makedirs(table_path, exist_ok=True)
     table_path = os.path.join(table_path, 'default.tsv')
 
-    rel_table_path = 'tables/wells'
+    rel_table_path = 'tables/sites'
     if os.path.exists(table_path):
         return rel_table_path
 
@@ -161,12 +161,12 @@ def create_well_table(ds_folder, table_file):
     return rel_table_path
 
 
-def create_plate_table(ds_folder, table_file, well_names):
-    table_path = os.path.join(ds_folder, 'tables', 'plate')
+def create_well_table(ds_folder, table_file, well_names):
+    table_path = os.path.join(ds_folder, 'tables', 'well')
     os.makedirs(table_path, exist_ok=True)
     table_path = os.path.join(table_path, 'default.tsv')
 
-    rel_table_path = 'tables/plate'
+    rel_table_path = 'tables/well'
     if os.path.exists(table_path):
         return rel_table_path
 
@@ -214,7 +214,7 @@ def get_all_wells(ds_meta):
     return all_wells
 
 
-def add_plate_view(ds_meta, well_names, plate_table, well_table,
+def add_plate_view(ds_meta, well_names, site_table, well_table,
                    image_names, image_types, image_colors,
                    menu_name, view_name, exclusive,
                    ds_folder, tmp_folder):
@@ -267,6 +267,8 @@ def add_plate_view(ds_meta, well_names, plate_table, well_table,
     source_transforms = []
     sources_per_well = {}
     wells = np.array(wells)
+    all_site_sources = {}
+
     for well in well_names:
         source_ids = np.where(wells == well)[0]
         site_names = [f"{well}-{ii:04}" for ii in range(len(source_ids))]
@@ -280,19 +282,22 @@ def add_plate_view(ds_meta, well_names, plate_table, well_table,
                 "sources": well_sources
             }
         }
-        well_display = {
-            "sourceAnnotationDisplay": {
-                "lut": "glasbey",
-                "name": well,
-                "sources": well_sources,
-                "opacity": 0.5,
-                "tableData": {"tsv": {"relativePath": well_table}},
-                "tables": ["default.tsv"]
-            }
-        }
-        source_transforms.append(well_trafo)
-        source_displays.append(well_display)
         sources_per_well[well] = [source for sources in well_sources.values() for source in sources]
+        source_transforms.append(well_trafo)
+        all_site_sources.update(well_sources)
+
+    # annotation display for the individual sites
+    site_display = {
+        "sourceAnnotationDisplay": {
+            "lut": "glasbey",
+            "name": "site",
+            "sources": all_site_sources,
+            "opacity": 0.5,
+            "tableData": {"tsv": {"relativePath": site_table}},
+            "tables": ["default.tsv"]
+        }
+    }
+    source_displays.append(site_display)
 
     def _to_pos(well_name):
         r, c = well_name[0], well_name[1:]
@@ -317,7 +322,7 @@ def add_plate_view(ds_meta, well_names, plate_table, well_table,
             "sources": plate_sources,
             "opacity": 0.5,
             "lut": "glasbey",
-            "tableData": {"tsv": {"relativePath": plate_table}},
+            "tableData": {"tsv": {"relativePath": well_table}},
             "tables": ["default.tsv"]
         }
     }
@@ -337,7 +342,7 @@ def add_plate_view(ds_meta, well_names, plate_table, well_table,
     return ds_meta
 
 
-def create_raw_views(plate_name, plate_table, well_table):
+def create_raw_views(plate_name, site_table, well_table):
     ds_folder = os.path.join('./data', plate_name)
     ds_meta = mobie.metadata.read_dataset_metadata(ds_folder)
 
@@ -348,13 +353,13 @@ def create_raw_views(plate_name, plate_table, well_table):
     all_wells = get_all_wells(ds_meta)
     # add the individual grid views
     tmp_folder = f'./tmp_{plate_name}'
-    add_plate_view(ds_meta, all_wells, plate_table, well_table, ['nuclei'], ['image'], ['blue'],
+    add_plate_view(ds_meta, all_wells, site_table, well_table, ['nuclei'], ['image'], ['blue'],
                    menu_name="images", view_name="nuclei", exclusive=False,
                    ds_folder=ds_folder, tmp_folder=tmp_folder)
-    add_plate_view(ds_meta, all_wells, plate_table, well_table, ['serumIgG'], ['image'], ['green'],
+    add_plate_view(ds_meta, all_wells, site_table, well_table, ['serumIgG'], ['image'], ['green'],
                    menu_name="images", view_name="serumIgG", exclusive=False,
                    ds_folder=ds_folder, tmp_folder=tmp_folder)
-    add_plate_view(ds_meta, all_wells, plate_table, well_table, ['marker_tophat'], ['image'], ['red'],
+    add_plate_view(ds_meta, all_wells, site_table, well_table, ['marker_tophat'], ['image'], ['red'],
                    menu_name="images", view_name="marker", exclusive=False,
                    ds_folder=ds_folder, tmp_folder=tmp_folder)
 
@@ -363,7 +368,7 @@ def create_raw_views(plate_name, plate_table, well_table):
     mobie.metadata.write_dataset_metadata(ds_folder, ds_meta)
 
 
-def create_test_views(plate_name, plate_table, well_table):
+def create_test_views(plate_name, site_table, well_table):
     ds_folder = os.path.join('./data', plate_name)
     ds_meta = mobie.metadata.read_dataset_metadata(ds_folder)
 
@@ -371,12 +376,12 @@ def create_test_views(plate_name, plate_table, well_table):
     tmp_folder = f'./tmp_{plate_name}'
 
     # add nucleus view
-    add_plate_view(ds_meta, well_names, plate_table, well_table, ['nuclei'], ['image'], ['blue'],
+    add_plate_view(ds_meta, well_names, site_table, well_table, ['nuclei'], ['image'], ['blue'],
                    menu_name="images", view_name="test-nuclei", exclusive=True,
                    ds_folder=ds_folder, tmp_folder=tmp_folder)
 
     # add full view
-    add_plate_view(ds_meta, well_names, plate_table, well_table,
+    add_plate_view(ds_meta, well_names, site_table, well_table,
                    ['nuclei', 'serumIgG', 'marker_tophat'],
                    ['image', 'image', 'image'],
                    ['blue', 'green', 'red'],
@@ -393,6 +398,7 @@ def add_plate(plate_folder):
 
     input_files = glob(os.path.join(plate_folder, "*.h5"))
     input_files.sort()
+
     print("with", len(input_files), "images")
     # add_image_data(input_files, plate_name)
     # make_2d(plate_name)
@@ -401,11 +407,11 @@ def add_plate(plate_folder):
     table_file = os.path.join(plate_folder, f'{plate_name}_table.hdf5')
     assert os.path.exists(table_file)
     all_wells = get_all_wells(mobie.metadata.read_dataset_metadata(ds_folder))
-    plate_table = create_plate_table(ds_folder, table_file, all_wells)
-    well_table = create_well_table(ds_folder, table_file)
+    site_table = create_site_table(ds_folder, table_file)
+    well_table = create_well_table(ds_folder, table_file, all_wells)
 
-    create_raw_views(plate_name, plate_table, well_table)
-    create_test_views(plate_name, plate_table, well_table)
+    create_raw_views(plate_name, site_table, well_table)
+    create_test_views(plate_name, site_table, well_table)
 
     # TODO
     # add segmentations
