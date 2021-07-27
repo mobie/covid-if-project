@@ -362,7 +362,7 @@ def create_raw_views(plate_name, table_file):
     mobie.metadata.write_dataset_metadata(ds_folder, ds_meta)
 
 
-def create_test_view(plate_name, table_file):
+def create_test_views(plate_name, table_file):
     ds_folder = os.path.join('./data', plate_name)
     ds_meta = mobie.metadata.read_dataset_metadata(ds_folder)
 
@@ -388,8 +388,8 @@ def add_plate(plate_folder):
 
     table_file = os.path.join(plate_folder, f'{plate_name}_table.hdf5')
     assert os.path.exists(table_file)
-    # create_raw_views(plate_name, table_file)
-    create_test_view(plate_name, table_file)
+    create_raw_views(plate_name, table_file)
+    create_test_views(plate_name, table_file)
 
     # TODO
     # add segmentations
