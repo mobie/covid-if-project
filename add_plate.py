@@ -227,11 +227,11 @@ def create_plate_view(view_name, plate_name, site_table, well_table, wells=None)
     source_prefixes = ["nuclei", "serumIgG", "marker_tophat", "cell_segmentation", "nucleus_segmentation"]
     source_types = ["image", "image", "image", "segmentation", "segmentation"]
     source_settings = [
-        {"color": "blue", "contrastLimits": compute_clims("nuclei", ds_folder, tmp_folder)},
-        {"color": "green", "contrastLimits": compute_clims("serumIgG", ds_folder, tmp_folder)},
-        {"color": "red", "contrastLimits": compute_clims("marker_tophat", ds_folder, tmp_folder)},
-        {"lut": "glasbey", "tables": ["default.tsv"]},
-        {"lut": "glasbey", "tables": ["default.tsv"]}
+        {"color": "blue", "contrastLimits": compute_clims("nuclei", ds_folder, tmp_folder), "visible": True},
+        {"color": "green", "contrastLimits": compute_clims("serumIgG", ds_folder, tmp_folder), "visible": False},
+        {"color": "red", "contrastLimits": compute_clims("marker_tophat", ds_folder, tmp_folder), "visible": False},
+        {"lut": "glasbey", "tables": ["default.tsv"], "visible": False, "showTable": False},
+        {"lut": "glasbey", "tables": ["default.tsv"], "visible": False, "showTable": False}
     ]
 
     def to_site_name(source_name, prefix):

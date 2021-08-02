@@ -47555,7 +47555,8 @@
               "nuclei_WellE07_0006",
               "nuclei_WellE07_0007",
               "nuclei_WellE07_0008"
-            ]
+            ],
+            "visible": true
           }
         },
         {
@@ -47586,7 +47587,8 @@
               "serumIgG_WellE07_0006",
               "serumIgG_WellE07_0007",
               "serumIgG_WellE07_0008"
-            ]
+            ],
+            "visible": false
           }
         },
         {
@@ -47617,7 +47619,8 @@
               "marker_tophat_WellE07_0006",
               "marker_tophat_WellE07_0007",
               "marker_tophat_WellE07_0008"
-            ]
+            ],
+            "visible": false
           }
         },
         {
@@ -47625,6 +47628,7 @@
             "lut": "glasbey",
             "name": "cell_segmentation",
             "opacity": 0.5,
+            "showTable": false,
             "sources": [
               "cell_segmentation_WellE06_0000",
               "cell_segmentation_WellE06_0001",
@@ -47647,7 +47651,8 @@
             ],
             "tables": [
               "default.tsv"
-            ]
+            ],
+            "visible": false
           }
         },
         {
@@ -47655,6 +47660,7 @@
             "lut": "glasbey",
             "name": "nucleus_segmentation",
             "opacity": 0.5,
+            "showTable": false,
             "sources": [
               "nucleus_segmentation_WellE06_0000",
               "nucleus_segmentation_WellE06_0001",
@@ -47677,7 +47683,8 @@
             ],
             "tables": [
               "default.tsv"
-            ]
+            ],
+            "visible": false
           }
         },
         {
