@@ -150,13 +150,13 @@ def create_site_table(ds_folder, table_file):
     # get the site names from the table and order by site names (order is not preserved in the table!)
     site_names = [name.decode("utf-8") for name in data[:, 1]]
     data = data[np.argsort(site_names)]
-    site_names = [name.decode("utf-8") for name in data[:, 1]]
+    site_names = [name.decode("utf-8").replace("-", "_") for name in data[:, 1]]
 
     col_ids = np.array([cols.index(col_name) for col_name in col_names_in])
     tab = data[:, col_ids]
     assert tab.shape == (len(data), len(col_ids))
 
-    wells = np.array([site_name.split("-")[0] for site_name in site_names])
+    wells = np.array([site_name.split("_")[0] for site_name in site_names])
     col_names_out = ["annotation_id", "well"] + col_names_out
     tab = np.concatenate([
         np.array(site_names)[:, None],
@@ -170,38 +170,38 @@ def create_site_table(ds_folder, table_file):
 
 
 def create_well_table(ds_folder, table_file, well_names):
-    table_path = os.path.join(ds_folder, 'tables', 'well')
+    table_path = os.path.join(ds_folder, "tables", "well")
     os.makedirs(table_path, exist_ok=True)
-    table_path = os.path.join(table_path, 'default.tsv')
+    table_path = os.path.join(table_path, "default.tsv")
 
-    rel_table_path = 'tables/well'
+    rel_table_path = "tables/well"
     if os.path.exists(table_path):
         return rel_table_path
 
-    col_names_in = ['score', 'IgG_is_outlier', 'n_outlier_cells',
-                    'n_infected', 'n_control',
-                    'background_IgG_median', 'background_IgG_mad']
-    col_names_out = ['score', 'is_outlier', 'n_outlier_cells',
-                     'n_infected_cells', 'n_non_infected_cells',
-                     'serum_background_intensity', 'serum_background_variance']
+    col_names_in = ["score", "IgG_is_outlier", "n_outlier_cells",
+                    "n_infected", "n_control",
+                    "background_IgG_median", "background_IgG_mad"]
+    col_names_out = ["score", "is_outlier", "n_outlier_cells",
+                     "n_infected_cells", "n_non_infected_cells",
+                     "serum_background_intensity", "serum_background_variance"]
     assert len(col_names_in) == len(col_names_out)
-    with open_file(table_file, 'r') as f:
-        g = f['tables/wells/default']
-        cols = [col.decode('utf-8') for col in g['columns'][:]]
-        data = g['cells'][:]
-    assert well_names == [name.decode('utf-8') for name in data[:, 0]]
+    with open_file(table_file, "r") as f:
+        g = f["tables/wells/default"]
+        cols = [col.decode("utf-8") for col in g["columns"][:]]
+        data = g["cells"][:]
+    assert well_names == [name.decode("utf-8") for name in data[:, 0]]
 
     col_ids = np.array([cols.index(col_name) for col_name in col_names_in])
     tab = data[:, col_ids]
     assert tab.shape == (len(well_names), len(col_ids))
 
-    col_names_out = ['annotation_id'] + col_names_out
+    col_names_out = ["annotation_id"] + col_names_out
     tab = np.concatenate([
         np.array(well_names)[:, None],
         format_tab(tab)
     ], axis=1)
     tab = pd.DataFrame(tab, columns=col_names_out)
-    tab.to_csv(table_path, sep='\t', index=False, na_rep="nan")
+    tab.to_csv(table_path, sep="\t", index=False, na_rep="nan")
 
     return rel_table_path
 
