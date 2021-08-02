@@ -3,6 +3,7 @@ import json
 import os
 import string
 from concurrent.futures import ThreadPoolExecutor
+from functools import partial
 from glob import glob
 
 import mobie
@@ -85,17 +86,13 @@ def add_segmentations(input_files, plate_name):
                           tmp_folder=tmp_folder, target="local", max_jobs=24)
 
 
-def remove_single_source_views(ds_meta, remove_prefixes):
-    new_views = {k: v for k, v in ds_meta['views'].items() if not any(k.startswith(pref) for pref in remove_prefixes)}
-    ds_meta['views'] = new_views
-    return ds_meta
-
-
-def compute_clims(source, this_source_names, sources, tmp_folder, ds_folder):
+def compute_clims(source, ds_folder, tmp_folder):
     tmp_path = os.path.join(tmp_folder, f'clims_{source}.json')
     if os.path.exists(tmp_path):
         with open(tmp_path) as f:
             return json.load(f)
+
+    sources = mobie.metadata.read_dataset_metadata(ds_folder)["sources"]
 
     def compute_clim_im(source_name):
         path = os.path.join(
@@ -108,10 +105,11 @@ def compute_clims(source, this_source_names, sources, tmp_folder, ds_folder):
             cmax = np.percentile(data, 98)
         return cmin, cmax
 
+    source_names = [name for name in sources.keys() if name.startswith(source)]
     with ThreadPoolExecutor(32) as tp:
         results = list(tqdm(
-            tp.map(compute_clim_im, this_source_names),
-            total=len(this_source_names),
+            tp.map(compute_clim_im, source_names),
+            total=len(source_names),
             desc=f"Compute contrast limits for {source}"
         ))
 
@@ -124,49 +122,49 @@ def compute_clims(source, this_source_names, sources, tmp_folder, ds_folder):
 
 
 def format_tab(data):
-    formatted = [[rr.decode('utf-8') for rr in row] for row in data]
+    formatted = [[rr.decode("utf-8") for rr in row] for row in data]
     return np.array(formatted)
 
 
 def create_site_table(ds_folder, table_file):
-    table_path = os.path.join(ds_folder, 'tables', 'sites')
+    table_path = os.path.join(ds_folder, "tables", "sites")
     os.makedirs(table_path, exist_ok=True)
-    table_path = os.path.join(table_path, 'default.tsv')
+    table_path = os.path.join(table_path, "default.tsv")
 
-    rel_table_path = 'tables/sites'
+    rel_table_path = "tables/sites"
     if os.path.exists(table_path):
         return rel_table_path
 
-    col_names_in = ['score', 'IgG_is_outlier', 'n_outlier_cells',
-                    'n_infected', 'n_control',
-                    'background_IgG_median', 'background_IgG_mad']
-    col_names_out = ['score', 'is_outlier', 'n_outlier_cells',
-                     'n_infected_cells', 'n_non_infected_cells',
-                     'serum_background_intensity', 'serum_background_variance']
+    col_names_in = ["score", "IgG_is_outlier", "n_outlier_cells",
+                    "n_infected", "n_control",
+                    "background_IgG_median", "background_IgG_mad"]
+    col_names_out = ["score", "is_outlier", "n_outlier_cells",
+                     "n_infected_cells", "n_non_infected_cells",
+                     "serum_background_intensity", "serum_background_variance"]
     assert len(col_names_in) == len(col_names_out)
-    with open_file(table_file, 'r') as f:
-        g = f['tables/images/default']
-        cols = [col.decode('utf-8') for col in g['columns'][:]]
-        data = g['cells'][:]
+    with open_file(table_file, "r") as f:
+        g = f["tables/images/default"]
+        cols = [col.decode("utf-8") for col in g["columns"][:]]
+        data = g["cells"][:]
 
     # get the site names from the table and order by site names (order is not preserved in the table!)
-    site_names = [name.decode('utf-8') for name in data[:, 1]]
+    site_names = [name.decode("utf-8") for name in data[:, 1]]
     data = data[np.argsort(site_names)]
-    site_names = [name.decode('utf-8') for name in data[:, 1]]
+    site_names = [name.decode("utf-8") for name in data[:, 1]]
 
     col_ids = np.array([cols.index(col_name) for col_name in col_names_in])
     tab = data[:, col_ids]
     assert tab.shape == (len(data), len(col_ids))
 
-    wells = np.array([site_name.split('-')[0] for site_name in site_names])
-    col_names_out = ['annotation_id', 'well'] + col_names_out
+    wells = np.array([site_name.split("-")[0] for site_name in site_names])
+    col_names_out = ["annotation_id", "well"] + col_names_out
     tab = np.concatenate([
         np.array(site_names)[:, None],
         wells[:, None],
         format_tab(tab)
     ], axis=1)
     tab = pd.DataFrame(tab, columns=col_names_out)
-    tab.to_csv(table_path, sep='\t', index=False, na_rep="nan")
+    tab.to_csv(table_path, sep="\t", index=False, na_rep="nan")
 
     return rel_table_path
 
@@ -208,13 +206,6 @@ def create_well_table(ds_folder, table_file, well_names):
     return rel_table_path
 
 
-def filter_wells(sources, well_names):
-    filtered_sources = {}
-    for name, this_sources in sources.items():
-        filtered_sources[name] = [source for source in this_sources if any(wname in source for wname in well_names)]
-    return filtered_sources
-
-
 def get_all_wells(ds_meta):
     source_names = list(ds_meta["sources"].keys())
     wells = [name[name.find("Well"):].split("_")[0] for name in source_names]
@@ -224,181 +215,51 @@ def get_all_wells(ds_meta):
     return all_wells
 
 
-def add_plate_view(ds_meta, well_names, site_table, well_table,
-                   image_names, image_types, image_colors,
-                   menu_name, view_name, exclusive,
-                   ds_folder, tmp_folder):
-    assert len(image_names) == len(image_types) == len(image_colors)
+def filter_function(source, well_names):
+    return any(wname in source for wname in well_names)
 
-    all_sources = ds_meta['sources']
-    this_sources = {
-        im_name: [name for name in all_sources if name.startswith(im_name)]
-        for im_name in image_names
-    }
-    this_sources = filter_wells(this_sources, well_names)
 
-    n_positions = len(this_sources[image_names[0]])
-    assert all(len(sources) == n_positions for sources in this_sources.values()), f"{this_sources} -:- {n_positions}"
+def create_plate_view(view_name, plate_name, site_table, well_table, wells=None):
+    ds_folder = f"./data/{plate_name}"
+    tmp_folder = f"./tmp_{plate_name}"
+    os.makedirs(tmp_folder, exist_ok=True)
 
-    all_source_positions = {
-        im_name: [source[len(f'{im_name}_Well'):] for source in this_sources[im_name]]
-        for im_name in image_names
-    }
-    source_positions = all_source_positions[image_names[0]]
-    assert all(source_pos == source_positions for source_pos in all_source_positions.values())
+    source_prefixes = ["nuclei", "serumIgG", "marker_tophat", "cell_segmentation", "nucleus_segmentation"]
+    source_types = ["image", "image", "image", "segmentation", "segmentation"]
+    source_settings = [
+        {"color": "blue", "contrastLimits": compute_clims("nuclei", ds_folder, tmp_folder)},
+        {"color": "green", "contrastLimits": compute_clims("serumIgG", ds_folder, tmp_folder)},
+        {"color": "red", "contrastLimits": compute_clims("marker_tophat", ds_folder, tmp_folder)},
+        {"lut": "glasbey", "tables": ["default.tsv"]},
+        {"lut": "glasbey", "tables": ["default.tsv"]}
+    ]
 
-    wells = [pos.split('_')[0] for pos in source_positions]
-    source_displays = []
-    for im_name, im_type, color in zip(image_names, image_types, image_colors):
+    def to_site_name(source_name, prefix):
+        return source_name[len(f"{prefix}_Well"):]
 
-        if im_type == 'image':
-            im_sources = this_sources[im_name]
-            clims = compute_clims(im_name, im_sources, all_sources, tmp_folder, ds_folder)
-            source_display = {"imageDisplay": {
-                "color": color,
-                "contrastLimits": clims,
-                "opacity": 1.0,
-                "name": im_name,
-                "sources": im_sources}
-            }
-        else:
-            assert im_type == 'segmentation'
-            seg_sources = this_sources[im_name]
-            source_display = {"segmentationDisplay": {
-                "lut": "glasbey",
-                "opacity": 0.5,
-                "name": im_name,
-                "sources": seg_sources}
-            }
+    def to_well_name(site_name):
+        return site_name.split("_")[0]
 
-        source_displays.append(source_display)
-
-    # well grid transforms
-    source_transforms = []
-    sources_per_well = {}
-    wells = np.array(wells)
-    all_site_sources = {}
-
-    for well in well_names:
-        source_ids = np.where(wells == well)[0]
-        site_names = [f"{well}-{ii:04}" for ii in range(len(source_ids))]
-        well_sources = {
-            site_name: [sources[sid] for sources in this_sources.values()]
-            for site_name, sid in zip(site_names, source_ids)
-        }
-        well_trafo = {
-            "grid": {
-                "name": well,
-                "sources": well_sources
-            }
-        }
-        sources_per_well[well] = [source for sources in well_sources.values() for source in sources]
-        source_transforms.append(well_trafo)
-        all_site_sources.update(well_sources)
-
-    # annotation display for the individual sites
-    site_display = {
-        "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "site",
-            "sources": all_site_sources,
-            "opacity": 0.5,
-            "tableData": {"tsv": {"relativePath": site_table}},
-            "tables": ["default.tsv"]
-        }
-    }
-    source_displays.append(site_display)
-
-    def _to_pos(well_name):
+    def to_position(well_name):
         r, c = well_name[0], well_name[1:]
         r = string.ascii_uppercase.index(r)
         c = int(c) - 1
         return [r, c]
 
-    # plate: grid transform for wells
-    plate_sources = {well: sources_per_well[well] for well in well_names}
-    plate_trafo = {
-        "grid": {
-            "name": f"plate-{view_name}",
-            "sources": plate_sources,
-            "positions": {
-                well: _to_pos(well) for well in well_names
-            }
-        }
-    }
-    plate_display = {
-        "sourceAnnotationDisplay": {
-            "name": f"plate-{view_name}",
-            "sources": plate_sources,
-            "opacity": 0.5,
-            "lut": "glasbey",
-            "tableData": {"tsv": {"relativePath": well_table}},
-            "tables": ["default.tsv"]
-        }
-    }
-    source_transforms.append(plate_trafo)
-    source_displays.append(plate_display)
+    if wells is None:
+        name_filter = None
+    else:
+        name_filter = partial(filter_function, well_names=wells)
 
-    grid_view = {
-        "isExclusive": exclusive,
-        "sourceDisplays": source_displays,
-        "sourceTransforms": source_transforms,
-        "uiSelectionGroup": menu_name
-    }
-
-    views = ds_meta['views']
-    views[view_name] = grid_view
-    ds_meta['views'] = views
-    return ds_meta
-
-
-def create_raw_views(plate_name, site_table, well_table):
-    ds_folder = os.path.join('./data', plate_name)
-    ds_meta = mobie.metadata.read_dataset_metadata(ds_folder)
-
-    # remove single source views
-    ds_meta = remove_single_source_views(ds_meta,
-                                         remove_prefixes=['marker', 'serumIgG', 'nuclei'])
-
-    all_wells = get_all_wells(ds_meta)
-    # add the individual grid views
-    tmp_folder = f'./tmp_{plate_name}'
-    add_plate_view(ds_meta, all_wells, site_table, well_table, ['nuclei'], ['image'], ['blue'],
-                   menu_name="images", view_name="nuclei", exclusive=False,
-                   ds_folder=ds_folder, tmp_folder=tmp_folder)
-    add_plate_view(ds_meta, all_wells, site_table, well_table, ['serumIgG'], ['image'], ['green'],
-                   menu_name="images", view_name="serumIgG", exclusive=False,
-                   ds_folder=ds_folder, tmp_folder=tmp_folder)
-    add_plate_view(ds_meta, all_wells, site_table, well_table, ['marker_tophat'], ['image'], ['red'],
-                   menu_name="images", view_name="marker", exclusive=False,
-                   ds_folder=ds_folder, tmp_folder=tmp_folder)
-
-    # TODO replace the default view with a composite view of marker + serumIgG + nuclei
-
-    mobie.metadata.write_dataset_metadata(ds_folder, ds_meta)
-
-
-def create_test_views(plate_name, site_table, well_table):
-    ds_folder = os.path.join('./data', plate_name)
-    ds_meta = mobie.metadata.read_dataset_metadata(ds_folder)
-
-    well_names = ["E06", "E07"]
-    tmp_folder = f'./tmp_{plate_name}'
-
-    # add nucleus view
-    add_plate_view(ds_meta, well_names, site_table, well_table, ['nuclei'], ['image'], ['blue'],
-                   menu_name="images", view_name="test-nuclei", exclusive=True,
-                   ds_folder=ds_folder, tmp_folder=tmp_folder)
-
-    # add full view
-    add_plate_view(ds_meta, well_names, site_table, well_table,
-                   ['nuclei', 'serumIgG', 'marker_tophat'],
-                   ['image', 'image', 'image'],
-                   ['blue', 'green', 'red'],
-                   menu_name="images", view_name="test-full", exclusive=True,
-                   ds_folder=ds_folder, tmp_folder=tmp_folder)
-
-    mobie.metadata.write_dataset_metadata(ds_folder, ds_meta)
+    mobie.htm.add_plate_grid_view(ds_folder, view_name, menu_name="plate",
+                                  source_prefixes=source_prefixes, source_types=source_types,
+                                  source_settings=source_settings,
+                                  source_name_to_site_name=to_site_name,
+                                  site_name_to_well_name=to_well_name,
+                                  well_to_position=to_position,
+                                  site_table=site_table,
+                                  well_table=well_table,
+                                  name_filter=name_filter)
 
 
 def add_plate(plate_folder):
@@ -415,24 +276,25 @@ def add_plate(plate_folder):
     add_segmentations(input_files, plate_name)
     mobie.metadata.set_is2d(ds_folder, True)
 
-    # # create the tables
-    # table_file = os.path.join(plate_folder, f'{plate_name}_table.hdf5')
-    # assert os.path.exists(table_file)
-    # all_wells = get_all_wells(mobie.metadata.read_dataset_metadata(ds_folder))
-    # site_table = create_site_table(ds_folder, table_file)
-    # well_table = create_well_table(ds_folder, table_file, all_wells)
+    # create site and well tables
+    table_file = os.path.join(plate_folder, f"{plate_name}_table.hdf5")
+    assert os.path.exists(table_file)
+    all_wells = get_all_wells(mobie.metadata.read_dataset_metadata(ds_folder))
+    site_table = create_site_table(ds_folder, table_file)
+    well_table = create_well_table(ds_folder, table_file, all_wells)
 
-    # create_raw_views(plate_name, site_table, well_table)
-    # create_test_views(plate_name, site_table, well_table)
+    # TODO for now we use a reduced view as default, once everything works set the full view as default instead
+    test_wells = ["E06", "E07"]
+    create_plate_view("default", plate_name, site_table, well_table, wells=test_wells)
+    # create_plate_view("default", plate_name, site_table, well_table)
 
     # validate the project
-    # print("Validating the project ...")
-    # mobie.validation.validate_project('./data')
+    print("Validating the project ...")
+    mobie.validation.validate_project('./data')
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    # add default argument for debugging
     parser.add_argument("--input", "-i", default=DEFAULT_PLATE)
     args = parser.parse_args()
     add_plate(args.input)

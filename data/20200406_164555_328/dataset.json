@@ -47525,7 +47525,7 @@
   "timepoints": 1,
   "views": {
     "default": {
-      "isExclusive": false,
+      "isExclusive": true,
       "sourceDisplays": [
         {
           "imageDisplay": {
@@ -47534,15 +47534,658 @@
               574.5811364746094,
               2337.56693359375
             ],
-            "name": "nuclei_WellA01_0000",
+            "name": "nuclei",
             "opacity": 1.0,
             "sources": [
-              "nuclei_WellA01_0000"
+              "nuclei_WellE06_0000",
+              "nuclei_WellE06_0001",
+              "nuclei_WellE06_0002",
+              "nuclei_WellE06_0003",
+              "nuclei_WellE06_0004",
+              "nuclei_WellE06_0005",
+              "nuclei_WellE06_0006",
+              "nuclei_WellE06_0007",
+              "nuclei_WellE06_0008",
+              "nuclei_WellE07_0000",
+              "nuclei_WellE07_0001",
+              "nuclei_WellE07_0002",
+              "nuclei_WellE07_0003",
+              "nuclei_WellE07_0004",
+              "nuclei_WellE07_0005",
+              "nuclei_WellE07_0006",
+              "nuclei_WellE07_0007",
+              "nuclei_WellE07_0008"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              3572.6057641601565,
+              5124.770288085938
+            ],
+            "name": "serumIgG",
+            "opacity": 1.0,
+            "sources": [
+              "serumIgG_WellE06_0000",
+              "serumIgG_WellE06_0001",
+              "serumIgG_WellE06_0002",
+              "serumIgG_WellE06_0003",
+              "serumIgG_WellE06_0004",
+              "serumIgG_WellE06_0005",
+              "serumIgG_WellE06_0006",
+              "serumIgG_WellE06_0007",
+              "serumIgG_WellE06_0008",
+              "serumIgG_WellE07_0000",
+              "serumIgG_WellE07_0001",
+              "serumIgG_WellE07_0002",
+              "serumIgG_WellE07_0003",
+              "serumIgG_WellE07_0004",
+              "serumIgG_WellE07_0005",
+              "serumIgG_WellE07_0006",
+              "serumIgG_WellE07_0007",
+              "serumIgG_WellE07_0008"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "red",
+            "contrastLimits": [
+              1789.888935546875,
+              3836.542670898438
+            ],
+            "name": "marker_tophat",
+            "opacity": 1.0,
+            "sources": [
+              "marker_tophat_WellE06_0000",
+              "marker_tophat_WellE06_0001",
+              "marker_tophat_WellE06_0002",
+              "marker_tophat_WellE06_0003",
+              "marker_tophat_WellE06_0004",
+              "marker_tophat_WellE06_0005",
+              "marker_tophat_WellE06_0006",
+              "marker_tophat_WellE06_0007",
+              "marker_tophat_WellE06_0008",
+              "marker_tophat_WellE07_0000",
+              "marker_tophat_WellE07_0001",
+              "marker_tophat_WellE07_0002",
+              "marker_tophat_WellE07_0003",
+              "marker_tophat_WellE07_0004",
+              "marker_tophat_WellE07_0005",
+              "marker_tophat_WellE07_0006",
+              "marker_tophat_WellE07_0007",
+              "marker_tophat_WellE07_0008"
+            ]
+          }
+        },
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "cell_segmentation",
+            "opacity": 0.5,
+            "sources": [
+              "cell_segmentation_WellE06_0000",
+              "cell_segmentation_WellE06_0001",
+              "cell_segmentation_WellE06_0002",
+              "cell_segmentation_WellE06_0003",
+              "cell_segmentation_WellE06_0004",
+              "cell_segmentation_WellE06_0005",
+              "cell_segmentation_WellE06_0006",
+              "cell_segmentation_WellE06_0007",
+              "cell_segmentation_WellE06_0008",
+              "cell_segmentation_WellE07_0000",
+              "cell_segmentation_WellE07_0001",
+              "cell_segmentation_WellE07_0002",
+              "cell_segmentation_WellE07_0003",
+              "cell_segmentation_WellE07_0004",
+              "cell_segmentation_WellE07_0005",
+              "cell_segmentation_WellE07_0006",
+              "cell_segmentation_WellE07_0007",
+              "cell_segmentation_WellE07_0008"
+            ],
+            "tables": [
+              "default.tsv"
+            ]
+          }
+        },
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "nucleus_segmentation",
+            "opacity": 0.5,
+            "sources": [
+              "nucleus_segmentation_WellE06_0000",
+              "nucleus_segmentation_WellE06_0001",
+              "nucleus_segmentation_WellE06_0002",
+              "nucleus_segmentation_WellE06_0003",
+              "nucleus_segmentation_WellE06_0004",
+              "nucleus_segmentation_WellE06_0005",
+              "nucleus_segmentation_WellE06_0006",
+              "nucleus_segmentation_WellE06_0007",
+              "nucleus_segmentation_WellE06_0008",
+              "nucleus_segmentation_WellE07_0000",
+              "nucleus_segmentation_WellE07_0001",
+              "nucleus_segmentation_WellE07_0002",
+              "nucleus_segmentation_WellE07_0003",
+              "nucleus_segmentation_WellE07_0004",
+              "nucleus_segmentation_WellE07_0005",
+              "nucleus_segmentation_WellE07_0006",
+              "nucleus_segmentation_WellE07_0007",
+              "nucleus_segmentation_WellE07_0008"
+            ],
+            "tables": [
+              "default.tsv"
+            ]
+          }
+        },
+        {
+          "sourceAnnotationDisplay": {
+            "lut": "glasbey",
+            "name": "sites",
+            "opacity": 0.5,
+            "sources": {
+              "E06_0000": [
+                "nuclei_WellE06_0000",
+                "serumIgG_WellE06_0000",
+                "marker_tophat_WellE06_0000",
+                "cell_segmentation_WellE06_0000",
+                "nucleus_segmentation_WellE06_0000"
+              ],
+              "E06_0001": [
+                "nuclei_WellE06_0001",
+                "serumIgG_WellE06_0001",
+                "marker_tophat_WellE06_0001",
+                "cell_segmentation_WellE06_0001",
+                "nucleus_segmentation_WellE06_0001"
+              ],
+              "E06_0002": [
+                "nuclei_WellE06_0002",
+                "serumIgG_WellE06_0002",
+                "marker_tophat_WellE06_0002",
+                "cell_segmentation_WellE06_0002",
+                "nucleus_segmentation_WellE06_0002"
+              ],
+              "E06_0003": [
+                "nuclei_WellE06_0003",
+                "serumIgG_WellE06_0003",
+                "marker_tophat_WellE06_0003",
+                "cell_segmentation_WellE06_0003",
+                "nucleus_segmentation_WellE06_0003"
+              ],
+              "E06_0004": [
+                "nuclei_WellE06_0004",
+                "serumIgG_WellE06_0004",
+                "marker_tophat_WellE06_0004",
+                "cell_segmentation_WellE06_0004",
+                "nucleus_segmentation_WellE06_0004"
+              ],
+              "E06_0005": [
+                "nuclei_WellE06_0005",
+                "serumIgG_WellE06_0005",
+                "marker_tophat_WellE06_0005",
+                "cell_segmentation_WellE06_0005",
+                "nucleus_segmentation_WellE06_0005"
+              ],
+              "E06_0006": [
+                "nuclei_WellE06_0006",
+                "serumIgG_WellE06_0006",
+                "marker_tophat_WellE06_0006",
+                "cell_segmentation_WellE06_0006",
+                "nucleus_segmentation_WellE06_0006"
+              ],
+              "E06_0007": [
+                "nuclei_WellE06_0007",
+                "serumIgG_WellE06_0007",
+                "marker_tophat_WellE06_0007",
+                "cell_segmentation_WellE06_0007",
+                "nucleus_segmentation_WellE06_0007"
+              ],
+              "E06_0008": [
+                "nuclei_WellE06_0008",
+                "serumIgG_WellE06_0008",
+                "marker_tophat_WellE06_0008",
+                "cell_segmentation_WellE06_0008",
+                "nucleus_segmentation_WellE06_0008"
+              ],
+              "E07_0000": [
+                "nuclei_WellE07_0000",
+                "serumIgG_WellE07_0000",
+                "marker_tophat_WellE07_0000",
+                "cell_segmentation_WellE07_0000",
+                "nucleus_segmentation_WellE07_0000"
+              ],
+              "E07_0001": [
+                "nuclei_WellE07_0001",
+                "serumIgG_WellE07_0001",
+                "marker_tophat_WellE07_0001",
+                "cell_segmentation_WellE07_0001",
+                "nucleus_segmentation_WellE07_0001"
+              ],
+              "E07_0002": [
+                "nuclei_WellE07_0002",
+                "serumIgG_WellE07_0002",
+                "marker_tophat_WellE07_0002",
+                "cell_segmentation_WellE07_0002",
+                "nucleus_segmentation_WellE07_0002"
+              ],
+              "E07_0003": [
+                "nuclei_WellE07_0003",
+                "serumIgG_WellE07_0003",
+                "marker_tophat_WellE07_0003",
+                "cell_segmentation_WellE07_0003",
+                "nucleus_segmentation_WellE07_0003"
+              ],
+              "E07_0004": [
+                "nuclei_WellE07_0004",
+                "serumIgG_WellE07_0004",
+                "marker_tophat_WellE07_0004",
+                "cell_segmentation_WellE07_0004",
+                "nucleus_segmentation_WellE07_0004"
+              ],
+              "E07_0005": [
+                "nuclei_WellE07_0005",
+                "serumIgG_WellE07_0005",
+                "marker_tophat_WellE07_0005",
+                "cell_segmentation_WellE07_0005",
+                "nucleus_segmentation_WellE07_0005"
+              ],
+              "E07_0006": [
+                "nuclei_WellE07_0006",
+                "serumIgG_WellE07_0006",
+                "marker_tophat_WellE07_0006",
+                "cell_segmentation_WellE07_0006",
+                "nucleus_segmentation_WellE07_0006"
+              ],
+              "E07_0007": [
+                "nuclei_WellE07_0007",
+                "serumIgG_WellE07_0007",
+                "marker_tophat_WellE07_0007",
+                "cell_segmentation_WellE07_0007",
+                "nucleus_segmentation_WellE07_0007"
+              ],
+              "E07_0008": [
+                "nuclei_WellE07_0008",
+                "serumIgG_WellE07_0008",
+                "marker_tophat_WellE07_0008",
+                "cell_segmentation_WellE07_0008",
+                "nucleus_segmentation_WellE07_0008"
+              ]
+            },
+            "tableData": {
+              "tsv": {
+                "relativePath": "tables/sites"
+              }
+            },
+            "tables": [
+              "default.tsv"
+            ]
+          }
+        },
+        {
+          "sourceAnnotationDisplay": {
+            "lut": "glasbey",
+            "name": "wells",
+            "opacity": 0.5,
+            "sources": {
+              "E06": [
+                "nuclei_WellE06_0000",
+                "serumIgG_WellE06_0000",
+                "marker_tophat_WellE06_0000",
+                "cell_segmentation_WellE06_0000",
+                "nucleus_segmentation_WellE06_0000",
+                "nuclei_WellE06_0001",
+                "serumIgG_WellE06_0001",
+                "marker_tophat_WellE06_0001",
+                "cell_segmentation_WellE06_0001",
+                "nucleus_segmentation_WellE06_0001",
+                "nuclei_WellE06_0002",
+                "serumIgG_WellE06_0002",
+                "marker_tophat_WellE06_0002",
+                "cell_segmentation_WellE06_0002",
+                "nucleus_segmentation_WellE06_0002",
+                "nuclei_WellE06_0003",
+                "serumIgG_WellE06_0003",
+                "marker_tophat_WellE06_0003",
+                "cell_segmentation_WellE06_0003",
+                "nucleus_segmentation_WellE06_0003",
+                "nuclei_WellE06_0004",
+                "serumIgG_WellE06_0004",
+                "marker_tophat_WellE06_0004",
+                "cell_segmentation_WellE06_0004",
+                "nucleus_segmentation_WellE06_0004",
+                "nuclei_WellE06_0005",
+                "serumIgG_WellE06_0005",
+                "marker_tophat_WellE06_0005",
+                "cell_segmentation_WellE06_0005",
+                "nucleus_segmentation_WellE06_0005",
+                "nuclei_WellE06_0006",
+                "serumIgG_WellE06_0006",
+                "marker_tophat_WellE06_0006",
+                "cell_segmentation_WellE06_0006",
+                "nucleus_segmentation_WellE06_0006",
+                "nuclei_WellE06_0007",
+                "serumIgG_WellE06_0007",
+                "marker_tophat_WellE06_0007",
+                "cell_segmentation_WellE06_0007",
+                "nucleus_segmentation_WellE06_0007",
+                "nuclei_WellE06_0008",
+                "serumIgG_WellE06_0008",
+                "marker_tophat_WellE06_0008",
+                "cell_segmentation_WellE06_0008",
+                "nucleus_segmentation_WellE06_0008"
+              ],
+              "E07": [
+                "nuclei_WellE07_0000",
+                "serumIgG_WellE07_0000",
+                "marker_tophat_WellE07_0000",
+                "cell_segmentation_WellE07_0000",
+                "nucleus_segmentation_WellE07_0000",
+                "nuclei_WellE07_0001",
+                "serumIgG_WellE07_0001",
+                "marker_tophat_WellE07_0001",
+                "cell_segmentation_WellE07_0001",
+                "nucleus_segmentation_WellE07_0001",
+                "nuclei_WellE07_0002",
+                "serumIgG_WellE07_0002",
+                "marker_tophat_WellE07_0002",
+                "cell_segmentation_WellE07_0002",
+                "nucleus_segmentation_WellE07_0002",
+                "nuclei_WellE07_0003",
+                "serumIgG_WellE07_0003",
+                "marker_tophat_WellE07_0003",
+                "cell_segmentation_WellE07_0003",
+                "nucleus_segmentation_WellE07_0003",
+                "nuclei_WellE07_0004",
+                "serumIgG_WellE07_0004",
+                "marker_tophat_WellE07_0004",
+                "cell_segmentation_WellE07_0004",
+                "nucleus_segmentation_WellE07_0004",
+                "nuclei_WellE07_0005",
+                "serumIgG_WellE07_0005",
+                "marker_tophat_WellE07_0005",
+                "cell_segmentation_WellE07_0005",
+                "nucleus_segmentation_WellE07_0005",
+                "nuclei_WellE07_0006",
+                "serumIgG_WellE07_0006",
+                "marker_tophat_WellE07_0006",
+                "cell_segmentation_WellE07_0006",
+                "nucleus_segmentation_WellE07_0006",
+                "nuclei_WellE07_0007",
+                "serumIgG_WellE07_0007",
+                "marker_tophat_WellE07_0007",
+                "cell_segmentation_WellE07_0007",
+                "nucleus_segmentation_WellE07_0007",
+                "nuclei_WellE07_0008",
+                "serumIgG_WellE07_0008",
+                "marker_tophat_WellE07_0008",
+                "cell_segmentation_WellE07_0008",
+                "nucleus_segmentation_WellE07_0008"
+              ]
+            },
+            "tableData": {
+              "tsv": {
+                "relativePath": "tables/well"
+              }
+            },
+            "tables": [
+              "default.tsv"
             ]
           }
         }
       ],
-      "uiSelectionGroup": "bookmark"
+      "sourceTransforms": [
+        {
+          "grid": {
+            "sources": {
+              "E06_0000": [
+                "nuclei_WellE06_0000",
+                "serumIgG_WellE06_0000",
+                "marker_tophat_WellE06_0000",
+                "cell_segmentation_WellE06_0000",
+                "nucleus_segmentation_WellE06_0000"
+              ],
+              "E06_0001": [
+                "nuclei_WellE06_0001",
+                "serumIgG_WellE06_0001",
+                "marker_tophat_WellE06_0001",
+                "cell_segmentation_WellE06_0001",
+                "nucleus_segmentation_WellE06_0001"
+              ],
+              "E06_0002": [
+                "nuclei_WellE06_0002",
+                "serumIgG_WellE06_0002",
+                "marker_tophat_WellE06_0002",
+                "cell_segmentation_WellE06_0002",
+                "nucleus_segmentation_WellE06_0002"
+              ],
+              "E06_0003": [
+                "nuclei_WellE06_0003",
+                "serumIgG_WellE06_0003",
+                "marker_tophat_WellE06_0003",
+                "cell_segmentation_WellE06_0003",
+                "nucleus_segmentation_WellE06_0003"
+              ],
+              "E06_0004": [
+                "nuclei_WellE06_0004",
+                "serumIgG_WellE06_0004",
+                "marker_tophat_WellE06_0004",
+                "cell_segmentation_WellE06_0004",
+                "nucleus_segmentation_WellE06_0004"
+              ],
+              "E06_0005": [
+                "nuclei_WellE06_0005",
+                "serumIgG_WellE06_0005",
+                "marker_tophat_WellE06_0005",
+                "cell_segmentation_WellE06_0005",
+                "nucleus_segmentation_WellE06_0005"
+              ],
+              "E06_0006": [
+                "nuclei_WellE06_0006",
+                "serumIgG_WellE06_0006",
+                "marker_tophat_WellE06_0006",
+                "cell_segmentation_WellE06_0006",
+                "nucleus_segmentation_WellE06_0006"
+              ],
+              "E06_0007": [
+                "nuclei_WellE06_0007",
+                "serumIgG_WellE06_0007",
+                "marker_tophat_WellE06_0007",
+                "cell_segmentation_WellE06_0007",
+                "nucleus_segmentation_WellE06_0007"
+              ],
+              "E06_0008": [
+                "nuclei_WellE06_0008",
+                "serumIgG_WellE06_0008",
+                "marker_tophat_WellE06_0008",
+                "cell_segmentation_WellE06_0008",
+                "nucleus_segmentation_WellE06_0008"
+              ]
+            }
+          }
+        },
+        {
+          "grid": {
+            "sources": {
+              "E07_0000": [
+                "nuclei_WellE07_0000",
+                "serumIgG_WellE07_0000",
+                "marker_tophat_WellE07_0000",
+                "cell_segmentation_WellE07_0000",
+                "nucleus_segmentation_WellE07_0000"
+              ],
+              "E07_0001": [
+                "nuclei_WellE07_0001",
+                "serumIgG_WellE07_0001",
+                "marker_tophat_WellE07_0001",
+                "cell_segmentation_WellE07_0001",
+                "nucleus_segmentation_WellE07_0001"
+              ],
+              "E07_0002": [
+                "nuclei_WellE07_0002",
+                "serumIgG_WellE07_0002",
+                "marker_tophat_WellE07_0002",
+                "cell_segmentation_WellE07_0002",
+                "nucleus_segmentation_WellE07_0002"
+              ],
+              "E07_0003": [
+                "nuclei_WellE07_0003",
+                "serumIgG_WellE07_0003",
+                "marker_tophat_WellE07_0003",
+                "cell_segmentation_WellE07_0003",
+                "nucleus_segmentation_WellE07_0003"
+              ],
+              "E07_0004": [
+                "nuclei_WellE07_0004",
+                "serumIgG_WellE07_0004",
+                "marker_tophat_WellE07_0004",
+                "cell_segmentation_WellE07_0004",
+                "nucleus_segmentation_WellE07_0004"
+              ],
+              "E07_0005": [
+                "nuclei_WellE07_0005",
+                "serumIgG_WellE07_0005",
+                "marker_tophat_WellE07_0005",
+                "cell_segmentation_WellE07_0005",
+                "nucleus_segmentation_WellE07_0005"
+              ],
+              "E07_0006": [
+                "nuclei_WellE07_0006",
+                "serumIgG_WellE07_0006",
+                "marker_tophat_WellE07_0006",
+                "cell_segmentation_WellE07_0006",
+                "nucleus_segmentation_WellE07_0006"
+              ],
+              "E07_0007": [
+                "nuclei_WellE07_0007",
+                "serumIgG_WellE07_0007",
+                "marker_tophat_WellE07_0007",
+                "cell_segmentation_WellE07_0007",
+                "nucleus_segmentation_WellE07_0007"
+              ],
+              "E07_0008": [
+                "nuclei_WellE07_0008",
+                "serumIgG_WellE07_0008",
+                "marker_tophat_WellE07_0008",
+                "cell_segmentation_WellE07_0008",
+                "nucleus_segmentation_WellE07_0008"
+              ]
+            }
+          }
+        },
+        {
+          "grid": {
+            "positions": {
+              "E06": [
+                4,
+                5
+              ],
+              "E07": [
+                4,
+                6
+              ]
+            },
+            "sources": {
+              "E06": [
+                "nuclei_WellE06_0000",
+                "serumIgG_WellE06_0000",
+                "marker_tophat_WellE06_0000",
+                "cell_segmentation_WellE06_0000",
+                "nucleus_segmentation_WellE06_0000",
+                "nuclei_WellE06_0001",
+                "serumIgG_WellE06_0001",
+                "marker_tophat_WellE06_0001",
+                "cell_segmentation_WellE06_0001",
+                "nucleus_segmentation_WellE06_0001",
+                "nuclei_WellE06_0002",
+                "serumIgG_WellE06_0002",
+                "marker_tophat_WellE06_0002",
+                "cell_segmentation_WellE06_0002",
+                "nucleus_segmentation_WellE06_0002",
+                "nuclei_WellE06_0003",
+                "serumIgG_WellE06_0003",
+                "marker_tophat_WellE06_0003",
+                "cell_segmentation_WellE06_0003",
+                "nucleus_segmentation_WellE06_0003",
+                "nuclei_WellE06_0004",
+                "serumIgG_WellE06_0004",
+                "marker_tophat_WellE06_0004",
+                "cell_segmentation_WellE06_0004",
+                "nucleus_segmentation_WellE06_0004",
+                "nuclei_WellE06_0005",
+                "serumIgG_WellE06_0005",
+                "marker_tophat_WellE06_0005",
+                "cell_segmentation_WellE06_0005",
+                "nucleus_segmentation_WellE06_0005",
+                "nuclei_WellE06_0006",
+                "serumIgG_WellE06_0006",
+                "marker_tophat_WellE06_0006",
+                "cell_segmentation_WellE06_0006",
+                "nucleus_segmentation_WellE06_0006",
+                "nuclei_WellE06_0007",
+                "serumIgG_WellE06_0007",
+                "marker_tophat_WellE06_0007",
+                "cell_segmentation_WellE06_0007",
+                "nucleus_segmentation_WellE06_0007",
+                "nuclei_WellE06_0008",
+                "serumIgG_WellE06_0008",
+                "marker_tophat_WellE06_0008",
+                "cell_segmentation_WellE06_0008",
+                "nucleus_segmentation_WellE06_0008"
+              ],
+              "E07": [
+                "nuclei_WellE07_0000",
+                "serumIgG_WellE07_0000",
+                "marker_tophat_WellE07_0000",
+                "cell_segmentation_WellE07_0000",
+                "nucleus_segmentation_WellE07_0000",
+                "nuclei_WellE07_0001",
+                "serumIgG_WellE07_0001",
+                "marker_tophat_WellE07_0001",
+                "cell_segmentation_WellE07_0001",
+                "nucleus_segmentation_WellE07_0001",
+                "nuclei_WellE07_0002",
+                "serumIgG_WellE07_0002",
+                "marker_tophat_WellE07_0002",
+                "cell_segmentation_WellE07_0002",
+                "nucleus_segmentation_WellE07_0002",
+                "nuclei_WellE07_0003",
+                "serumIgG_WellE07_0003",
+                "marker_tophat_WellE07_0003",
+                "cell_segmentation_WellE07_0003",
+                "nucleus_segmentation_WellE07_0003",
+                "nuclei_WellE07_0004",
+                "serumIgG_WellE07_0004",
+                "marker_tophat_WellE07_0004",
+                "cell_segmentation_WellE07_0004",
+                "nucleus_segmentation_WellE07_0004",
+                "nuclei_WellE07_0005",
+                "serumIgG_WellE07_0005",
+                "marker_tophat_WellE07_0005",
+                "cell_segmentation_WellE07_0005",
+                "nucleus_segmentation_WellE07_0005",
+                "nuclei_WellE07_0006",
+                "serumIgG_WellE07_0006",
+                "marker_tophat_WellE07_0006",
+                "cell_segmentation_WellE07_0006",
+                "nucleus_segmentation_WellE07_0006",
+                "nuclei_WellE07_0007",
+                "serumIgG_WellE07_0007",
+                "marker_tophat_WellE07_0007",
+                "cell_segmentation_WellE07_0007",
+                "nucleus_segmentation_WellE07_0007",
+                "nuclei_WellE07_0008",
+                "serumIgG_WellE07_0008",
+                "marker_tophat_WellE07_0008",
+                "cell_segmentation_WellE07_0008",
+                "nucleus_segmentation_WellE07_0008"
+              ]
+            }
+          }
+        }
+      ],
+      "uiSelectionGroup": "plate"
     }
   }
 }
