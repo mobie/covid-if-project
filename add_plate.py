@@ -6,10 +6,13 @@ from concurrent.futures import ThreadPoolExecutor
 from glob import glob
 
 import mobie
+import mobie.htm as htm
+
 import numpy as np
 import pandas as pd
 from elf.io import open_file
 from tqdm import tqdm
+
 
 ROOT = "./data"
 DEFAULT_PLATE = "/g/kreshuk/data/covid/data-processed/20200406_164555_328"
@@ -33,46 +36,53 @@ def parse_plate_name(plate_folder):
 def add_image_data(input_files, plate_name):
     tmp_root = f'./tmp_{plate_name}'
     os.makedirs(tmp_root, exist_ok=True)
-
-    ds_folder = os.path.join('./data', plate_name)
-    ds_meta = mobie.metadata.read_dataset_metadata(ds_folder)
-    sources = ds_meta.get('sources', {})
-
     file_format = "ome.zarr"
-    for in_file in input_files:
-        name = parse_im_name(in_file)
 
-        # add nucleus channel
-        nuc_key = "nuclei/s0"
-        im_name = f"nuclei_{name}"
-        if im_name not in sources:
-            mobie.add_image(in_file, nuc_key, ROOT, plate_name, im_name, RESOLUTION, SCALE_FACTORS, CHUNKS,
-                            file_format=file_format, menu_name="images", target="local", max_jobs=8,
-                            tmp_folder=os.path.join(tmp_root, f'tmp_{im_name}'))
+    print("Add dapi / nuclei")
+    tmp_folder = os.path.join(tmp_root, "ims_nuclei")
+    image_names = [f"nuclei_{parse_im_name(path)}" for path in input_files]
+    htm.add_images(input_files, ROOT, plate_name, image_names,
+                   key="nuclei/s0", file_format=file_format,
+                   resolution=RESOLUTION, scale_factors=SCALE_FACTORS, chunks=CHUNKS,
+                   tmp_folder=tmp_folder, target="local", max_jobs=24)
 
-        # also handle IgA and IgG channels?
-        # add serum channel
-        serum_key = "serum_IgG/s0"
-        im_name = f"serumIgG_{name}"
-        if im_name not in sources:
-            mobie.add_image(in_file, serum_key, ROOT, plate_name, im_name, RESOLUTION, SCALE_FACTORS, CHUNKS,
-                            file_format=file_format, menu_name="images", target="local", max_jobs=8,
-                            tmp_folder=os.path.join(tmp_root, f'tmp_{im_name}'))
+    print("Add serum-IgG")
+    tmp_folder = os.path.join(tmp_root, "ims_igg")
+    image_names = [f"serumIgG_{parse_im_name(path)}" for path in input_files]
+    htm.add_images(input_files, ROOT, plate_name, image_names,
+                   key="serum_IgG/s0", file_format=file_format,
+                   resolution=RESOLUTION, scale_factors=SCALE_FACTORS, chunks=CHUNKS,
+                   tmp_folder=tmp_folder, target="local", max_jobs=24)
 
-        # add marker channel
-        serum_key = "marker/s0"
-        im_name = f"marker_tophat_{name}"
-        if im_name not in sources:
-            mobie.add_image(in_file, serum_key, ROOT, plate_name, im_name, RESOLUTION, SCALE_FACTORS, CHUNKS,
-                            file_format=file_format, menu_name="images", target="local", max_jobs=8,
-                            tmp_folder=os.path.join(tmp_root, f'tmp_{im_name}'))
+    print("Add marker")
+    tmp_folder = os.path.join(tmp_root, "ims_marker")
+    image_names = [f"marker_tophat_{parse_im_name(path)}" for path in input_files]
+    htm.add_images(input_files, ROOT, plate_name, image_names,
+                   key="marker/s0", file_format=file_format,
+                   resolution=RESOLUTION, scale_factors=SCALE_FACTORS, chunks=CHUNKS,
+                   tmp_folder=tmp_folder, target="local", max_jobs=24)
 
 
-def make_2d(plate_name):
-    ds_folder = os.path.join('./data', plate_name)
-    ds_meta = mobie.metadata.read_dataset_metadata(ds_folder)
-    ds_meta['is2D'] = True
-    mobie.metadata.write_dataset_metadata(ds_folder, ds_meta)
+def add_segmentations(input_files, plate_name):
+    tmp_root = f'./tmp_{plate_name}'
+    os.makedirs(tmp_root, exist_ok=True)
+    file_format = "ome.zarr"
+
+    print("Add cell segmentation")
+    tmp_folder = os.path.join(tmp_root, "segs_cell")
+    seg_names = [f"cell_segmentation_{parse_im_name(path)}" for path in input_files]
+    htm.add_segmentations(input_files, ROOT, plate_name, seg_names,
+                          key="cell_segmentation/s0", file_format=file_format,
+                          resolution=RESOLUTION, scale_factors=SCALE_FACTORS, chunks=CHUNKS,
+                          tmp_folder=tmp_folder, target="local", max_jobs=24)
+
+    print("Add nucleus segmentation")
+    tmp_folder = os.path.join(tmp_root, "segs_nuc")
+    seg_names = [f"nucleus_segmentation_{parse_im_name(path)}" for path in input_files]
+    htm.add_segmentations(input_files, ROOT, plate_name, seg_names,
+                          key="nucleus_segmentation/s0", file_format=file_format,
+                          resolution=RESOLUTION, scale_factors=SCALE_FACTORS, chunks=CHUNKS,
+                          tmp_folder=tmp_folder, target="local", max_jobs=24)
 
 
 def remove_single_source_views(ds_meta, remove_prefixes):
@@ -394,37 +404,35 @@ def create_test_views(plate_name, site_table, well_table):
 def add_plate(plate_folder):
     plate_name = parse_plate_name(plate_folder)
     ds_folder = f"./data/{plate_name}"
-    print("Adding plate", plate_name)
 
+    print("Adding plate", plate_name)
     input_files = glob(os.path.join(plate_folder, "*.h5"))
     input_files.sort()
-
     print("with", len(input_files), "images")
-    # add_image_data(input_files, plate_name)
-    # make_2d(plate_name)
 
-    # create the tables
-    table_file = os.path.join(plate_folder, f'{plate_name}_table.hdf5')
-    assert os.path.exists(table_file)
-    all_wells = get_all_wells(mobie.metadata.read_dataset_metadata(ds_folder))
-    site_table = create_site_table(ds_folder, table_file)
-    well_table = create_well_table(ds_folder, table_file, all_wells)
+    # add images and segmentations
+    add_image_data(input_files, plate_name)
+    add_segmentations(input_files, plate_name)
+    mobie.metadata.set_is2d(ds_folder, True)
 
-    create_raw_views(plate_name, site_table, well_table)
-    create_test_views(plate_name, site_table, well_table)
+    # # create the tables
+    # table_file = os.path.join(plate_folder, f'{plate_name}_table.hdf5')
+    # assert os.path.exists(table_file)
+    # all_wells = get_all_wells(mobie.metadata.read_dataset_metadata(ds_folder))
+    # site_table = create_site_table(ds_folder, table_file)
+    # well_table = create_well_table(ds_folder, table_file, all_wells)
 
-    # TODO
-    # add segmentations
-    # add image / well tables
-    # add the full grid view
+    # create_raw_views(plate_name, site_table, well_table)
+    # create_test_views(plate_name, site_table, well_table)
 
     # validate the project
-    mobie.validation.validate_project('./data')
+    # print("Validating the project ...")
+    # mobie.validation.validate_project('./data')
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     # add default argument for debugging
-    parser.add_argument('--input', '-i', default=DEFAULT_PLATE)
+    parser.add_argument("--input", "-i", default=DEFAULT_PLATE)
     args = parser.parse_args()
     add_plate(args.input)
