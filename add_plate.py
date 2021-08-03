@@ -219,6 +219,7 @@ def filter_function(source, well_names):
     return any(wname in source for wname in well_names)
 
 
+# TODO adapt one of the visibles in sourceAnnotationDisplay
 def create_plate_view(view_name, plate_name, site_table, well_table, wells=None):
     ds_folder = f"./data/{plate_name}"
     tmp_folder = f"./tmp_{plate_name}"
@@ -259,7 +260,8 @@ def create_plate_view(view_name, plate_name, site_table, well_table, wells=None)
                                   well_to_position=to_position,
                                   site_table=site_table,
                                   well_table=well_table,
-                                  name_filter=name_filter)
+                                  name_filter=name_filter,
+                                  sites_visible=False)
 
 
 def add_plate(plate_folder):

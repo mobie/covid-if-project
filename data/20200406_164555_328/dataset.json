@@ -47827,7 +47827,8 @@
             },
             "tables": [
               "default.tsv"
-            ]
+            ],
+            "visible": false
           }
         },
         {
@@ -47938,7 +47939,8 @@
             },
             "tables": [
               "default.tsv"
-            ]
+            ],
+            "visible": true
           }
         }
       ],

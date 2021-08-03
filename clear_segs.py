@@ -8,9 +8,6 @@ def clear_seg(ds_folder, source):
     source = source["segmentation"]
     data_path = os.path.join(ds_folder, source["imageData"]["ome.zarr"]["relativePath"])
     table_folder = os.path.join(ds_folder, source["tableData"]["tsv"]["relativePath"])
-    # print(data_path)
-    # print(table_folder)
-    # quit()
     rmtree(data_path)
     run(["git", "rm", "-r", table_folder])
 
