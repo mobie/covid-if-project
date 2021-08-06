@@ -285,10 +285,12 @@ def add_plate(plate_folder):
     site_table = create_site_table(ds_folder, table_file)
     well_table = create_well_table(ds_folder, table_file, all_wells)
 
-    # TODO for now we use a reduced view as default, once everything works set the full view as default instead
+    # this is a reduced grid view for testing
     test_wells = ["E06", "E07"]
     create_plate_view("default", plate_name, site_table, well_table, wells=test_wells)
-    # create_plate_view("default", plate_name, site_table, well_table)
+
+    # this is the full grid view
+    create_plate_view("full", plate_name, site_table, well_table)
 
     # validate the project
     print("Validating the project ...")
