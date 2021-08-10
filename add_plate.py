@@ -219,21 +219,27 @@ def filter_function(source, well_names):
     return any(wname in source for wname in well_names)
 
 
-# TODO adapt one of the visibles in sourceAnnotationDisplay
-def create_plate_view(view_name, plate_name, site_table, well_table, wells=None):
+def create_plate_view(view_name, plate_name, site_table, well_table,
+                      wells=None, use_transform_grid=False,
+                      add_source_tables=True, add_segmentations=True):
     ds_folder = f"./data/{plate_name}"
     tmp_folder = f"./tmp_{plate_name}"
     os.makedirs(tmp_folder, exist_ok=True)
 
-    source_prefixes = ["nuclei", "serumIgG", "marker_tophat", "cell_segmentation", "nucleus_segmentation"]
-    source_types = ["image", "image", "image", "segmentation", "segmentation"]
+    source_prefixes = ["nuclei", "serumIgG", "marker_tophat"]
+    source_types = ["image", "image", "image"]
     source_settings = [
         {"color": "blue", "contrastLimits": compute_clims("nuclei", ds_folder, tmp_folder), "visible": True},
         {"color": "green", "contrastLimits": compute_clims("serumIgG", ds_folder, tmp_folder), "visible": False},
         {"color": "red", "contrastLimits": compute_clims("marker_tophat", ds_folder, tmp_folder), "visible": False},
-        {"lut": "glasbey", "tables": ["default.tsv"], "visible": False, "showTable": False},
-        {"lut": "glasbey", "tables": ["default.tsv"], "visible": False, "showTable": False}
     ]
+    if add_segmentations:
+        source_prefixes += ["cell_segmentation", "nucleus_segmentation"]
+        source_types += ["segmentation", "segmentation"]
+        source_settings += [
+            {"lut": "glasbey", "tables": ["default.tsv"], "visible": False, "showTable": False},
+            {"lut": "glasbey", "tables": ["default.tsv"], "visible": False, "showTable": False}
+        ]
 
     def to_site_name(source_name, prefix):
         return source_name[len(f"{prefix}_Well"):]
@@ -247,11 +253,7 @@ def create_plate_view(view_name, plate_name, site_table, well_table, wells=None)
         c = int(c) - 1
         return [r, c]
 
-    if wells is None:
-        name_filter = None
-    else:
-        name_filter = partial(filter_function, well_names=wells)
-
+    name_filter = None if wells is None else partial(filter_function, well_names=wells)
     mobie.htm.add_plate_grid_view(ds_folder, view_name, menu_name="plate",
                                   source_prefixes=source_prefixes, source_types=source_types,
                                   source_settings=source_settings,
@@ -261,7 +263,37 @@ def create_plate_view(view_name, plate_name, site_table, well_table, wells=None)
                                   site_table=site_table,
                                   well_table=well_table,
                                   name_filter=name_filter,
-                                  sites_visible=False)
+                                  sites_visible=False,
+                                  add_annotation_displays=add_source_tables)
+
+
+# add all view combinations
+def add_all_views(plate_name, site_table, well_table):
+    selected_wells = ["E06", "E07"]
+
+    def to_name(wells, use_transform_grid, add_source_tables, add_segmentations):
+        name = "full" if wells is None else "default"
+        if use_transform_grid:
+            name += "_transform_grid"
+        if add_source_tables:
+            name += "_with_tables"
+        if add_segmentations:
+            name += "_with_segmentations"
+        return name
+
+    for wells in (None, selected_wells):
+        for use_transform_grid in (False, True):
+            for add_source_tables in (False, True):
+                for add_segmentations in (False, True):
+                    view_name = to_name(wells, use_transform_grid, add_source_tables, add_segmentations)
+                    create_plate_view(view_name, plate_name, site_table, well_table,
+                                      wells=wells, use_transform_grid=use_transform_grid,
+                                      add_source_tables=add_source_tables, add_segmentations=add_segmentations)
+
+
+# this is the view we want to have in the end
+def add_default_view(plate_name, site_table, well_table):
+    create_plate_view("default", plate_name, site_table, well_table)
 
 
 def add_plate(plate_folder):
@@ -285,12 +317,8 @@ def add_plate(plate_folder):
     site_table = create_site_table(ds_folder, table_file)
     well_table = create_well_table(ds_folder, table_file, all_wells)
 
-    # this is a reduced grid view for testing
-    test_wells = ["E06", "E07"]
-    create_plate_view("default", plate_name, site_table, well_table, wells=test_wells)
-
-    # this is the full grid view
-    create_plate_view("full", plate_name, site_table, well_table)
+    # add_default_view(plate_name, site_table, well_table)
+    add_all_views(plate_name, site_table, well_table)
 
     # validate the project
     print("Validating the project ...")
