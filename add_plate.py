@@ -299,7 +299,7 @@ def add_default_view(plate_name, site_table, well_table):
     create_plate_view("full_grid", plate_name, site_table, well_table)
 
 
-def add_plate(plate_folder):
+def add_plate(plate_folder, all_views):
     plate_name = parse_plate_name(plate_folder)
     ds_folder = f"./data/{plate_name}"
 
@@ -320,11 +320,12 @@ def add_plate(plate_folder):
     site_table = create_site_table(ds_folder, table_file)
     well_table = create_well_table(ds_folder, table_file, all_wells)
 
-    # add only the default grids
-    add_default_view(plate_name, site_table, well_table)
-
     # adding all grids for test purposes
-    # add_all_views(plate_name, site_table, well_table)
+    if all_views:
+        add_all_views(plate_name, site_table, well_table)
+    # add only the default grids
+    else:
+        add_default_view(plate_name, site_table, well_table)
 
     # validate the project
     print("Validating the project ...")
@@ -334,5 +335,6 @@ def add_plate(plate_folder):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("--input", "-i", default=DEFAULT_PLATE)
+    parser.add_argument("--all_views", "-a", default=0, type=int)
     args = parser.parse_args()
-    add_plate(args.input)
+    add_plate(args.input, args.all_views)
