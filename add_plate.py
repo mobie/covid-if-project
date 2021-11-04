@@ -293,7 +293,10 @@ def add_all_views(plate_name, site_table, well_table):
 
 # this is the view we want to have in the end
 def add_default_view(plate_name, site_table, well_table):
-    create_plate_view("default", plate_name, site_table, well_table)
+    selected_wells = ["E06", "E07"]
+    create_plate_view("default", plate_name, site_table, well_table, wells=selected_wells)
+    # TODO make this the default view
+    create_plate_view("full_grid", plate_name, site_table, well_table)
 
 
 def add_plate(plate_folder):
@@ -317,8 +320,11 @@ def add_plate(plate_folder):
     site_table = create_site_table(ds_folder, table_file)
     well_table = create_well_table(ds_folder, table_file, all_wells)
 
-    # add_default_view(plate_name, site_table, well_table)
-    add_all_views(plate_name, site_table, well_table)
+    # add only the default grids
+    add_default_view(plate_name, site_table, well_table)
+
+    # adding all grids for test purposes
+    # add_all_views(plate_name, site_table, well_table)
 
     # validate the project
     print("Validating the project ...")
