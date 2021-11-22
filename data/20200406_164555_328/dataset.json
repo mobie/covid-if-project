@@ -60838,6 +60838,7 @@
         },
         {
           "mergedGrid": {
+            "encodeSource": true,
             "mergedGridSourceName": "E06_cell_segmentation",
             "sources": [
               "cell_segmentation_WellE06_0000",
@@ -60854,6 +60855,7 @@
         },
         {
           "mergedGrid": {
+            "encodeSource": true,
             "mergedGridSourceName": "E07_cell_segmentation",
             "sources": [
               "cell_segmentation_WellE07_0000",
@@ -60870,6 +60872,7 @@
         },
         {
           "mergedGrid": {
+            "encodeSource": true,
             "mergedGridSourceName": "E06_nucleus_segmentation",
             "sources": [
               "nucleus_segmentation_WellE06_0000",
@@ -60886,6 +60889,7 @@
         },
         {
           "mergedGrid": {
+            "encodeSource": true,
             "mergedGridSourceName": "E07_nucleus_segmentation",
             "sources": [
               "nucleus_segmentation_WellE07_0000",
