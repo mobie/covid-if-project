@@ -1,4 +1,4 @@
-label_id	anchor_x	anchor_y	bb_min_x	bb_min_y	bb_max_x	bb_max_y	n_pixels
+label_id	anchor_y	anchor_x	bb_min_y	bb_min_x	bb_max_y	bb_max_x	n_pixels
 1.0	905.7573529411765	938.4191176470588	900.0	930.0	913.0	948.0	136.0
 2.0	326.68055555555554	109.63888888888889	321.0	106.0	333.0	115.0	72.0
 3.0	237.9512195121951	202.7560975609756	234.0	200.0	243.0	207.0	41.0
