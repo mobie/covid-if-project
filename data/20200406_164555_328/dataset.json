@@ -61673,6 +61673,39 @@
         }
       ],
       "uiSelectionGroup": "plate"
+    },
+    "single_image": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "blue",
+            "contrastLimits": [
+              0.0,
+              255.0
+            ],
+            "name": "nuclei",
+            "opacity": 1.0,
+            "sources": [
+              "nuclei_WellE06_0000"
+            ]
+          }
+        },
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "cell-seg",
+            "opacity": 0.5,
+            "sources": [
+              "cell_segmentation_WellE06_0000"
+            ],
+            "tables": [
+              "default.tsv"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "bookmarks"
     }
   }
 }
