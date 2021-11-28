@@ -28,6 +28,8 @@ def check_anchors_visually(im, seg, anchors, n_cells=5):
 
 def validate_anchors(seg, anchors):
     seg_ids = np.unique(seg)[1:]
+    assert len(anchors) == len(seg_ids)
+    assert np.allclose(seg_ids, anchors["label_id"].values)
     for seg_id in seg_ids:
         anchor = get_anchor(anchors, seg_id)
         anchor_id = seg[anchor]
