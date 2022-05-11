@@ -1,0 +1,294 @@
+{
+  "views": {
+    "xx": {
+      "uiSelectionGroup": "yy",
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "sources": [
+              "plate_nuclei"
+            ],
+            "color": "r=0,g=0,b=255,a=255",
+            "contrastLimits": [
+              574.5811364746094,
+              2337.56693359375
+            ],
+            "showImagesIn3d": false,
+            "name": "nuclei",
+            "opacity": 1.0,
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "plate_serumIgG"
+            ],
+            "color": "r=0,g=255,b=0,a=255",
+            "contrastLimits": [
+              3572.6057641601565,
+              6500.0
+            ],
+            "showImagesIn3d": false,
+            "name": "serumIgG",
+            "opacity": 1.0,
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "plate_marker_tophat"
+            ],
+            "color": "r=255,g=0,b=0,a=255",
+            "contrastLimits": [
+              1789.888935546875,
+              3836.542670898438
+            ],
+            "showImagesIn3d": false,
+            "name": "marker_tophat",
+            "opacity": 1.0,
+            "visible": true
+          }
+        },
+        {
+          "segmentationDisplay": {
+            "sources": [
+              "plate_cell_segmentation"
+            ],
+            "selectedSegmentIds": [],
+            "showSelectedSegmentsIn3d": false,
+            "lut": "glasbey",
+            "showScatterPlot": false,
+            "scatterPlotAxes": [
+              "anchor_x",
+              "anchor_y"
+            ],
+            "tables": [
+              "default.tsv"
+            ],
+            "showTable": false,
+            "showAsBoundaries": false,
+            "boundaryThickness": 1.0,
+            "name": "cell_segmentation",
+            "opacity": 0.5,
+            "visible": true
+          }
+        },
+        {
+          "segmentationDisplay": {
+            "sources": [
+              "plate_nucleus_segmentation"
+            ],
+            "selectedSegmentIds": [],
+            "showSelectedSegmentsIn3d": false,
+            "lut": "glasbey",
+            "showScatterPlot": false,
+            "scatterPlotAxes": [
+              "anchor_x",
+              "anchor_y"
+            ],
+            "tables": [
+              "default.tsv"
+            ],
+            "showTable": false,
+            "showAsBoundaries": false,
+            "boundaryThickness": 1.0,
+            "name": "nucleus_segmentation",
+            "opacity": 0.5,
+            "visible": true
+          }
+        },
+        {
+          "sourceAnnotationDisplay": {
+            "sources": {
+              "E06_0003": [
+                "nuclei_WellE06_0003",
+                "serumIgG_WellE06_0003",
+                "marker_tophat_WellE06_0003",
+                "cell_segmentation_WellE06_0003",
+                "nucleus_segmentation_WellE06_0003"
+              ],
+              "E06_0002": [
+                "nuclei_WellE06_0002",
+                "serumIgG_WellE06_0002",
+                "marker_tophat_WellE06_0002",
+                "cell_segmentation_WellE06_0002",
+                "nucleus_segmentation_WellE06_0002"
+              ],
+              "E06_0001": [
+                "nuclei_WellE06_0001",
+                "serumIgG_WellE06_0001",
+                "marker_tophat_WellE06_0001",
+                "cell_segmentation_WellE06_0001",
+                "nucleus_segmentation_WellE06_0001"
+              ],
+              "E06_0000": [
+                "nuclei_WellE06_0000",
+                "serumIgG_WellE06_0000",
+                "marker_tophat_WellE06_0000",
+                "cell_segmentation_WellE06_0000",
+                "nucleus_segmentation_WellE06_0000"
+              ],
+              "E06_0007": [
+                "nuclei_WellE06_0007",
+                "serumIgG_WellE06_0007",
+                "marker_tophat_WellE06_0007",
+                "cell_segmentation_WellE06_0007",
+                "nucleus_segmentation_WellE06_0007"
+              ],
+              "E06_0006": [
+                "nuclei_WellE06_0006",
+                "serumIgG_WellE06_0006",
+                "marker_tophat_WellE06_0006",
+                "cell_segmentation_WellE06_0006",
+                "nucleus_segmentation_WellE06_0006"
+              ],
+              "E06_0005": [
+                "nuclei_WellE06_0005",
+                "serumIgG_WellE06_0005",
+                "marker_tophat_WellE06_0005",
+                "cell_segmentation_WellE06_0005",
+                "nucleus_segmentation_WellE06_0005"
+              ],
+              "E06_0004": [
+                "nuclei_WellE06_0004",
+                "serumIgG_WellE06_0004",
+                "marker_tophat_WellE06_0004",
+                "cell_segmentation_WellE06_0004",
+                "nucleus_segmentation_WellE06_0004"
+              ],
+              "E06_0008": [
+                "nuclei_WellE06_0008",
+                "serumIgG_WellE06_0008",
+                "marker_tophat_WellE06_0008",
+                "cell_segmentation_WellE06_0008",
+                "nucleus_segmentation_WellE06_0008"
+              ],
+              "E07_0005": [
+                "nuclei_WellE07_0005",
+                "serumIgG_WellE07_0005",
+                "marker_tophat_WellE07_0005",
+                "cell_segmentation_WellE07_0005",
+                "nucleus_segmentation_WellE07_0005"
+              ],
+              "E07_0006": [
+                "nuclei_WellE07_0006",
+                "serumIgG_WellE07_0006",
+                "marker_tophat_WellE07_0006",
+                "cell_segmentation_WellE07_0006",
+                "nucleus_segmentation_WellE07_0006"
+              ],
+              "E07_0007": [
+                "nuclei_WellE07_0007",
+                "serumIgG_WellE07_0007",
+                "marker_tophat_WellE07_0007",
+                "cell_segmentation_WellE07_0007",
+                "nucleus_segmentation_WellE07_0007"
+              ],
+              "E07_0008": [
+                "nuclei_WellE07_0008",
+                "serumIgG_WellE07_0008",
+                "marker_tophat_WellE07_0008",
+                "cell_segmentation_WellE07_0008",
+                "nucleus_segmentation_WellE07_0008"
+              ],
+              "E07_0000": [
+                "nuclei_WellE07_0000",
+                "serumIgG_WellE07_0000",
+                "marker_tophat_WellE07_0000",
+                "cell_segmentation_WellE07_0000",
+                "nucleus_segmentation_WellE07_0000"
+              ],
+              "E07_0001": [
+                "nuclei_WellE07_0001",
+                "serumIgG_WellE07_0001",
+                "marker_tophat_WellE07_0001",
+                "cell_segmentation_WellE07_0001",
+                "nucleus_segmentation_WellE07_0001"
+              ],
+              "E07_0002": [
+                "nuclei_WellE07_0002",
+                "serumIgG_WellE07_0002",
+                "marker_tophat_WellE07_0002",
+                "cell_segmentation_WellE07_0002",
+                "nucleus_segmentation_WellE07_0002"
+              ],
+              "E07_0003": [
+                "nuclei_WellE07_0003",
+                "serumIgG_WellE07_0003",
+                "marker_tophat_WellE07_0003",
+                "cell_segmentation_WellE07_0003",
+                "nucleus_segmentation_WellE07_0003"
+              ],
+              "E07_0004": [
+                "nuclei_WellE07_0004",
+                "serumIgG_WellE07_0004",
+                "marker_tophat_WellE07_0004",
+                "cell_segmentation_WellE07_0004",
+                "nucleus_segmentation_WellE07_0004"
+              ]
+            },
+            "tableData": {
+              "tsv": {
+                "relativePath": "tables/sites"
+              }
+            },
+            "lut": "glasbey",
+            "showScatterPlot": false,
+            "scatterPlotAxes": [
+              "anchor_x",
+              "anchor_y"
+            ],
+            "tables": [
+              "default.tsv"
+            ],
+            "showTable": true,
+            "showAsBoundaries": false,
+            "boundaryThickness": 1.0,
+            "name": "sites",
+            "opacity": 1.0,
+            "visible": true
+          }
+        },
+        {
+          "sourceAnnotationDisplay": {
+            "sources": {
+              "E07": [
+                "E07_nuclei",
+                "E07_serumIgG",
+                "E07_marker_tophat",
+                "E07_cell_segmentation",
+                "E07_nucleus_segmentation"
+              ],
+              "E06": [
+                "E06_nuclei",
+                "E06_serumIgG",
+                "E06_marker_tophat",
+                "E06_cell_segmentation",
+                "E06_nucleus_segmentation"
+              ]
+            },
+            "tableData": {
+              "tsv": {
+                "relativePath": "tables/well"
+              }
+            },
+            "lut": "glasbey",
+            "showScatterPlot": false,
+            "scatterPlotAxes": [
+              "anchor_x",
+              "anchor_y"
+            ],
+            "tables": [
+              "default.tsv"
+            ],
+            "showTable": true,
+            "showAsBoundaries": false,
+            "boundaryThickness": 1.0,
+            "name": "wells",
+            "opacity": 1.0,
+            "visible": true
+          }
+        }
+      ]
