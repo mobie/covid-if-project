@@ -21,8 +21,8 @@ def save_view(name, view, save_to_project):
             with open(view_file) as f:
                 views = json.load(f)
         else:
-            views = {}
-        views[name] = view
+            views = {"views": {}}
+        views["views"][name] = view
 
         with open(view_file, "w") as f:
             json.dump(views, f, indent=2, sort_keys=True)
