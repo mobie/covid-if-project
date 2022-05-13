@@ -5,7 +5,7 @@ import pandas as pd
 
 
 def save_view(name, view, save_to_project):
-    view["uiSelectionGroup"] = "paper"
+    view["uiSelectionGroup"] = "mobie-paper"
     view["isExclusive"] = True
 
     if save_to_project:
@@ -49,7 +49,7 @@ def panel_a():
     grid["sourceDisplays"][-1]["sourceAnnotationDisplay"] = wells
 
     # save the new view
-    save_view("Figure 3 a)", grid, save_to_project=True)
+    save_view("Figure3a", grid, save_to_project=True)
 
 
 def panel_b():
