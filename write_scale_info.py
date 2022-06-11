@@ -1,9 +1,10 @@
 import json
 import os
-from copy import deepcopy
+from glob import glob
 from subprocess import run
 
 import mobie
+import pandas as pd
 from tqdm import tqdm
 
 DS_FOLDER = "./data/20200406_164555_328"
@@ -67,9 +68,26 @@ def update_attrs_s3():
         run(cmd)
 
 
+def update_tables():
+    update_cols = ["anchor_y", "anchor_x", "bb_min_y", "bb_min_x", "bb_max_y", "bb_max_x"]
+
+    def _update(pattern):
+        folders = glob(pattern)
+        for folder in tqdm(folders, desc=f"Update tables with pattern {pattern}"):
+            table_path = os.path.join(folder, "default.tsv")
+            table = pd.read_csv(table_path, sep="\t")
+            for col in update_cols:
+                table[col] = table[col] * SCALE[0]
+            table.to_csv(table_path, sep="\t", index=False)
+
+    _update("./data/20200406_164555_328/tables/cell_segmentation_*")
+    _update("./data/20200406_164555_328/tables/nucleus_segmentation_*")
+
+
 def main():
     # write_scale_info_local()
-    update_attrs_s3()
+    # update_attrs_s3()
+    update_tables()
 
 
 if __name__ == "__main__":
