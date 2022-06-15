@@ -27,7 +27,7 @@ def single_well_view(well, source_prefixes):
 
     mobie.create_grid_view(
         ds_folder, "single_well", sources,
-        menu_name="simple_views", display_groups=display_groups,
+        menu_name="bookmarks", display_groups=display_groups,
         display_group_settings=display_group_settings,
         use_transformed_grid=False
     )
