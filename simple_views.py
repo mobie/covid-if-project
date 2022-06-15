@@ -20,16 +20,20 @@ def single_well_view(well, source_prefixes):
     display_group_settings = {}
     for ref in reference_settings:
         ref_settings = next(iter(ref.values()))
-        if ref_settings["name"] in source_prefixes:
-            name = ref_settings.pop("name")
+        ref_name = ref_settings.pop("name")
+        if ref_name in source_prefixes:
+            source_index = [i for i, pref in enumerate(source_prefixes) if ref_name == pref][0]
+            print(ref_name, source_index)
             ref_settings.pop("sources")
-            display_group_settings[name] = ref_settings
+            ref_settings["sources"] = [f"single_well-{source_index}"]
+            ref_settings["visible"] = source_index == 0
+            display_group_settings[ref_name] = ref_settings
 
     mobie.create_grid_view(
         ds_folder, "single_well", sources,
         menu_name="bookmarks", display_groups=display_groups,
         display_group_settings=display_group_settings,
-        use_transformed_grid=False
+        use_transformed_grid=False, overwrite=True
     )
 
 
