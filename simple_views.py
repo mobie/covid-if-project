@@ -23,10 +23,9 @@ def single_well_view(well, source_prefixes):
         ref_name = ref_settings.pop("name")
         if ref_name in source_prefixes:
             source_index = [i for i, pref in enumerate(source_prefixes) if ref_name == pref][0]
-            print(ref_name, source_index)
             ref_settings.pop("sources")
             ref_settings["sources"] = [f"single_well-{source_index}"]
-            ref_settings["visible"] = source_index == 0
+            ref_settings["visible"] = source_index == 1
             display_group_settings[ref_name] = ref_settings
 
     mobie.create_grid_view(
@@ -38,4 +37,4 @@ def single_well_view(well, source_prefixes):
 
 
 if __name__ == "__main__":
-    single_well_view(well="F09", source_prefixes=["nuclei", "serumIgG", "marker_tophat"])
+    single_well_view(well="F09", source_prefixes=["marker_tophat", "nuclei", "serumIgG"])
