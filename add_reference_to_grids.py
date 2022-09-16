@@ -12,9 +12,12 @@ def add_reference_to_grids_in_view(view):
         if trafo_type == "mergedGrid":
             sources = trafo["sources"]
             source_prefix = sources[0].split("_")[0]
-            if source_prefix not in references:
-                references[source_prefix] = sources[0]
-            trafo["metadataSource"] = references[source_prefix]
+            if source_prefix.startswith("A01"):
+                trafo["metadataSource"] = sources[0]
+            else:
+                if source_prefix not in references:
+                    references[source_prefix] = sources[0]
+                trafo["metadataSource"] = references[source_prefix]
         trafo = {trafo_type: trafo}
         new_source_transforms.append(trafo)
     view["sourceTransforms"] = new_source_transforms
