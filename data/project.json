@@ -3,9 +3,5 @@
     "20200406_164555_328"
   ],
   "defaultDataset": "20200406_164555_328",
-  "imageDataFormats": [
-    "ome.zarr",
-    "ome.zarr.s3"
-  ],
-  "specVersion": "0.2.0"
+  "specVersion": "0.3.0"
 }
