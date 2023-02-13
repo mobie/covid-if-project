@@ -3,5 +3,9 @@
     "20200406_164555_328"
   ],
   "defaultDataset": "20200406_164555_328",
+  "description": "Pape et al. (2020) Covid Immunofluorescence, BioEssays",
+  "references": [
+    "https://onlinelibrary.wiley.com/doi/full/10.1002/bies.202000257"
+  ],
   "specVersion": "0.3.0"
 }
